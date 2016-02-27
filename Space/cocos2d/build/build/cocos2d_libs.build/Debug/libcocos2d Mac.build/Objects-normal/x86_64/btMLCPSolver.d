@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/external/bullet/BulletDynamics/MLCPSolvers/btMLCPSolver.cpp \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/external/bullet/BulletDynamics/MLCPSolvers/btMLCPSolver.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/BulletDynamics/ConstraintSolver/btTypedConstraint.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/LinearMath/btScalar.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/BulletDynamics/ConstraintSolver/btSolverConstraint.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/LinearMath/btVector3.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/LinearMath/btMinMax.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/LinearMath/btAlignedAllocator.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/LinearMath/btMatrix3x3.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/LinearMath/btQuaternion.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/LinearMath/btQuadWord.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/BulletDynamics/ConstraintSolver/btJacobianEntry.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/LinearMath/btAlignedObjectArray.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/BulletDynamics/ConstraintSolver/btSolverBody.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/LinearMath/btTransformUtil.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/LinearMath/btTransform.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/BulletDynamics/Dynamics/btRigidBody.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/BulletCollision//BroadphaseCollision/btBroadphaseProxy.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/BulletCollision//CollisionDispatch/btCollisionObject.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/LinearMath/btMotionState.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/BulletDynamics/ConstraintSolver/btContactSolverInfo.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/BulletCollision//NarrowPhaseCollision/btManifoldPoint.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/BulletDynamics/ConstraintSolver/btConstraintSolver.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/LinearMath/btMatrixX.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/LinearMath/btQuickprof.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/build/../external/bullet/BulletDynamics/MLCPSolvers/btMLCPSolverInterface.h \
+  /Users/nego/Documents/FirstGame/Space/cocos2d/external/bullet/BulletDynamics/MLCPSolvers/btSolveProjectedGaussSeidel.h
