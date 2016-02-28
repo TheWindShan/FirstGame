@@ -5,24 +5,14 @@ USING_NS_CC;
 
 Scene* MainScene::createScene()
 {
-    // 'scene' is an autorelease object
     auto scene = Scene::create();
-    
-    // 'layer' is an autorelease object
     auto layer = MainScene::create();
-
-    // add layer as a child to scene
     scene->addChild(layer);
-
-    // return the scene
     return scene;
 }
 
-// on "init" you need to initialize your instance
 bool MainScene::init()
 {
-    //////////////////////////////
-    // 1. super init first
     if ( !Layer::init() )
     {
         return false;
@@ -32,6 +22,7 @@ bool MainScene::init()
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
     sprite = Aircraft::create();
+    // sprite->defineScene(this);
     sprite->setPosition(Vec2(visibleSize.width/2, visibleSize.height/2));
     this->addChild(sprite, 0);
 
