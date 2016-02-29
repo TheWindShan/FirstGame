@@ -6,6 +6,7 @@ USING_NS_CC;
 Aircraft::Aircraft()
 {
     visibleSize = Director::getInstance()->getWinSize();
+    Device::setAccelerometerEnabled(true);
 }
 
 Aircraft* Aircraft::create()
@@ -23,10 +24,12 @@ Aircraft* Aircraft::create()
 
 void Aircraft::addEvents()
 {
-    auto listener = EventListenerKeyboard::create();
-    listener->onKeyPressed = CC_CALLBACK_2(Aircraft::onKeyPressed, this);
-    listener->onKeyReleased = CC_CALLBACK_2(Aircraft::onKeyReleased, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(listener, this);
+    auto keylistener = EventListenerKeyboard::create();
+    keylistener->onKeyPressed = CC_CALLBACK_2(Aircraft::onKeyPressed, this);
+    keylistener->onKeyReleased = CC_CALLBACK_2(Aircraft::onKeyReleased, this);
+    auto aclistener = EventListenerAcceleration::create(CC_CALLBACK_2(Aircraft::onAcceleration, this));
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(keylistener, this);
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(aclistener, this);
     scheduleUpdate();
 }
 
@@ -95,7 +98,7 @@ void Aircraft::move()
         dy = nodeLocation.y - deltay;
     }
     Vec2 destination = Vec2(dx, dy);
-    auto move = MoveTo::create(0.1, destination);
+    auto move = MoveTo::create(0.5, destination);
     this->runAction(move);
 }
 
@@ -104,7 +107,6 @@ void Aircraft::shotLaser()
     // this->setRotation(180);
     Vec2 nodeLocation = this->getPosition();
     float nodeAngle = fmod(this->getRotation(), 360);
-    // log("%f", nodeAngle);
     float angle = nodeAngle;
     float nodeAngleRadius = angle * (M_PI/180);
     float yOff = visibleSize.height - nodeLocation.y;
@@ -141,5 +143,13 @@ void Aircraft::shotLaser()
     laser->setPosition(nodeLocation);
     laser->setRotation(nodeAngle);
     laser->runAction(actionLaser);
-    this->getParent()->addChild(laser);
+    this->getParent()->addChild(laser, -1);
+}
+
+// Implementation of the accelerometer callback function prototype
+void Aircraft::onAcceleration(cocos2d::Acceleration *acc, cocos2d::Event *event)
+{
+    log("X: %f", acc->x);
+    log("Y: %f", acc->y);
+    log("Z: %f", acc->z);
 }

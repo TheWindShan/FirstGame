@@ -16,6 +16,8 @@ public:
     bool isKeyPressed(cocos2d::EventKeyboard::KeyCode KeyCode);
     void move();
     void shotLaser();
+    void onAcceleration(cocos2d::Acceleration *acc, cocos2d::Event *event);
+
     std::vector<cocos2d::EventKeyboard::KeyCode> keys;
     cocos2d::Size visibleSize;
 };

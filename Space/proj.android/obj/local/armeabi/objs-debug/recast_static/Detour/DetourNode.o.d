@@ -1,0 +1,59 @@
+obj/local/armeabi/objs-debug/recast_static/Detour/DetourNode.o: \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourNode.cpp \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourNavMesh.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourAlloc.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourStatus.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourAssert.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/assert.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourCommon.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourMath.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/math.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/limits.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/limits.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/limits.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/syslimits.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/string.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/malloc.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/xlocale.h
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourNode.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourNavMesh.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourAlloc.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourStatus.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourAssert.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/assert.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourCommon.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/recast/Detour/DetourMath.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/math.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/limits.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/limits.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/limits.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/syslimits.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/string.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/malloc.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/xlocale.h:
