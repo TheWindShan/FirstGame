@@ -152,5 +152,8 @@ void Aircraft::onAcceleration(cocos2d::Acceleration *acc, cocos2d::Event *event)
     log("X: %f", acc->x);
     log("Y: %f", acc->y);
     log("Z: %f", acc->z);
-    this->move();
+    if(acc->z <0){
+        this->shotLaser();
+    }
+    // this->move();
 }
