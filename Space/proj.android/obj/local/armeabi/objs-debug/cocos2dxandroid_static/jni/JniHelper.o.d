@@ -1,47 +1,47 @@
 obj/local/armeabi/objs-debug/cocos2dxandroid_static/jni/JniHelper.o: \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/jni/JniHelper.cpp \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/jni/JniHelper.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/jni.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/string \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/CCPlatformMacros.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../base/ccConfig.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/CCPlatformConfig.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/CCPlatformDefine.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/android/CCPlatformDefine-android.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/log.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../base/ccUTF8.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/vector \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/android/jni/JniHelper.h
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/jni/JniHelper.cpp \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/jni/JniHelper.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/jni.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/string \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/CCPlatformMacros.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../base/ccConfig.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/CCPlatformConfig.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/CCPlatformDefine.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/android/CCPlatformDefine-android.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/log.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../base/ccUTF8.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/vector \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/android/jni/JniHelper.h
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/jni/JniHelper.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/jni/JniHelper.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/jni.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/jni.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/string:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/string:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/CCPlatformMacros.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/CCPlatformMacros.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../base/ccConfig.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../base/ccConfig.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/CCPlatformConfig.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/CCPlatformConfig.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/CCPlatformDefine.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/CCPlatformDefine.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/android/CCPlatformDefine-android.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/android/CCPlatformDefine-android.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/log.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/log.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../base/ccUTF8.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../base/ccUTF8.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/vector:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/vector:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/android/jni/JniHelper.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/platform/android/../../platform/android/jni/JniHelper.h:
