@@ -26,4 +26,8 @@
 *.exe
 *.out
 *.app
+*.apk
 Space/linux-build/
+Space/cocos2d/
+Space/bin/
+
