@@ -35,9 +35,7 @@ void Aircraft::addEvents()
 
 void Aircraft::update(float delta)
 {
-    auto loc = this->getPosition();
     float angle = fmod(this->getRotation(), 360);
-    Vec2 vec;
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_UP_ARROW)){
         this->move();
         // this->shotLaser(laserGreen);
@@ -152,10 +150,19 @@ void Aircraft::onAcceleration(cocos2d::Acceleration *acc, cocos2d::Event *event)
     log("X: %f", acc->x);
     log("Y: %f", acc->y);
     log("Z: %f", acc->z);
-    if(acc->z <-0.3f){
-        this->move();
-    }
-    else if(acc->z > 0.3f){
-        this->shotLaser();
+    float angle = fmod(this->getRotation(), 360);
+
+    if(acc->y <-0.8f){
+        if(acc->z <-0.3f){
+            this->move();
+        }else if(acc->z > 0.3f){
+            this->shotLaser();
+        }
+
+        if(acc->x <-0.3f){
+            this->setRotation(--angle);
+        }else if(acc->x > 0.3f){
+            this->setRotation(++angle);
+        }
     }
 }
