@@ -45,11 +45,11 @@ void Aircraft::update(float delta)
 
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_DOWN_ARROW)){
         if(isKeyPressed(EventKeyboard::KeyCode::KEY_LEFT_ARROW)){        
-            this->setRotation(--angle);
+            this->setRotation(angle-1.5f);
 
         }
         if(isKeyPressed(EventKeyboard::KeyCode::KEY_RIGHT_ARROW)){
-            this->setRotation(++angle);
+            this->setRotation(angle+1.5f);
         }
     }
 }
@@ -160,9 +160,9 @@ void Aircraft::onAcceleration(cocos2d::Acceleration *acc, cocos2d::Event *event)
         }
 
         if(acc->x <-0.3f){
-            this->setRotation(--angle);
+            this->setRotation(angle-1.5f);
         }else if(acc->x > 0.3f){
-            this->setRotation(++angle);
+            this->setRotation(angle+1.5f);
         }
     }
 }
