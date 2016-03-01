@@ -27,7 +27,7 @@
 *.out
 *.app
 
-Space/linux-build/
-Space/cocos2d/
-Space/bin/
+# Space/linux-build/
+# Space/cocos2d/
+# Space/bin/
 
