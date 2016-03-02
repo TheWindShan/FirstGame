@@ -134,6 +134,9 @@ void Aircraft::shotLaser()
     }else if(angle==-180){
         dx = nodeLocation.x;
         dy = -visibleSize.height;
+    }if(angle<-90 && nodeAngle>-270){
+        dx = nodeLocation.x - deltax;
+        dy = nodeLocation.y - deltay;
     }
     Vec2 destination = Vec2(dx, dy);
     auto actionLaser = MoveTo::create(1.0, destination);
