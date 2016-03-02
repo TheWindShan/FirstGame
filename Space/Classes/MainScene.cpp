@@ -22,15 +22,25 @@ bool MainScene::init()
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
     sprite = Aircraft::create();
-    // sprite->defineScene(this);
     sprite->setPosition(Vec2(visibleSize.width/2, visibleSize.height/2));
     this->addChild(sprite, 0);
-
+    auto teste = this->getBoundingBox();
+    // log("%f", teste.x);
     // this->scheduleUpdate();
     return true;
 }
 
 void MainScene::update(float delta)
+{
+
+}
+
+void MainScene::onKeyPressed(EventKeyboard::KeyCode keyCode, Event* event)
+{
+
+}
+
+void MainScene::onKeyReleased(EventKeyboard::KeyCode keyCode, Event* event)
 {
 
 }

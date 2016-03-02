@@ -1,248 +1,248 @@
 obj/local/armeabi/objs-debug/bullet_static/BulletDynamics/Dynamics/btSimpleDynamicsWorld.o: \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/BulletDynamics/Dynamics/btSimpleDynamicsWorld.cpp \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/BulletDynamics/Dynamics/btSimpleDynamicsWorld.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/BulletDynamics/Dynamics/btDynamicsWorld.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionWorld.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btVector3.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/math.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/limits.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/limits.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/limits.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/syslimits.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/stdlib.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/string.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/malloc.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/xlocale.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/alloca.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/strings.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/stdint.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm/types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/posix_types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/stddef.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/compiler.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm/posix_types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/memory.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/assert.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMinMax.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransform.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMatrix3x3.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btVector3.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuaternion.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuadWord.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/stdio.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionObject.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMotionState.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransform.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedObjectArray.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/new \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionDispatcher.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btDispatcher.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btPersistentManifold.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btManifoldPoint.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransformUtil.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btManifoldResult.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionObjectWrapper.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionObject.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btBroadphaseProxy.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionCreateFunc.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCache.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btBroadphaseInterface.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btBroadphaseProxy.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCallback.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btContactSolverInfo.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionDispatcher.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btSimpleBroadphase.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCache.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionShapes/btCollisionShape.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMatrix3x3.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/Dynamics/btRigidBody.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btTypedConstraint.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverConstraint.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btJacobianEntry.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverBody.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverBody.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverConstraint.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btManifoldPoint.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btConstraintSolver.h
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/BulletDynamics/Dynamics/btSimpleDynamicsWorld.cpp \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/BulletDynamics/Dynamics/btSimpleDynamicsWorld.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/BulletDynamics/Dynamics/btDynamicsWorld.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionWorld.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btVector3.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/math.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/limits.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/limits.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/limits.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/syslimits.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdlib.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/string.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/malloc.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/xlocale.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/alloca.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/strings.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdint.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/posix_types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/stddef.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/compiler.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/posix_types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/memory.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/assert.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMinMax.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransform.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMatrix3x3.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btVector3.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuaternion.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuadWord.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdio.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionObject.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMotionState.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransform.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedObjectArray.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/new \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionDispatcher.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btDispatcher.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btPersistentManifold.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btManifoldPoint.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransformUtil.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btManifoldResult.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionObjectWrapper.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionObject.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btBroadphaseProxy.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionCreateFunc.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCache.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btBroadphaseInterface.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btBroadphaseProxy.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCallback.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btContactSolverInfo.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionDispatcher.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btSimpleBroadphase.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCache.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionShapes/btCollisionShape.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMatrix3x3.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/Dynamics/btRigidBody.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btTypedConstraint.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverConstraint.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btJacobianEntry.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverBody.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverBody.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverConstraint.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btManifoldPoint.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btConstraintSolver.h
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/BulletDynamics/Dynamics/btSimpleDynamicsWorld.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/BulletDynamics/Dynamics/btSimpleDynamicsWorld.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/BulletDynamics/Dynamics/btDynamicsWorld.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/BulletDynamics/Dynamics/btDynamicsWorld.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionWorld.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionWorld.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btVector3.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btVector3.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/math.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/math.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/limits.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/limits.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/limits.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/limits.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/limits.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/limits.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/syslimits.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/syslimits.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/stdlib.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdlib.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/string.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/string.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/malloc.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/malloc.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/xlocale.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/xlocale.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/alloca.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/alloca.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/strings.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/strings.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/stdint.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdint.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm/types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/posix_types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/posix_types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/stddef.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/stddef.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/compiler.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/compiler.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm/posix_types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/posix_types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/memory.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/memory.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/assert.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/assert.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMinMax.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMinMax.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransform.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransform.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMatrix3x3.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMatrix3x3.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btVector3.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btVector3.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuaternion.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuaternion.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuadWord.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuadWord.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/stdio.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdio.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionObject.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionObject.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMotionState.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMotionState.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransform.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransform.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedObjectArray.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedObjectArray.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/new:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/new:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionDispatcher.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionDispatcher.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btDispatcher.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btDispatcher.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btPersistentManifold.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btPersistentManifold.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btManifoldPoint.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btManifoldPoint.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransformUtil.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransformUtil.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btManifoldResult.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btManifoldResult.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionObjectWrapper.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionObjectWrapper.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionObject.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionObject.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btBroadphaseProxy.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btBroadphaseProxy.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionCreateFunc.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionCreateFunc.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCache.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCache.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btBroadphaseInterface.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btBroadphaseInterface.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btBroadphaseProxy.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btBroadphaseProxy.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCallback.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCallback.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btContactSolverInfo.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btContactSolverInfo.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionDispatcher.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionDispatch/btCollisionDispatcher.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btSimpleBroadphase.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btSimpleBroadphase.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCache.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCache.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionShapes/btCollisionShape.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//CollisionShapes/btCollisionShape.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMatrix3x3.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMatrix3x3.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/Dynamics/btRigidBody.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/Dynamics/btRigidBody.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btTypedConstraint.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btTypedConstraint.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverConstraint.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverConstraint.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btJacobianEntry.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btJacobianEntry.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverBody.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverBody.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverBody.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverBody.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverConstraint.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btSolverConstraint.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btManifoldPoint.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletCollision//NarrowPhaseCollision/btManifoldPoint.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btConstraintSolver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/bullet/../bullet/BulletDynamics/ConstraintSolver/btConstraintSolver.h:

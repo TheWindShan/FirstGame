@@ -59,6 +59,9 @@ void Aircraft::onKeyPressed(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::Ev
     keys.push_back(keyCode);
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_SPACE)){
         this->shotLaser();
+    }    
+    if(isKeyPressed(EventKeyboard::KeyCode::KEY_ESCAPE)){
+        this->shotLaser();
     }
 }
 
@@ -72,7 +75,7 @@ bool Aircraft::isKeyPressed(EventKeyboard::KeyCode KeyCode)
     if ( std::find(keys.begin(), keys.end(), KeyCode) != keys.end() ){
         return true;
     }else{
-       return false; 
+       return false;
     }
 }
 
@@ -106,6 +109,7 @@ void Aircraft::shotLaser()
     Vec2 nodeLocation = this->getPosition();
     float nodeAngle = fmod(this->getRotation(), 360);
     float angle = nodeAngle;
+    log("%f", angle);
     float nodeAngleRadius = angle * (M_PI/180);
     float yOff = visibleSize.height - nodeLocation.y;
     if(angle == 90 || angle == 180){
@@ -148,7 +152,7 @@ void Aircraft::shotLaser()
 }
 
 // Implementation of the accelerometer callback function prototype
-void Aircraft::onAcceleration(cocos2d::Acceleration *acc, cocos2d::Event *event)
+void Aircraft::onAcceleration(Acceleration *acc, cocos2d::Event *event)
 {
     log("X: %f", acc->x);
     log("Y: %f", acc->y);
@@ -158,14 +162,15 @@ void Aircraft::onAcceleration(cocos2d::Acceleration *acc, cocos2d::Event *event)
     if(acc->y <-0.8f){
         if(acc->z <-0.2f){
             this->move();
-        }else if(acc->z > 0.2f){
+        }
+        if(acc->z > 0.08f){
             this->shotLaser();
         }
 
-        if(acc->x <-0.2f){
-            this->setRotation(angle-2.0f);
-        }else if(acc->x > 0.2f){
-            this->setRotation(angle+2.0f);
+        if(acc->x <-0.08f){
+            this->setRotation(angle-2.5f);
+        }else if(acc->x > 0.08f){
+            this->setRotation(angle+2.5f);
         }
     }
 }
