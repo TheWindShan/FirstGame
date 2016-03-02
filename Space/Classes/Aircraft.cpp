@@ -107,9 +107,12 @@ void Aircraft::shotLaser()
 {
     // this->setRotation(180);
     Vec2 nodeLocation = this->getPosition();
-    float nodeAngle = fmod(this->getRotation(), 360);
-    float angle = nodeAngle;
-    log("%f", angle);
+    float angle = fmod(this->getRotation(), 360);;
+    float x = nodeLocation.x;
+    float y = nodeLocation.y;
+    float r = sqrt((x*x)+(y*y));
+    log("Angle %f", angle);
+    log("Raio %f", r);
     float nodeAngleRadius = angle * (M_PI/180);
     float yOff = visibleSize.height - nodeLocation.y;
     if(angle == 90 || angle == 180){
@@ -138,7 +141,7 @@ void Aircraft::shotLaser()
     }else if(angle==-180){
         dx = nodeLocation.x;
         dy = -visibleSize.height;
-    }if(angle<-90 && nodeAngle>-270){
+    }if(angle<-90 && angle>-270){
         dx = nodeLocation.x - deltax;
         dy = nodeLocation.y - deltay;
     }
@@ -146,7 +149,7 @@ void Aircraft::shotLaser()
     auto actionLaser = MoveTo::create(1.0, destination);
     Sprite *laser = Sprite::create("res/laserGreen.png");
     laser->setPosition(nodeLocation);
-    laser->setRotation(nodeAngle);
+    laser->setRotation(angle);
     laser->runAction(actionLaser);
     this->getParent()->addChild(laser, -1);
 }
