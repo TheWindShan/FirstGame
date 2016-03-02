@@ -156,16 +156,16 @@ void Aircraft::onAcceleration(cocos2d::Acceleration *acc, cocos2d::Event *event)
     float angle = fmod(this->getRotation(), 360);
 
     if(acc->y <-0.8f){
-        if(acc->z <-0.3f){
+        if(acc->z <-0.2f){
             this->move();
-        }else if(acc->z > 0.3f){
+        }else if(acc->z > 0.2f){
             this->shotLaser();
         }
 
-        if(acc->x <-0.3f){
-            this->setRotation(angle-1.5f);
-        }else if(acc->x > 0.3f){
-            this->setRotation(angle+1.5f);
+        if(acc->x <-0.2f){
+            this->setRotation(angle-2.0f);
+        }else if(acc->x > 0.2f){
+            this->setRotation(angle+2.0f);
         }
     }
 }
