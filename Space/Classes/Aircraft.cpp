@@ -105,23 +105,14 @@ void Aircraft::move()
 
 void Aircraft::shotLaser()
 {
-    // this->setRotation(180);
+    this->setRotation(90);
     Vec2 nodeLocation = this->getPosition();
-    float angle = fmod(this->getRotation(), 360);;
-    float xLocation = nodeLocation.x;
-    float yLocation = nodeLocation.y;
-    float r = sqrt((xLocation*xLocation)+(yLocation*yLocation));
-    log("Angle %f", angle);
-    log("Raio %f", r);
+    float angle = fmod(this->getRotation(), 360);
     float angleRadius = angle * (M_PI/180);
-    float x = r * cos(angleRadius);
-    float y = r * sin(angleRadius);
-    log("X %f", x);
-    log("Y %f", y);
     float yOff = visibleSize.height - nodeLocation.y;
-    if(angle == 90 || angle == 180){
-        yOff = nodeLocation.y;
-    }
+    // if(angle == 90 || angle == 180){
+    //     yOff = nodeLocation.y;
+    // }
     float deltax = yOff * tan(angleRadius);
     float deltay = yOff;
     float dx = nodeLocation.x + deltax;
@@ -130,6 +121,9 @@ void Aircraft::shotLaser()
         dx = nodeLocation.x - deltax;
         dy = nodeLocation.y - deltay;
     }else if(angle < -90 && angle > -270){
+        dx = nodeLocation.x - deltax;
+        dy = nodeLocation.y - deltay;
+    }else if(angle == 90 || angle == 180){
         dx = nodeLocation.x - deltax;
         dy = nodeLocation.y - deltay;
     }
