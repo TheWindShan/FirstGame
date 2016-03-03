@@ -1,275 +1,275 @@
 obj/local/armeabi/objs-debug/cocos_extension_static/Particle3D/PU/CCPUObserverManager.o: \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/extensions/Particle3D/PU/CCPUObserverManager.cpp \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUObserverManager.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformDefine.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine-android.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/log.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptTranslator.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iostream \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMath.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/functional \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/memory \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.inl \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.inl \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/select.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/thread \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/map \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCStdC.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccRandom.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.inl \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.inl \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.inl \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptCompiler.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptParser.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/list \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptLexer.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUObserver.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUParticleSystem3D.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCVector.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProtocols.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGL.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2platform.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/KHR/khrplatform.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2ext.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCCommon.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCTouch.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventTouch.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEvent.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCMap.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponent.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/CCParticleSystem3D.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnClearObserverTranslator.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnClearObserver.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCollisionObserverTranslator.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCollisionObserver.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCountObserverTranslator.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCountObserver.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEmissionObserverTranslator.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEmissionObserver.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEventFlagObserverTranslator.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEventFlagObserver.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnExpireObserverTranslator.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnExpireObserver.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnPositionObserverTranslator.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnPositionObserver.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnQuotaObserverTranslator.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnQuotaObserver.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnRandomObserverTranslator.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnRandomObserver.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnTimeObserverTranslator.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnTimeObserver.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnVelocityObserverTranslator.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnVelocityObserver.h
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/extensions/Particle3D/PU/CCPUObserverManager.cpp \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUObserverManager.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformDefine.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine-android.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/log.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptTranslator.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iostream \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMath.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/functional \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/memory \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.inl \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.inl \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/select.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/thread \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/map \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCStdC.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccRandom.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.inl \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.inl \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.inl \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptCompiler.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptParser.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/list \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptLexer.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUObserver.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUParticleSystem3D.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCVector.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProtocols.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGL.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2platform.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/KHR/khrplatform.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2ext.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCCommon.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCTouch.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventTouch.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEvent.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCMap.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponent.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/CCParticleSystem3D.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnClearObserverTranslator.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnClearObserver.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCollisionObserverTranslator.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCollisionObserver.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCountObserverTranslator.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCountObserver.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEmissionObserverTranslator.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEmissionObserver.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEventFlagObserverTranslator.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEventFlagObserver.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnExpireObserverTranslator.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnExpireObserver.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnPositionObserverTranslator.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnPositionObserver.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnQuotaObserverTranslator.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnQuotaObserver.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnRandomObserverTranslator.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnRandomObserver.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnTimeObserverTranslator.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnTimeObserver.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnVelocityObserverTranslator.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnVelocityObserver.h
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUObserverManager.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUObserverManager.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformDefine.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformDefine.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine-android.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine-android.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/log.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/log.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptTranslator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptTranslator.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iostream:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iostream:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMath.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMath.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/functional:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/functional:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/memory:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/memory:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.inl:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.inl:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.inl:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.inl:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/select.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/select.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/thread:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/thread:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/map:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/map:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCStdC.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCStdC.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccRandom.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccRandom.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.inl:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.inl:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.inl:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.inl:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.inl:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.inl:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptCompiler.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptCompiler.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptParser.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptParser.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/list:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/list:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptLexer.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUScriptLexer.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUObserver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUObserver.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUParticleSystem3D.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUParticleSystem3D.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCVector.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCVector.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProtocols.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProtocols.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGL.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGL.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2platform.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2platform.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/KHR/khrplatform.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/KHR/khrplatform.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2ext.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2ext.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCCommon.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCCommon.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCTouch.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCTouch.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventTouch.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventTouch.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEvent.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEvent.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCMap.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCMap.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponent.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponent.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/CCParticleSystem3D.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/CCParticleSystem3D.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnClearObserverTranslator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnClearObserverTranslator.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnClearObserver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnClearObserver.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCollisionObserverTranslator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCollisionObserverTranslator.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCollisionObserver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCollisionObserver.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCountObserverTranslator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCountObserverTranslator.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCountObserver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnCountObserver.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEmissionObserverTranslator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEmissionObserverTranslator.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEmissionObserver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEmissionObserver.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEventFlagObserverTranslator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEventFlagObserverTranslator.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEventFlagObserver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnEventFlagObserver.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnExpireObserverTranslator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnExpireObserverTranslator.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnExpireObserver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnExpireObserver.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnPositionObserverTranslator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnPositionObserverTranslator.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnPositionObserver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnPositionObserver.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnQuotaObserverTranslator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnQuotaObserverTranslator.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnQuotaObserver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnQuotaObserver.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnRandomObserverTranslator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnRandomObserverTranslator.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnRandomObserver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnRandomObserver.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnTimeObserverTranslator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnTimeObserverTranslator.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnTimeObserver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnTimeObserver.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnVelocityObserverTranslator.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnVelocityObserverTranslator.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnVelocityObserver.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./../extensions/Particle3D/PU/CCPUOnVelocityObserver.h:

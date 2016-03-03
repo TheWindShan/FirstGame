@@ -1,230 +1,230 @@
 obj/local/armeabi/objs-debug/cocos2dx_internal_static/base/TGAlib.o: \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/TGAlib.cpp \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/string.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/malloc.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/xlocale.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/stdlib.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/alloca.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/strings.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/stdint.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm/types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/posix_types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/stddef.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/compiler.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm/posix_types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/memory.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/TGAlib.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCData.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformDefine.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine-android.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/log.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/string \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCStdC.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/math.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/vector \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/select.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/thread \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/map \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccRandom.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/random \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMath.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
- /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.inl \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.inl \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.inl \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.inl \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.inl \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGL.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2platform.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/KHR/khrplatform.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2.h \
- /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2ext.h \
- /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCValue.h
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/TGAlib.cpp \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/string.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/malloc.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/xlocale.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdlib.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/alloca.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/strings.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdint.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/posix_types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/stddef.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/compiler.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/posix_types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/memory.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/TGAlib.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCData.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformDefine.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine-android.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/log.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/string \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCStdC.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/math.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/vector \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/select.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/thread \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/map \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccRandom.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/random \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMath.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
+ /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.inl \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.inl \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.inl \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.inl \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.inl \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGL.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2platform.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/KHR/khrplatform.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2.h \
+ /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2ext.h \
+ /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCValue.h
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/string.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/string.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/malloc.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/malloc.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/xlocale.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/xlocale.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/stdlib.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdlib.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/alloca.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/alloca.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/strings.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/strings.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/stdint.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdint.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm/types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/posix_types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/posix_types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/stddef.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/stddef.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/compiler.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/compiler.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm/posix_types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/posix_types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/memory.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/memory.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/TGAlib.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/TGAlib.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCData.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCData.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformDefine.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformDefine.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine-android.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine-android.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/log.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/log.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/string:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/string:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCStdC.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCStdC.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/math.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/math.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/vector:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/vector:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/select.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/select.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/thread:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/thread:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/map:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/map:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccRandom.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccRandom.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/random:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/random:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMath.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMath.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
 
-/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm:
+/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.inl:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.inl:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.inl:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.inl:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.inl:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.inl:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.inl:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.inl:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.inl:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.inl:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGL.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGL.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2platform.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2platform.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/KHR/khrplatform.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/KHR/khrplatform.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2.h:
 
-/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2ext.h:
+/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2ext.h:
 
-/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCValue.h:
+/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCValue.h:

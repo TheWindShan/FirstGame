@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nego/Documentos/FirstGame/Space/cocos2d/external/recast/fastlz/fastlz.c
+fastlz.c
+/home/nego/Documentos/FirstGame/Space/cocos2d/external/recast/fastlz/fastlz.c
+fastlz.c
+/home/nego/Documentos/FirstGame/Space/cocos2d/external/recast/fastlz/fastlz.c
+

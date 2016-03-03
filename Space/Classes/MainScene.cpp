@@ -17,16 +17,15 @@ bool MainScene::init()
     {
         return false;
     }
-    
+
+    // visibleSize = Director::getInstance()->getVisibleSize();
     visibleSize = Director::getInstance()->getWinSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
     sprite = Aircraft::create();
     sprite->setPosition(Vec2(visibleSize.width/2, visibleSize.height/2));
     this->addChild(sprite, 0);
-    auto teste = this->getBoundingBox();
-    // log("%f", teste.x);
-    // this->scheduleUpdate();
+
     return true;
 }
 

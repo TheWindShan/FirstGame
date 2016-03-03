@@ -6,6 +6,7 @@ USING_NS_CC;
 Aircraft::Aircraft()
 {
     visibleSize = Director::getInstance()->getWinSize();
+    // visibleSize = Director::getInstance()->getVisibleSize();
     Device::setAccelerometerEnabled(true);
 }
 
@@ -38,18 +39,15 @@ void Aircraft::update(float delta)
     float angle = fmod(this->getRotation(), 360);
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_UP_ARROW)){
         this->move();
-        // this->shotLaser(laserGreen);
-        // auto ac = RotateTo::create(1.0f, Vec3(0, 30, 0));
-        // this->runAction(ac);
     }
 
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_DOWN_ARROW)){
         if(isKeyPressed(EventKeyboard::KeyCode::KEY_LEFT_ARROW)){
-            this->setRotation(angle-1.5f);
+            this->setRotation(angle-2.5f);
 
         }
         if(isKeyPressed(EventKeyboard::KeyCode::KEY_RIGHT_ARROW)){
-            this->setRotation(angle+1.5f);
+            this->setRotation(angle+2.5f);
         }
     }
 }
@@ -105,32 +103,30 @@ void Aircraft::move()
 
 void Aircraft::shotLaser()
 {
+    // this->setRotation(-90);
+    Sprite *laser = Sprite::create("res/laserGreen.png");
+    float laserHeigth = laser->getBoundingBox().size.height;
     Vec2 nodeLocation = this->getPosition();
     float angle = fmod(this->getRotation(), 360);
     float angleRadius = angle * (M_PI/180);
     float yOff = visibleSize.height - nodeLocation.y;
     float deltax = yOff * tan(angleRadius);
-    float deltay = yOff;
     float dx = nodeLocation.x + deltax;
-    float dy = nodeLocation.y + deltay;
-
-    if(angle > 90 && angle < 270){
-        dx = nodeLocation.x - deltax;
-        dy = nodeLocation.y - deltay;
-    }else if(angle < -90 && angle > -270){
-        dx = nodeLocation.x - deltax;
-        dy = nodeLocation.y - deltay;
+    float dy = visibleSize.height + laserHeigth;
+    if((angle > 90 && angle < 270) || (angle < -90 && angle > -270)){
+        yOff = nodeLocation.y;
+        deltax = yOff * tan((2*M_PI)-(angleRadius));
+        dx = nodeLocation.x + deltax;
+        dy = -1*(laserHeigth);
     }else if(angle == 90){
-        dx = visibleSize.width + 10;
+        dx = visibleSize.width + laserHeigth;
         dy = nodeLocation.y;
     }else if(angle == -90){
         dx = -visibleSize.width;
         dy = nodeLocation.y;
     }
-
     Vec2 destination = Vec2(dx, dy);
     auto actionLaser = MoveTo::create(1.0, destination);
-    Sprite *laser = Sprite::create("res/laserGreen.png");
     laser->setPosition(nodeLocation);
     laser->setRotation(angle);
     laser->runAction(actionLaser);
