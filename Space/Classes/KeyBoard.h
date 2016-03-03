@@ -2,6 +2,7 @@
 #define __KEY_BOARD_H__
 
 #include "cocos2d.h"
+#include <vector>
 
 class KeyBoard
 {

@@ -8,7 +8,7 @@ Laser::Laser()
 }
 
 Laser* Laser::create()
-{   
+{
     Laser* pSprite = new Laser();
     auto pinfo = AutoPolygon::generatePolygon("res/laserGreen.png");
     if (pSprite->initWithPolygon(pinfo))
@@ -17,4 +17,9 @@ Laser* Laser::create()
     }
     CC_SAFE_DELETE(pSprite);
     return NULL;
+}
+
+void Laser::update(float delta)
+{
+
 }

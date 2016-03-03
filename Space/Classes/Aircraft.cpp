@@ -105,50 +105,29 @@ void Aircraft::move()
 
 void Aircraft::shotLaser()
 {
-    this->setRotation(90);
     Vec2 nodeLocation = this->getPosition();
     float angle = fmod(this->getRotation(), 360);
     float angleRadius = angle * (M_PI/180);
     float yOff = visibleSize.height - nodeLocation.y;
-    // if(angle == 90 || angle == 180){
-    //     yOff = nodeLocation.y;
-    // }
     float deltax = yOff * tan(angleRadius);
     float deltay = yOff;
     float dx = nodeLocation.x + deltax;
     float dy = nodeLocation.y + deltay;
+
     if(angle > 90 && angle < 270){
         dx = nodeLocation.x - deltax;
         dy = nodeLocation.y - deltay;
     }else if(angle < -90 && angle > -270){
         dx = nodeLocation.x - deltax;
         dy = nodeLocation.y - deltay;
-    }else if(angle == 90 || angle == 180){
-        dx = nodeLocation.x - deltax;
-        dy = nodeLocation.y - deltay;
+    }else if(angle == 90){
+        dx = visibleSize.width + 10;
+        dy = nodeLocation.y;
+    }else if(angle == -90){
+        dx = -visibleSize.width;
+        dy = nodeLocation.y;
     }
-    // if(angle > 90 && angle < 180){
-    //     dx = nodeLocation.x - deltax;
-    //     dy = nodeLocation.y - deltay;
-    // }else if(angle > 180 && angle < 270){
-    //     dx = nodeLocation.x - deltax;
-    //     dy = nodeLocation.y - deltay;
-    // }else if(angle < -90 && angle > -180){
-    //     dx = nodeLocation.x - deltax;
-    //     dy = nodeLocation.y - deltay;
-    // }else if(angle==90){
-    //     dx = visibleSize.width;
-    //     dy = nodeLocation.y;
-    // }else if(angle==-90){
-    //     dx = -visibleSize.width;
-    //     dy = nodeLocation.y;
-    // }else if(angle==-180){
-    //     dx = nodeLocation.x;
-    //     dy = -visibleSize.height;
-    // }if(angle<-90 && angle>-270){
-    //     dx = nodeLocation.x - deltax;
-    //     dy = nodeLocation.y - deltay;
-    // }
+
     Vec2 destination = Vec2(dx, dy);
     auto actionLaser = MoveTo::create(1.0, destination);
     Sprite *laser = Sprite::create("res/laserGreen.png");

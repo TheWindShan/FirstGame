@@ -8,6 +8,7 @@ class Laser : public cocos2d::Sprite
 public:
     Laser();
     static Laser* create();
+    virtual void update(float delta) override;
 };
 
 #endif // __LASER_H__
