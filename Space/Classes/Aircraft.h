@@ -2,6 +2,7 @@
 #define __AIRCRAFT_H__
 
 #include "cocos2d.h"
+#include "Laser.h"
 #include <vector>
 
 class Aircraft : public cocos2d::Sprite
@@ -17,9 +18,10 @@ public:
     void move();
     void shotLaser();
     void onAcceleration(cocos2d::Acceleration *acc, cocos2d::Event *event);
-
+    Laser* laser;
     std::vector<cocos2d::EventKeyboard::KeyCode> keys;
     cocos2d::Size visibleSize;
+
 };
 
 #endif // __AIRCRAFT_H__

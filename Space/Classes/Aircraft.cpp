@@ -6,7 +6,6 @@ USING_NS_CC;
 Aircraft::Aircraft()
 {
     visibleSize = Director::getInstance()->getWinSize();
-    // visibleSize = Director::getInstance()->getVisibleSize();
     Device::setAccelerometerEnabled(true);
 }
 
@@ -103,8 +102,9 @@ void Aircraft::move()
 
 void Aircraft::shotLaser()
 {
+  Laser* laser;
     // this->setRotation(-90);
-    Sprite *laser = Sprite::create("res/laserGreen.png");
+    laser = Laser::create();
     float laserHeigth = laser->getBoundingBox().size.height;
     Vec2 nodeLocation = this->getPosition();
     float angle = fmod(this->getRotation(), 360);

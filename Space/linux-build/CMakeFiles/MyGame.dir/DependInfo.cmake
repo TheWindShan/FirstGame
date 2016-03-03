@@ -6,7 +6,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nego/Documentos/FirstGame/Space/Classes/Aircraft.cpp" "/home/nego/Documentos/FirstGame/Space/linux-build/CMakeFiles/MyGame.dir/Classes/Aircraft.cpp.o"
   "/home/nego/Documentos/FirstGame/Space/Classes/AppDelegate.cpp" "/home/nego/Documentos/FirstGame/Space/linux-build/CMakeFiles/MyGame.dir/Classes/AppDelegate.cpp.o"
+  "/home/nego/Documentos/FirstGame/Space/Classes/Laser.cpp" "/home/nego/Documentos/FirstGame/Space/linux-build/CMakeFiles/MyGame.dir/Classes/Laser.cpp.o"
   "/home/nego/Documentos/FirstGame/Space/Classes/MainScene.cpp" "/home/nego/Documentos/FirstGame/Space/linux-build/CMakeFiles/MyGame.dir/Classes/MainScene.cpp.o"
+  "/home/nego/Documentos/FirstGame/Space/Classes/Meteor.cpp" "/home/nego/Documentos/FirstGame/Space/linux-build/CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o"
   "/home/nego/Documentos/FirstGame/Space/proj.linux/main.cpp" "/home/nego/Documentos/FirstGame/Space/linux-build/CMakeFiles/MyGame.dir/proj.linux/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

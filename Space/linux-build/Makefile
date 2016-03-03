@@ -279,6 +279,30 @@ Classes/AppDelegate.cpp.s:
 	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Classes/AppDelegate.cpp.s
 .PHONY : Classes/AppDelegate.cpp.s
 
+Classes/Laser.o: Classes/Laser.cpp.o
+.PHONY : Classes/Laser.o
+
+# target to build an object file
+Classes/Laser.cpp.o:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Classes/Laser.cpp.o
+.PHONY : Classes/Laser.cpp.o
+
+Classes/Laser.i: Classes/Laser.cpp.i
+.PHONY : Classes/Laser.i
+
+# target to preprocess a source file
+Classes/Laser.cpp.i:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Classes/Laser.cpp.i
+.PHONY : Classes/Laser.cpp.i
+
+Classes/Laser.s: Classes/Laser.cpp.s
+.PHONY : Classes/Laser.s
+
+# target to generate assembly for a file
+Classes/Laser.cpp.s:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Classes/Laser.cpp.s
+.PHONY : Classes/Laser.cpp.s
+
 Classes/MainScene.o: Classes/MainScene.cpp.o
 .PHONY : Classes/MainScene.o
 
@@ -302,6 +326,30 @@ Classes/MainScene.s: Classes/MainScene.cpp.s
 Classes/MainScene.cpp.s:
 	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Classes/MainScene.cpp.s
 .PHONY : Classes/MainScene.cpp.s
+
+Classes/Meteor.o: Classes/Meteor.cpp.o
+.PHONY : Classes/Meteor.o
+
+# target to build an object file
+Classes/Meteor.cpp.o:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o
+.PHONY : Classes/Meteor.cpp.o
+
+Classes/Meteor.i: Classes/Meteor.cpp.i
+.PHONY : Classes/Meteor.i
+
+# target to preprocess a source file
+Classes/Meteor.cpp.i:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Classes/Meteor.cpp.i
+.PHONY : Classes/Meteor.cpp.i
+
+Classes/Meteor.s: Classes/Meteor.cpp.s
+.PHONY : Classes/Meteor.s
+
+# target to generate assembly for a file
+Classes/Meteor.cpp.s:
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Classes/Meteor.cpp.s
+.PHONY : Classes/Meteor.cpp.s
 
 proj.linux/main.o: proj.linux/main.cpp.o
 .PHONY : proj.linux/main.o
@@ -351,9 +399,15 @@ help:
 	@echo "... Classes/AppDelegate.o"
 	@echo "... Classes/AppDelegate.i"
 	@echo "... Classes/AppDelegate.s"
+	@echo "... Classes/Laser.o"
+	@echo "... Classes/Laser.i"
+	@echo "... Classes/Laser.s"
 	@echo "... Classes/MainScene.o"
 	@echo "... Classes/MainScene.i"
 	@echo "... Classes/MainScene.s"
+	@echo "... Classes/Meteor.o"
+	@echo "... Classes/Meteor.i"
+	@echo "... Classes/Meteor.s"
 	@echo "... proj.linux/main.o"
 	@echo "... proj.linux/main.i"
 	@echo "... proj.linux/main.s"

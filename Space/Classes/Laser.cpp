@@ -10,8 +10,7 @@ Laser::Laser()
 Laser* Laser::create()
 {
     Laser* pSprite = new Laser();
-    auto pinfo = AutoPolygon::generatePolygon("res/laserGreen.png");
-    if (pSprite->initWithPolygon(pinfo))
+    if (pSprite->initWithFile("res/laserGreen.png"))
     {
         return pSprite;
     }

@@ -118,9 +118,55 @@ CMakeFiles/MyGame.dir/Classes/Aircraft.cpp.o.provides: CMakeFiles/MyGame.dir/Cla
 
 CMakeFiles/MyGame.dir/Classes/Aircraft.cpp.o.provides.build: CMakeFiles/MyGame.dir/Classes/Aircraft.cpp.o
 
+CMakeFiles/MyGame.dir/Classes/Laser.cpp.o: CMakeFiles/MyGame.dir/flags.make
+CMakeFiles/MyGame.dir/Classes/Laser.cpp.o: ../Classes/Laser.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nego/Documentos/FirstGame/Space/linux-build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MyGame.dir/Classes/Laser.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/Classes/Laser.cpp.o -c /home/nego/Documentos/FirstGame/Space/Classes/Laser.cpp
+
+CMakeFiles/MyGame.dir/Classes/Laser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGame.dir/Classes/Laser.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nego/Documentos/FirstGame/Space/Classes/Laser.cpp > CMakeFiles/MyGame.dir/Classes/Laser.cpp.i
+
+CMakeFiles/MyGame.dir/Classes/Laser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGame.dir/Classes/Laser.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nego/Documentos/FirstGame/Space/Classes/Laser.cpp -o CMakeFiles/MyGame.dir/Classes/Laser.cpp.s
+
+CMakeFiles/MyGame.dir/Classes/Laser.cpp.o.requires:
+.PHONY : CMakeFiles/MyGame.dir/Classes/Laser.cpp.o.requires
+
+CMakeFiles/MyGame.dir/Classes/Laser.cpp.o.provides: CMakeFiles/MyGame.dir/Classes/Laser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Classes/Laser.cpp.o.provides.build
+.PHONY : CMakeFiles/MyGame.dir/Classes/Laser.cpp.o.provides
+
+CMakeFiles/MyGame.dir/Classes/Laser.cpp.o.provides.build: CMakeFiles/MyGame.dir/Classes/Laser.cpp.o
+
+CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o: CMakeFiles/MyGame.dir/flags.make
+CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o: ../Classes/Meteor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nego/Documentos/FirstGame/Space/linux-build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o -c /home/nego/Documentos/FirstGame/Space/Classes/Meteor.cpp
+
+CMakeFiles/MyGame.dir/Classes/Meteor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGame.dir/Classes/Meteor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nego/Documentos/FirstGame/Space/Classes/Meteor.cpp > CMakeFiles/MyGame.dir/Classes/Meteor.cpp.i
+
+CMakeFiles/MyGame.dir/Classes/Meteor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGame.dir/Classes/Meteor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nego/Documentos/FirstGame/Space/Classes/Meteor.cpp -o CMakeFiles/MyGame.dir/Classes/Meteor.cpp.s
+
+CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o.requires:
+.PHONY : CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o.requires
+
+CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o.provides: CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MyGame.dir/build.make CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o.provides.build
+.PHONY : CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o.provides
+
+CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o.provides.build: CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o
+
 CMakeFiles/MyGame.dir/proj.linux/main.cpp.o: CMakeFiles/MyGame.dir/flags.make
 CMakeFiles/MyGame.dir/proj.linux/main.cpp.o: ../proj.linux/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nego/Documentos/FirstGame/Space/linux-build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nego/Documentos/FirstGame/Space/linux-build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MyGame.dir/proj.linux/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/proj.linux/main.cpp.o -c /home/nego/Documentos/FirstGame/Space/proj.linux/main.cpp
 
@@ -146,6 +192,8 @@ MyGame_OBJECTS = \
 "CMakeFiles/MyGame.dir/Classes/AppDelegate.cpp.o" \
 "CMakeFiles/MyGame.dir/Classes/MainScene.cpp.o" \
 "CMakeFiles/MyGame.dir/Classes/Aircraft.cpp.o" \
+"CMakeFiles/MyGame.dir/Classes/Laser.cpp.o" \
+"CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o" \
 "CMakeFiles/MyGame.dir/proj.linux/main.cpp.o"
 
 # External object files for target MyGame
@@ -154,6 +202,8 @@ MyGame_EXTERNAL_OBJECTS =
 bin/MyGame: CMakeFiles/MyGame.dir/Classes/AppDelegate.cpp.o
 bin/MyGame: CMakeFiles/MyGame.dir/Classes/MainScene.cpp.o
 bin/MyGame: CMakeFiles/MyGame.dir/Classes/Aircraft.cpp.o
+bin/MyGame: CMakeFiles/MyGame.dir/Classes/Laser.cpp.o
+bin/MyGame: CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o
 bin/MyGame: CMakeFiles/MyGame.dir/proj.linux/main.cpp.o
 bin/MyGame: CMakeFiles/MyGame.dir/build.make
 bin/MyGame: lib/libcocos2d.a
@@ -188,6 +238,8 @@ CMakeFiles/MyGame.dir/build: bin/MyGame
 CMakeFiles/MyGame.dir/requires: CMakeFiles/MyGame.dir/Classes/AppDelegate.cpp.o.requires
 CMakeFiles/MyGame.dir/requires: CMakeFiles/MyGame.dir/Classes/MainScene.cpp.o.requires
 CMakeFiles/MyGame.dir/requires: CMakeFiles/MyGame.dir/Classes/Aircraft.cpp.o.requires
+CMakeFiles/MyGame.dir/requires: CMakeFiles/MyGame.dir/Classes/Laser.cpp.o.requires
+CMakeFiles/MyGame.dir/requires: CMakeFiles/MyGame.dir/Classes/Meteor.cpp.o.requires
 CMakeFiles/MyGame.dir/requires: CMakeFiles/MyGame.dir/proj.linux/main.cpp.o.requires
 .PHONY : CMakeFiles/MyGame.dir/requires
 

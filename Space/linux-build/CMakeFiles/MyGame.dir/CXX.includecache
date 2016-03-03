@@ -2803,6 +2803,8 @@ algorithm
 /home/nego/Documentos/FirstGame/Space/Classes/Aircraft.h
 cocos2d.h
 /home/nego/Documentos/FirstGame/Space/Classes/cocos2d.h
+Laser.h
+/home/nego/Documentos/FirstGame/Space/Classes/Laser.h
 vector
 -
 
@@ -2813,6 +2815,14 @@ MainScene.h
 /home/nego/Documentos/FirstGame/Space/Classes/MainScene.h
 
 /home/nego/Documentos/FirstGame/Space/Classes/AppDelegate.h
+cocos2d.h
+/home/nego/Documentos/FirstGame/Space/Classes/cocos2d.h
+
+/home/nego/Documentos/FirstGame/Space/Classes/Laser.cpp
+Laser.h
+/home/nego/Documentos/FirstGame/Space/Classes/Laser.h
+
+/home/nego/Documentos/FirstGame/Space/Classes/Laser.h
 cocos2d.h
 /home/nego/Documentos/FirstGame/Space/Classes/cocos2d.h
 
@@ -2827,6 +2837,14 @@ cocos2d.h
 /home/nego/Documentos/FirstGame/Space/Classes/cocos2d.h
 Aircraft.h
 /home/nego/Documentos/FirstGame/Space/Classes/Aircraft.h
+
+/home/nego/Documentos/FirstGame/Space/Classes/Meteor.cpp
+Meteor.h
+/home/nego/Documentos/FirstGame/Space/Classes/Meteor.h
+
+/home/nego/Documentos/FirstGame/Space/Classes/Meteor.h
+cocos2d.h
+/home/nego/Documentos/FirstGame/Space/Classes/cocos2d.h
 
 /home/nego/Documentos/FirstGame/Space/proj.linux/main.cpp
 ../Classes/AppDelegate.h

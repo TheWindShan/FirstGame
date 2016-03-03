@@ -347,7 +347,7 @@ obj/local/armeabi/objs-debug/cocos2dcpp_shared/__/__/Classes/MainScene.o: \
  /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/3d/../deprecated/CCSet.h \
  /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/3d/../deprecated/CCString.h \
  /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/3d/../deprecated/CCDeprecated.h \
- jni/../../Classes/Aircraft.h
+ jni/../../Classes/Aircraft.h jni/../../Classes/Laser.h
 
 jni/../../Classes/MainScene.h:
 
@@ -1046,3 +1046,5 @@ jni/../../Classes/MainScene.h:
 /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/3d/../deprecated/CCDeprecated.h:
 
 jni/../../Classes/Aircraft.h:
+
+jni/../../Classes/Laser.h:
