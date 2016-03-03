@@ -1,1532 +1,1532 @@
 obj/local/armeabi/objs-debug/cocostudio_static/ActionTimeline/CSLoader.o: \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CSLoader.cpp \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CSLoader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/DictionaryHelper.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/document.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/reader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/rapidjson.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdlib \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/inttypes.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/allocators.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/encodings.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/meta.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/../rapidjson.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/stack.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strtod.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/ieee754.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/biginteger.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/diyfp.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/pow10.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/error.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/../rapidjson.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strfunc.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/new \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iterator \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/utility \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocosStudioExport.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./cocos2d.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCAsyncTaskPool.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformDefine.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine-android.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/log.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCDirector.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/stack \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/thread \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCVector.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/select.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/vector \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/map \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCStdC.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/math.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccRandom.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/random \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCScene.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProtocols.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMath.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.inl \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.inl \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.inl \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.inl \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.inl \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGL.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2platform.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/KHR/khrplatform.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2ext.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCCommon.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCTouch.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventTouch.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEvent.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/list \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCMap.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponent.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGLView.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScheduler.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/set \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/uthash.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/queue \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/condition_variable \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/future \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCAutoreleasePool.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConfiguration.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCValue.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimate3D.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimation3D.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimationCurve.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimationCurve.inl \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCBundle3DData.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAABB.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInterval.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAction.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAnimation.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteFrame.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAutoPolygon.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCImage.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTrianglesCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgramState.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCData.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCDirector.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCIMEDelegate.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCIMEDispatcher.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCIMEDelegate.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCMap.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCNS.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProfiling.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProperties.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRefPtr.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScheduler.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCUserDefault.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCData.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCValue.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCVector.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ZipUtils.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCFileUtils-android.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/jni.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/asset_manager.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/base64.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccUTF8.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/jni/JniHelper.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccUtils.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventAcceleration.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventCustom.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventDispatcher.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListener.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventFocus.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerAcceleration.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerCustom.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerFocus.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerKeyboard.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerMouse.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventMouse.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerTouch.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventMouse.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventTouch.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventType.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCVertex.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/MathUtil.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAction.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionCamera.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionCatmullRom.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionEase.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInstant.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid3D.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInstant.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInterval.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionManager.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionPageTurn3D.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid3D.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionProgressTimer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionTiledGrid.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionTween.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTweenFunction.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCQuadCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCClippingNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGroupCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCCustomCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCClippingRectangleNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCDrawNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCDrawingPrimitives.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFontFNT.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFont.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabel.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFontAtlas.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabelAtlas.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabelBMFont.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabel.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabelTTF.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLayer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMenu.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMenuItem.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLayer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMenuItem.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMotionStreak.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNodeGrid.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleBatchNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCBatchCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleExamples.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystemQuad.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystem.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystem.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystemQuad.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCProgressTimer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCProtectedNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCRenderTexture.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSprite.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCDrawNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureAtlas.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCScene.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransition.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransitionPageTurn.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransition.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransitionProgress.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCamera.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCFrustum.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCOBB.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAABB.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCPlane.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCFrameBuffer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCameraBackgroundBrush.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCGrabber.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCGrid.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLight.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProtocols.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCCustomCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgram.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgramCache.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgramState.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGroupCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCMaterial.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderState.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTechnique.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPass.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPass.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitive.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexData.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitiveCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitive.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCQuadCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommandPool.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderState.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgram.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTechnique.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureCube.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureCache.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTrianglesCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexAttribBinding.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexBuffer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexData.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCFrameBuffer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/ccGLStateCache.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/ccShaders.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsBody.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsShape.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsContact.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerCustom.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventCustom.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsJoint.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsShape.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsWorld.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsBody.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCCommon.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCDevice.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCImage.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCSAXParser.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCThread.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCApplication-android.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCApplicationProtocol.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCAutoreleasePool.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGLViewImpl-android.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCEnhanceAPI-android.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAnimation.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAnimationCache.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSprite.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAutoPolygon.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteBatchNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteFrame.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteFrameCache.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTextFieldTTF.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureAtlas.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParallaxNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXLayer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteBatchNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXXMLParser.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCSAXParser.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccCArray.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXTiledMap.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXXMLParser.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTileMapAtlas.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFastTMXLayer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitiveCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFastTMXTiledMap.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponent.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAABB.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimate3D.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimation3D.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAttachNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCBillBoard.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCFrustum.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMesh.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCMeshCommand.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMeshSkin.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMotionStreak3D.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMeshVertexIndexData.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexBuffer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCOBB.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCPlane.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCRay.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSkeleton3D.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSkybox.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSprite3D.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSkeleton3D.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMeshVertexIndexData.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSprite3DMaterial.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCMaterial.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCTerrain.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCamera.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCRay.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventDispatcher.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCArray.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCDataVisitor.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCBool.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCDictionary.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCArray.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCString.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/sstream \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCDouble.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCFloat.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCInteger.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCNotificationCenter.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCSet.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCString.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCDeprecated.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ObjectFactory.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../../../cocos/ui/CocosGUI.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIWidget.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCProtectedNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILayoutParameter.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/GUIExport.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/GUIDefine.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILayout.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIButton.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UICheckBox.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIAbstractCheckButton.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIRadioButton.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIImageView.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIText.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UITextAtlas.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILoadingBar.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIScrollView.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIListView.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UISlider.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UITextField.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTextFieldTTF.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UITextBMFont.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIPageView.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIHelper.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIRichText.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIHBox.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIVBox.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIRelativeBox.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIVideoPlayer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIWebView.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIDeprecated.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIScale9Sprite.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIEditBox/UIEditBox.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILayoutComponent.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./editor-support/cocostudio/CocosStudioExtension.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimelineCache.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCTimelineMacro.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimeline.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCTimeLine.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCFrame.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTweenFunction.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimelineNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/../CCSGUIReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/../WidgetReader/WidgetReaderProtocol.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocoStudio.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionFrame.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionFrameEasing.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionManagerEx.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionObject.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmature.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmatureDefine.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCBone.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDatas.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCTween.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCProcessBase.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDecorativeDisplay.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDisplayFactory.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCColliderDetector.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDisplayManager.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCBatchNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmatureAnimation.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSpriteFrameCacheHelper.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmatureDataManager.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSkin.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDataReaderHelper.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/DictionaryHelper.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCTransformHelp.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCUtilMath.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComBase.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocoLoader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComAttribute.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComBase.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComAudio.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComController.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCInputDelegate.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComRender.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSGUIReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSSceneReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/TriggerBase.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/TriggerObj.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocoStudio.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/TriggerMng.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCActionTimelineCache.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCFrame.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCTimeLine.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCActionTimeline.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCActionTimelineNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCBoneNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCTimelineMacro.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCSkinNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCSkeletonNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderer.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCBoneNode.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CSLoader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CSParseBinary_generated.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/flatbuffers.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstddef \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/NodeReaderProtocol.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/NodeReaderDefine.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/NodeReader/NodeReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SingleNodeReader/SingleNodeReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SpriteReader/SpriteReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ParticleReader/ParticleReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/GameMapReader/GameMapReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ProjectNodeReader/ProjectNodeReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ComAudioReader/ComAudioReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ButtonReader/ButtonReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/WidgetReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/WidgetReaderProtocol.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/CheckBoxReader/CheckBoxReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ImageViewReader/ImageViewReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextBMFontReader/TextBMFontReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextReader/TextReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextFieldReader/TextFieldReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextAtlasReader/TextAtlasReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/LoadingBarReader/LoadingBarReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SliderReader/SliderReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/LayoutReader/LayoutReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ScrollViewReader/ScrollViewReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/PageViewReader/PageViewReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ListViewReader/ListViewReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ArmatureNodeReader/ArmatureNodeReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Node3DReader/Node3DReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Sprite3DReader/Sprite3DReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/UserCameraReader/UserCameraReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Particle3DReader/Particle3DReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/GameNode3DReader/GameNode3DReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCameraBackgroundBrush.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Light3DReader/Light3DReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SkeletonReader/BoneNodeReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SkeletonReader/SkeletonNodeReader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/util.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/fstream \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iomanip \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/stat.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/stat.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/endian.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/endian.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/machine/endian.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/FlatBuffersSerialize.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/extensions/./ExtensionMacros.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetCallBackHandlerProtocol.h
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CSLoader.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/DictionaryHelper.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/document.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/reader.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/rapidjson.h:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdlib:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring:
-
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/inttypes.h:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/allocators.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/encodings.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/meta.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/../rapidjson.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/stack.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strtod.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/ieee754.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/biginteger.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/diyfp.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/pow10.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/error.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/../rapidjson.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strfunc.h:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/new:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iterator:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/utility:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocosStudioExport.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./cocos2d.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCAsyncTaskPool.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformDefine.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine-android.h:
-
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/log.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCDirector.h:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/stack:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/thread:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCVector.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h:
-
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/select.h:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/vector:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/map:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCStdC.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h:
-
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/math.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccRandom.h:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/random:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCScene.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProtocols.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMath.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.inl:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.inl:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.inl:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.inl:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.inl:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGL.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h:
-
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2platform.h:
-
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/KHR/khrplatform.h:
-
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2.h:
-
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2ext.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCCommon.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCTouch.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventTouch.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEvent.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/list:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCMap.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponent.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGLView.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScheduler.h:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/set:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/uthash.h:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/queue:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/condition_variable:
-
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/future:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCAutoreleasePool.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConfiguration.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCValue.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimate3D.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimation3D.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimationCurve.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimationCurve.inl:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCBundle3DData.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAABB.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInterval.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAction.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAnimation.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteFrame.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAutoPolygon.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCImage.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTrianglesCommand.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgramState.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCData.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCDirector.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCIMEDelegate.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCIMEDispatcher.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCIMEDelegate.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCMap.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCNS.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProfiling.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProperties.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRefPtr.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScheduler.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCUserDefault.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCData.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCValue.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCVector.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ZipUtils.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCFileUtils-android.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h:
-
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/jni.h:
-
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/asset_manager.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/base64.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccUTF8.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/jni/JniHelper.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccUtils.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventAcceleration.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventCustom.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventDispatcher.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListener.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventFocus.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerAcceleration.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerCustom.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerFocus.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerKeyboard.h:
-
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerMouse.h:
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CSLoader.cpp \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CSLoader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/DictionaryHelper.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/document.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/reader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/rapidjson.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdlib \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/inttypes.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/allocators.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/encodings.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/meta.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/../rapidjson.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/stack.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strtod.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/ieee754.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/biginteger.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/diyfp.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/pow10.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/error.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/../rapidjson.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strfunc.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/new \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iterator \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/utility \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocosStudioExport.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./cocos2d.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCAsyncTaskPool.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformDefine.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine-android.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/log.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCDirector.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/stack \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/thread \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCVector.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/select.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/vector \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/map \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCStdC.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/math.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccRandom.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/random \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCScene.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProtocols.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMath.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.inl \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.inl \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.inl \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.inl \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.inl \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGL.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2platform.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/KHR/khrplatform.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2ext.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCCommon.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCTouch.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventTouch.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEvent.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/list \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCMap.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponent.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGLView.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScheduler.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/set \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/uthash.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/queue \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/condition_variable \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/future \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCAutoreleasePool.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConfiguration.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCValue.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimate3D.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimation3D.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimationCurve.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimationCurve.inl \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCBundle3DData.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAABB.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInterval.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAction.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAnimation.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteFrame.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAutoPolygon.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCImage.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTrianglesCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgramState.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCData.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCDirector.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCIMEDelegate.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCIMEDispatcher.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCIMEDelegate.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCMap.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCNS.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProfiling.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProperties.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRefPtr.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScheduler.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCUserDefault.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCData.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCValue.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCVector.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ZipUtils.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCFileUtils-android.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/jni.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/asset_manager.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/base64.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccUTF8.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/jni/JniHelper.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccUtils.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventAcceleration.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventCustom.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventDispatcher.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListener.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventFocus.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerAcceleration.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerCustom.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerFocus.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerKeyboard.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerMouse.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventMouse.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerTouch.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventMouse.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventTouch.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventType.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCVertex.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/MathUtil.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAction.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionCamera.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionCatmullRom.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionEase.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInstant.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid3D.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInstant.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInterval.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionManager.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionPageTurn3D.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid3D.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionProgressTimer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionTiledGrid.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionTween.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTweenFunction.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCQuadCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCClippingNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGroupCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCCustomCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCClippingRectangleNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCDrawNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCDrawingPrimitives.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFontFNT.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFont.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabel.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFontAtlas.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabelAtlas.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabelBMFont.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabel.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabelTTF.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLayer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMenu.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMenuItem.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLayer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMenuItem.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMotionStreak.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNodeGrid.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleBatchNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCBatchCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleExamples.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystemQuad.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystem.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystem.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystemQuad.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCProgressTimer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCProtectedNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCRenderTexture.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSprite.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCDrawNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureAtlas.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCScene.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransition.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransitionPageTurn.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransition.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransitionProgress.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCamera.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCFrustum.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCOBB.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAABB.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCPlane.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCFrameBuffer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCameraBackgroundBrush.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCGrabber.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCGrid.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLight.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProtocols.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCCustomCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgram.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgramCache.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgramState.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGroupCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCMaterial.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderState.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTechnique.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPass.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPass.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitive.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexData.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitiveCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitive.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCQuadCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommandPool.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderState.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgram.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTechnique.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureCube.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureCache.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTrianglesCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexAttribBinding.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexBuffer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexData.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCFrameBuffer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/ccGLStateCache.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/ccShaders.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsBody.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsShape.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsContact.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerCustom.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventCustom.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsJoint.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsShape.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsWorld.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsBody.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCCommon.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCDevice.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCImage.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCSAXParser.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCThread.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCApplication-android.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCApplicationProtocol.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCAutoreleasePool.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGLViewImpl-android.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCEnhanceAPI-android.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAnimation.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAnimationCache.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSprite.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAutoPolygon.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteBatchNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteFrame.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteFrameCache.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTextFieldTTF.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureAtlas.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParallaxNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXLayer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteBatchNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXXMLParser.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCSAXParser.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccCArray.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXTiledMap.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXXMLParser.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTileMapAtlas.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFastTMXLayer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitiveCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFastTMXTiledMap.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponent.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAABB.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimate3D.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimation3D.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAttachNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCBillBoard.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCFrustum.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMesh.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCMeshCommand.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMeshSkin.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMotionStreak3D.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMeshVertexIndexData.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexBuffer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCOBB.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCPlane.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCRay.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSkeleton3D.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSkybox.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSprite3D.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSkeleton3D.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMeshVertexIndexData.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSprite3DMaterial.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCMaterial.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCTerrain.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCamera.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCRay.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventDispatcher.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCArray.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCDataVisitor.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCBool.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCDictionary.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCArray.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCString.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/sstream \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCDouble.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCFloat.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCInteger.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCNotificationCenter.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCSet.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCString.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCDeprecated.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ObjectFactory.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../../../cocos/ui/CocosGUI.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIWidget.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCProtectedNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILayoutParameter.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/GUIExport.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/GUIDefine.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILayout.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIButton.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UICheckBox.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIAbstractCheckButton.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIRadioButton.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIImageView.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIText.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UITextAtlas.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILoadingBar.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIScrollView.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIListView.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UISlider.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UITextField.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTextFieldTTF.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UITextBMFont.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIPageView.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIHelper.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIRichText.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIHBox.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIVBox.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIRelativeBox.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIVideoPlayer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIWebView.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIDeprecated.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIScale9Sprite.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIEditBox/UIEditBox.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILayoutComponent.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./editor-support/cocostudio/CocosStudioExtension.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimelineCache.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCTimelineMacro.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimeline.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCTimeLine.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCFrame.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTweenFunction.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimelineNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/../CCSGUIReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/../WidgetReader/WidgetReaderProtocol.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocoStudio.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionFrame.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionFrameEasing.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionManagerEx.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionObject.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmature.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmatureDefine.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCBone.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDatas.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCTween.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCProcessBase.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDecorativeDisplay.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDisplayFactory.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCColliderDetector.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDisplayManager.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCBatchNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmatureAnimation.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSpriteFrameCacheHelper.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmatureDataManager.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSkin.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDataReaderHelper.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/DictionaryHelper.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCTransformHelp.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCUtilMath.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComBase.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocoLoader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComAttribute.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComBase.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComAudio.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComController.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCInputDelegate.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComRender.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSGUIReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSSceneReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/TriggerBase.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/TriggerObj.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocoStudio.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/TriggerMng.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCActionTimelineCache.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCFrame.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCTimeLine.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCActionTimeline.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCActionTimelineNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCBoneNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCTimelineMacro.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCSkinNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCSkeletonNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderer.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCBoneNode.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CSLoader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CSParseBinary_generated.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/flatbuffers.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstddef \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/NodeReaderProtocol.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/NodeReaderDefine.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/NodeReader/NodeReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SingleNodeReader/SingleNodeReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SpriteReader/SpriteReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ParticleReader/ParticleReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/GameMapReader/GameMapReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ProjectNodeReader/ProjectNodeReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ComAudioReader/ComAudioReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ButtonReader/ButtonReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/WidgetReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/WidgetReaderProtocol.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/CheckBoxReader/CheckBoxReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ImageViewReader/ImageViewReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextBMFontReader/TextBMFontReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextReader/TextReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextFieldReader/TextFieldReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextAtlasReader/TextAtlasReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/LoadingBarReader/LoadingBarReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SliderReader/SliderReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/LayoutReader/LayoutReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ScrollViewReader/ScrollViewReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/PageViewReader/PageViewReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ListViewReader/ListViewReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ArmatureNodeReader/ArmatureNodeReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Node3DReader/Node3DReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Sprite3DReader/Sprite3DReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/UserCameraReader/UserCameraReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Particle3DReader/Particle3DReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/GameNode3DReader/GameNode3DReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCameraBackgroundBrush.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Light3DReader/Light3DReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SkeletonReader/BoneNodeReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SkeletonReader/SkeletonNodeReader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/util.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/fstream \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iomanip \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/stat.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/stat.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/endian.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/endian.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/machine/endian.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/FlatBuffersSerialize.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/extensions/./ExtensionMacros.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetCallBackHandlerProtocol.h
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CSLoader.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/DictionaryHelper.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/document.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/reader.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/rapidjson.h:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdlib:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/inttypes.h:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/allocators.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/encodings.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/meta.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/../rapidjson.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/stack.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strtod.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/ieee754.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/biginteger.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/diyfp.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/pow10.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/error.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/../rapidjson.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strfunc.h:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/new:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iterator:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/utility:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocosStudioExport.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./cocos2d.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCAsyncTaskPool.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccConfig.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformDefine.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine-android.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/log.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCDirector.h:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/stack:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/thread:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCVector.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/select.h:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/vector:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/map:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCStdC.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/math.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccRandom.h:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/random:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCScene.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProtocols.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMath.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.inl:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.inl:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.inl:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.inl:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.inl:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGL.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2platform.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/KHR/khrplatform.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/GLES2/gl2ext.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCCommon.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCTouch.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventTouch.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEvent.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/list:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCMap.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponent.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCGLView.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScheduler.h:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/set:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/uthash.h:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/queue:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/condition_variable:
+
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/future:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCAutoreleasePool.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConfiguration.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCValue.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimate3D.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimation3D.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimationCurve.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimationCurve.inl:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCBundle3DData.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAABB.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInterval.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAction.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAnimation.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteFrame.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAutoPolygon.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCImage.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTrianglesCommand.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgramState.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCConsole.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCData.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCDirector.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCIMEDelegate.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCIMEDispatcher.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCIMEDelegate.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCMap.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCNS.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProfiling.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProperties.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRef.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCRefPtr.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScheduler.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCUserDefault.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCData.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCValue.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCVector.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ZipUtils.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCFileUtils-android.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/jni.h:
+
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/android/asset_manager.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/base64.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccMacros.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccTypes.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccUTF8.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/jni/JniHelper.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccUtils.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventAcceleration.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventCustom.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventDispatcher.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListener.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventFocus.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerAcceleration.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerCustom.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerFocus.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerKeyboard.h:
+
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerMouse.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventMouse.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventMouse.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerTouch.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerTouch.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventMouse.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventMouse.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventTouch.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventTouch.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventType.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventType.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCGeometry.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCVertex.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCVertex.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Mat4.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/MathUtil.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/MathUtil.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/CCMathBase.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Quaternion.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec2.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec3.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./math/Vec4.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAction.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAction.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionCamera.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionCamera.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionCatmullRom.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionCatmullRom.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionEase.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionEase.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInstant.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInstant.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid3D.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid3D.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInstant.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInstant.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInterval.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionInterval.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionManager.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionManager.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionPageTurn3D.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionPageTurn3D.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid3D.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionGrid3D.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionProgressTimer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionProgressTimer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionTiledGrid.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionTiledGrid.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionTween.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCActionTween.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTweenFunction.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTweenFunction.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCQuadCommand.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCQuadCommand.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCClippingNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCClippingNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGroupCommand.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGroupCommand.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCCustomCommand.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCCustomCommand.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCClippingRectangleNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCClippingRectangleNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCDrawNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCDrawNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCDrawingPrimitives.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCDrawingPrimitives.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFontFNT.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFontFNT.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFont.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFont.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabel.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabel.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFontAtlas.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFontAtlas.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabelAtlas.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabelAtlas.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabelBMFont.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabelBMFont.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabel.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabel.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabelTTF.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLabelTTF.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLayer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLayer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMenu.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMenu.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMenuItem.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMenuItem.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLayer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLayer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMenuItem.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMenuItem.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMotionStreak.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCMotionStreak.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNodeGrid.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNodeGrid.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleBatchNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleBatchNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCBatchCommand.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCBatchCommand.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleExamples.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleExamples.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystemQuad.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystemQuad.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystem.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystem.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystem.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystem.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystemQuad.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParticleSystemQuad.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCProgressTimer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCProgressTimer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCProtectedNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCProtectedNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCRenderTexture.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCRenderTexture.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSprite.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSprite.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCDrawNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCDrawNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureAtlas.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureAtlas.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCScene.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCScene.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransition.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransition.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransitionPageTurn.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransitionPageTurn.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransition.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransition.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransitionProgress.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTransitionProgress.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCamera.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCamera.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCFrustum.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCFrustum.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCOBB.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCOBB.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAABB.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAABB.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCPlane.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCPlane.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCFrameBuffer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCFrameBuffer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCameraBackgroundBrush.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCameraBackgroundBrush.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCGrabber.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCGrabber.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCGrid.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCGrid.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLight.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCLight.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProtocols.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCProtocols.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCCustomCommand.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCCustomCommand.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgram.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgram.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgramCache.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgramCache.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgramState.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgramState.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGroupCommand.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGroupCommand.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCMaterial.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCMaterial.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderState.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderState.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTechnique.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTechnique.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPass.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPass.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPass.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPass.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitive.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitive.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexData.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexData.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitiveCommand.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitiveCommand.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitive.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitive.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCQuadCommand.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCQuadCommand.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommandPool.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderCommandPool.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderState.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderState.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgram.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCGLProgram.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTechnique.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTechnique.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureCube.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureCube.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureCache.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureCache.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTrianglesCommand.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTrianglesCommand.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexAttribBinding.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexAttribBinding.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexBuffer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexBuffer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexData.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexData.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCFrameBuffer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCFrameBuffer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/ccGLStateCache.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/ccGLStateCache.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/ccShaders.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/ccShaders.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsBody.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsBody.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsShape.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsShape.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsContact.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsContact.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerCustom.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventListenerCustom.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventCustom.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventCustom.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsJoint.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsJoint.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsShape.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsShape.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsWorld.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsWorld.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsBody.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./physics/CCPhysicsBody.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCCommon.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCCommon.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCDevice.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCDevice.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCImage.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCImage.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCPlatformMacros.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCSAXParser.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCSAXParser.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCThread.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCThread.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCApplication-android.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCApplication-android.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCApplicationProtocol.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCApplicationProtocol.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCAutoreleasePool.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCAutoreleasePool.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGLViewImpl-android.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGLViewImpl-android.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCGL-android.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCStdC-android.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCEnhanceAPI-android.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/android/CCEnhanceAPI-android.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAnimation.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAnimation.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAnimationCache.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAnimationCache.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSprite.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSprite.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAutoPolygon.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAutoPolygon.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteBatchNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteBatchNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteFrame.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteFrame.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteFrameCache.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteFrameCache.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTextFieldTTF.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTextFieldTTF.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureAtlas.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCTextureAtlas.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParallaxNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCParallaxNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXLayer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXLayer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteBatchNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCSpriteBatchNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXXMLParser.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXXMLParser.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCSAXParser.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./platform/CCSAXParser.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccCArray.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ccCArray.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXTiledMap.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXTiledMap.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXXMLParser.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXXMLParser.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTileMapAtlas.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTileMapAtlas.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFastTMXLayer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFastTMXLayer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitiveCommand.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCPrimitiveCommand.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFastTMXTiledMap.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCFastTMXTiledMap.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponent.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponent.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAABB.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAABB.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimate3D.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimate3D.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimation3D.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAnimation3D.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAttachNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCAttachNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCBillBoard.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCBillBoard.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCFrustum.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCFrustum.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMesh.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMesh.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCMeshCommand.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCMeshCommand.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMeshSkin.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMeshSkin.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMotionStreak3D.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMotionStreak3D.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMeshVertexIndexData.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMeshVertexIndexData.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexBuffer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCVertexIndexBuffer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCOBB.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCOBB.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCPlane.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCPlane.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCRay.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCRay.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSkeleton3D.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSkeleton3D.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSkybox.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSkybox.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSprite3D.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSprite3D.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSkeleton3D.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSkeleton3D.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMeshVertexIndexData.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCMeshVertexIndexData.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSprite3DMaterial.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCSprite3DMaterial.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCMaterial.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCMaterial.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCTerrain.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCTerrain.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCamera.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCamera.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCRay.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./3d/CCRay.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventDispatcher.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCEventDispatcher.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCArray.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCArray.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCDataVisitor.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/CCDataVisitor.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCBool.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCBool.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCDictionary.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCDictionary.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCArray.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCArray.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCString.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCString.h:
 
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/sstream:
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/sstream:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCDouble.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCDouble.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCFloat.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCFloat.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCInteger.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCInteger.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCNotificationCenter.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCNotificationCenter.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCSet.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCSet.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCString.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCString.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCDeprecated.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./deprecated/CCDeprecated.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ObjectFactory.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./base/ObjectFactory.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../../../cocos/ui/CocosGUI.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../../../cocos/ui/CocosGUI.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIWidget.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIWidget.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCProtectedNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCProtectedNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILayoutParameter.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILayoutParameter.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/GUIExport.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/GUIExport.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/GUIDefine.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/GUIDefine.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILayout.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILayout.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIButton.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIButton.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UICheckBox.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UICheckBox.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIAbstractCheckButton.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIAbstractCheckButton.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIRadioButton.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIRadioButton.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIImageView.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIImageView.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIText.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIText.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UITextAtlas.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UITextAtlas.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILoadingBar.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILoadingBar.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIScrollView.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIScrollView.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIListView.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIListView.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UISlider.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UISlider.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UITextField.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UITextField.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTextFieldTTF.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTextFieldTTF.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UITextBMFont.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UITextBMFont.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIPageView.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIPageView.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIHelper.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIHelper.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIRichText.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIRichText.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIHBox.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIHBox.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIVBox.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIVBox.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIRelativeBox.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIRelativeBox.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIVideoPlayer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIVideoPlayer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIWebView.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIWebView.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIDeprecated.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIDeprecated.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIScale9Sprite.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIScale9Sprite.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIEditBox/UIEditBox.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UIEditBox/UIEditBox.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILayoutComponent.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./ui/UILayoutComponent.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./editor-support/cocostudio/CocosStudioExtension.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./editor-support/cocostudio/CocosStudioExtension.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimelineCache.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimelineCache.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCTimelineMacro.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCTimelineMacro.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimeline.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimeline.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCTimeLine.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCTimeLine.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCFrame.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCFrame.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTweenFunction.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCTweenFunction.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimelineNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimelineNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/../CCSGUIReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/../CCSGUIReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/../WidgetReader/WidgetReaderProtocol.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/ActionTimeline/../WidgetReader/WidgetReaderProtocol.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocoStudio.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocoStudio.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionFrame.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionFrame.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionFrameEasing.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionFrameEasing.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionManagerEx.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionManagerEx.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionObject.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionObject.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCActionNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmature.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmature.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmatureDefine.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmatureDefine.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCBone.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCBone.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDatas.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDatas.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCTween.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCTween.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCProcessBase.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCProcessBase.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDecorativeDisplay.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDecorativeDisplay.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDisplayFactory.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDisplayFactory.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCColliderDetector.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCColliderDetector.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDisplayManager.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDisplayManager.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCBatchNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCBatchNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmatureAnimation.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmatureAnimation.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSpriteFrameCacheHelper.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSpriteFrameCacheHelper.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmatureDataManager.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCArmatureDataManager.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSkin.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSkin.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDataReaderHelper.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCDataReaderHelper.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/DictionaryHelper.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/DictionaryHelper.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCTransformHelp.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCTransformHelp.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCUtilMath.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCUtilMath.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComBase.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComBase.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocoLoader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocoLoader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComAttribute.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComAttribute.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComBase.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComBase.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComAudio.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComAudio.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComController.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComController.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCInputDelegate.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCInputDelegate.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComRender.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCComRender.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSGUIReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSGUIReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSSceneReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CCSSceneReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/TriggerBase.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/TriggerBase.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/TriggerObj.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/TriggerObj.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocoStudio.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocoStudio.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/TriggerMng.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/TriggerMng.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCActionTimelineCache.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCActionTimelineCache.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCFrame.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCFrame.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCTimeLine.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCTimeLine.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCActionTimeline.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCActionTimeline.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCActionTimelineNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCActionTimelineNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCBoneNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCBoneNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCTimelineMacro.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCTimelineMacro.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCSkinNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCSkinNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCSkeletonNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCSkeletonNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderer.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./renderer/CCRenderer.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCBoneNode.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CCBoneNode.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CSLoader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/ActionTimeline/CSLoader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CSParseBinary_generated.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CSParseBinary_generated.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/flatbuffers.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/flatbuffers.h:
 
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstddef:
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstddef:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/NodeReaderProtocol.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/NodeReaderProtocol.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/NodeReaderDefine.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/NodeReaderDefine.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/NodeReader/NodeReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/NodeReader/NodeReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SingleNodeReader/SingleNodeReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SingleNodeReader/SingleNodeReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SpriteReader/SpriteReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SpriteReader/SpriteReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ParticleReader/ParticleReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ParticleReader/ParticleReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/GameMapReader/GameMapReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/GameMapReader/GameMapReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ProjectNodeReader/ProjectNodeReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ProjectNodeReader/ProjectNodeReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ComAudioReader/ComAudioReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ComAudioReader/ComAudioReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ButtonReader/ButtonReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ButtonReader/ButtonReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/WidgetReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/WidgetReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/WidgetReaderProtocol.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/WidgetReaderProtocol.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/CheckBoxReader/CheckBoxReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/CheckBoxReader/CheckBoxReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ImageViewReader/ImageViewReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ImageViewReader/ImageViewReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextBMFontReader/TextBMFontReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextBMFontReader/TextBMFontReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextReader/TextReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextReader/TextReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextFieldReader/TextFieldReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextFieldReader/TextFieldReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextAtlasReader/TextAtlasReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/TextAtlasReader/TextAtlasReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/LoadingBarReader/LoadingBarReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/LoadingBarReader/LoadingBarReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SliderReader/SliderReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SliderReader/SliderReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/LayoutReader/LayoutReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/LayoutReader/LayoutReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ScrollViewReader/ScrollViewReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ScrollViewReader/ScrollViewReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/PageViewReader/PageViewReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/PageViewReader/PageViewReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ListViewReader/ListViewReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ListViewReader/ListViewReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ArmatureNodeReader/ArmatureNodeReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/ArmatureNodeReader/ArmatureNodeReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Node3DReader/Node3DReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Node3DReader/Node3DReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Sprite3DReader/Sprite3DReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Sprite3DReader/Sprite3DReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/UserCameraReader/UserCameraReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/UserCameraReader/UserCameraReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Particle3DReader/Particle3DReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Particle3DReader/Particle3DReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/GameNode3DReader/GameNode3DReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/GameNode3DReader/GameNode3DReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCameraBackgroundBrush.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/./2d/CCCameraBackgroundBrush.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Light3DReader/Light3DReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/Light3DReader/Light3DReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SkeletonReader/BoneNodeReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SkeletonReader/BoneNodeReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SkeletonReader/SkeletonNodeReader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetReader/SkeletonReader/SkeletonNodeReader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/util.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/util.h:
 
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/fstream:
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/fstream:
 
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iomanip:
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iomanip:
 
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/stat.h:
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/stat.h:
 
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/stat.h:
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/linux/stat.h:
 
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/endian.h:
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/endian.h:
 
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/endian.h:
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/endian.h:
 
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/machine/endian.h:
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/machine/endian.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/FlatBuffersSerialize.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/FlatBuffersSerialize.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/extensions/./ExtensionMacros.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/extensions/./ExtensionMacros.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetCallBackHandlerProtocol.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/WidgetCallBackHandlerProtocol.h:

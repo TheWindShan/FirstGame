@@ -1,101 +1,101 @@
 obj/local/armeabi/objs-debug/cocostudio_static/CocoLoader.o: \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/CocoLoader.cpp \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/CocoLoader.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdint.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/document.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/reader.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/rapidjson.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdlib \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/inttypes.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/allocators.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/encodings.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/meta.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/../rapidjson.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/stack.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strtod.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/ieee754.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/biginteger.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/diyfp.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/pow10.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/error.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/../rapidjson.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strfunc.h \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/new \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iterator \
- /opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/utility \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocosStudioExport.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zlib.h \
- /home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zconf.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/unistd.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/select.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/sysconf.h \
- /opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/pathconf.h
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/CocoLoader.cpp \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/CocoLoader.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/stdint.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/document.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/reader.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/rapidjson.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdlib \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/inttypes.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/allocators.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/encodings.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/meta.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/../rapidjson.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/stack.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strtod.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/ieee754.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/biginteger.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/diyfp.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/pow10.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/error.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/../rapidjson.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strfunc.h \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/new \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iterator \
+ /usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/utility \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocosStudioExport.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zlib.h \
+ /Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zconf.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/unistd.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/select.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/sysconf.h \
+ /usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/pathconf.h
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/CocoLoader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/CocoLoader.h:
 
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdint.h:
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/stdint.h:
 
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h:
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/document.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/document.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/reader.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/reader.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/rapidjson.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/rapidjson.h:
 
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdlib:
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdlib:
 
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring:
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring:
 
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/inttypes.h:
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/inttypes.h:
 
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert:
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/allocators.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/allocators.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/encodings.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/encodings.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/meta.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/meta.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/../rapidjson.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/../rapidjson.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/stack.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/stack.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strtod.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strtod.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/ieee754.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/ieee754.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/biginteger.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/biginteger.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/diyfp.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/diyfp.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/pow10.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/pow10.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/error.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/error.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/../rapidjson.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/error/../rapidjson.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strfunc.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/flatbuffers/../json/internal/strfunc.h:
 
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/new:
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/new:
 
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iterator:
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/iterator:
 
-/opt/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/utility:
+/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/utility:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocosStudioExport.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/cocos/editor-support/cocostudio/../cocostudio/CocosStudioExport.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zlib.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zlib.h:
 
-/home/nego/Documentos/FirstGame/Space/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zconf.h:
+/Users/nego/Documents/FirstGame/Space/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zconf.h:
 
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/unistd.h:
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/unistd.h:
 
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/select.h:
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/select.h:
 
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/sysconf.h:
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/sys/sysconf.h:
 
-/opt/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/pathconf.h:
+/usr/local/Cellar/android-ndk/r10e/platforms/android-21/arch-arm/usr/include/pathconf.h:

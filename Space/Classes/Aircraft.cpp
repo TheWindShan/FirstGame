@@ -10,7 +10,7 @@ Aircraft::Aircraft()
 }
 
 Aircraft* Aircraft::create()
-{   
+{
     Aircraft* pSprite = new Aircraft();
     auto pinfo = AutoPolygon::generatePolygon("res/player.png");
     if (pSprite->initWithPolygon(pinfo))
@@ -44,7 +44,7 @@ void Aircraft::update(float delta)
     }
 
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_DOWN_ARROW)){
-        if(isKeyPressed(EventKeyboard::KeyCode::KEY_LEFT_ARROW)){        
+        if(isKeyPressed(EventKeyboard::KeyCode::KEY_LEFT_ARROW)){
             this->setRotation(angle-1.5f);
 
         }
@@ -59,7 +59,7 @@ void Aircraft::onKeyPressed(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::Ev
     keys.push_back(keyCode);
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_SPACE)){
         this->shotLaser();
-    }    
+    }
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_ESCAPE)){
         this->shotLaser();
     }
@@ -108,43 +108,53 @@ void Aircraft::shotLaser()
     // this->setRotation(180);
     Vec2 nodeLocation = this->getPosition();
     float angle = fmod(this->getRotation(), 360);;
-    float x = nodeLocation.x;
-    float y = nodeLocation.y;
-    float r = sqrt((x*x)+(y*y));
+    float xLocation = nodeLocation.x;
+    float yLocation = nodeLocation.y;
+    float r = sqrt((xLocation*xLocation)+(yLocation*yLocation));
     log("Angle %f", angle);
     log("Raio %f", r);
-    float nodeAngleRadius = angle * (M_PI/180);
+    float angleRadius = angle * (M_PI/180);
+    float x = r * cos(angleRadius);
+    float y = r * sin(angleRadius);
+    log("X %f", x);
+    log("Y %f", y);
     float yOff = visibleSize.height - nodeLocation.y;
     if(angle == 90 || angle == 180){
         yOff = nodeLocation.y;
     }
-    float deltax = yOff * tan(nodeAngleRadius);
+    float deltax = yOff * tan(angleRadius);
     float deltay = yOff;
     float dx = nodeLocation.x + deltax;
     float dy = nodeLocation.y + deltay;
-
-    if(angle > 90 && angle < 180){
+    if(angle > 90 && angle < 270){
         dx = nodeLocation.x - deltax;
         dy = nodeLocation.y - deltay;
-    }else if(angle > 180 && angle < 270){
-        dx = nodeLocation.x - deltax;
-        dy = nodeLocation.y - deltay;
-    }else if(angle < -90 && angle > -180){
-        dx = nodeLocation.x - deltax;
-        dy = nodeLocation.y - deltay;
-    }else if(angle==90){
-        dx = visibleSize.width;
-        dy = nodeLocation.y;
-    }else if(angle==-90){
-        dx = -visibleSize.width;
-        dy = nodeLocation.y;
-    }else if(angle==-180){
-        dx = nodeLocation.x;
-        dy = -visibleSize.height;
-    }if(angle<-90 && angle>-270){
+    }else if(angle < -90 && angle > -270){
         dx = nodeLocation.x - deltax;
         dy = nodeLocation.y - deltay;
     }
+    // if(angle > 90 && angle < 180){
+    //     dx = nodeLocation.x - deltax;
+    //     dy = nodeLocation.y - deltay;
+    // }else if(angle > 180 && angle < 270){
+    //     dx = nodeLocation.x - deltax;
+    //     dy = nodeLocation.y - deltay;
+    // }else if(angle < -90 && angle > -180){
+    //     dx = nodeLocation.x - deltax;
+    //     dy = nodeLocation.y - deltay;
+    // }else if(angle==90){
+    //     dx = visibleSize.width;
+    //     dy = nodeLocation.y;
+    // }else if(angle==-90){
+    //     dx = -visibleSize.width;
+    //     dy = nodeLocation.y;
+    // }else if(angle==-180){
+    //     dx = nodeLocation.x;
+    //     dy = -visibleSize.height;
+    // }if(angle<-90 && angle>-270){
+    //     dx = nodeLocation.x - deltax;
+    //     dy = nodeLocation.y - deltay;
+    // }
     Vec2 destination = Vec2(dx, dy);
     auto actionLaser = MoveTo::create(1.0, destination);
     Sprite *laser = Sprite::create("res/laserGreen.png");
