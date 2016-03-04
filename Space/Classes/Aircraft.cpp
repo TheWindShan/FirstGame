@@ -117,7 +117,7 @@ void Aircraft::move()
 void Aircraft::shotLaser()
 {
     Laser* laser;
-    this->setRotation(-270);
+    // this->setRotation(-270);
     laser = Laser::create();
     Vec2 location = this->getPosition();
     float angle = fmod(this->getRotation(), 360);
