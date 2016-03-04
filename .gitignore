@@ -30,11 +30,11 @@
 # Space/linux-build/
 # Space/cocos2d/
 # Space/bin/
-Space/proj.android/bin/
-Space/proj.android/gen/
-Space/proj.android/libs/
-Space/proj.android/obj/
-Space/proj.android/assets/
+# Space/proj.android/bin/
+#Space/proj.android/gen/
+#Space/proj.android/libs/
+#Space/proj.android/obj/
+#Space/proj.android/assets/
 Space/bin/
 Space/cocos2d/build/
 Space/cocos2d/cocos/

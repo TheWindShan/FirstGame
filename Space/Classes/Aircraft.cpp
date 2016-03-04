@@ -126,10 +126,12 @@ void Aircraft::shotLaser()
         dy = nodeLocation.y;
     }
     Vec2 destination = Vec2(dx, dy);
-    auto actionLaser = MoveTo::create(1.0, destination);
+    auto actionLaser = MoveTo::create(0.5f, destination);
+    auto delay = DelayTime::create(1.0f);
     laser->setPosition(nodeLocation);
     laser->setRotation(angle);
     laser->runAction(actionLaser);
+    laser->runAction(delay);
     this->getParent()->addChild(laser, -1);
 }
 
