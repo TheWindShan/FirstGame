@@ -9,6 +9,9 @@ public:
     Laser();
     static Laser* create();
     virtual void update(float delta) override;
+    float getHeigth();
+private:
+    void addEvents();
 };
 
 #endif // __LASER_H__

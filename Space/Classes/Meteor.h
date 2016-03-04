@@ -8,6 +8,14 @@ class Meteor : public cocos2d::Sprite
 public:
     Meteor();
     static Meteor* create();
+    virtual void update(float delta) override;
+    void moveDown();
+    float getHeigth();
+    void makeRotation();
+private:
+    void addEvents();
+    void initOptions();
+    cocos2d::Size visibleSize;
 };
 
 #endif // __METEOR_H__

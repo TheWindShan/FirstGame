@@ -16,6 +16,7 @@ Aircraft* Aircraft::create()
     if (pSprite->initWithPolygon(pinfo))
     {
         pSprite->addEvents();
+        pSprite->initOptions();
         return pSprite;
     }
     CC_SAFE_DELETE(pSprite);
@@ -30,7 +31,7 @@ void Aircraft::addEvents()
     auto aclistener = EventListenerAcceleration::create(CC_CALLBACK_2(Aircraft::onAcceleration, this));
     _eventDispatcher->addEventListenerWithSceneGraphPriority(keylistener, this);
     _eventDispatcher->addEventListenerWithSceneGraphPriority(aclistener, this);
-    scheduleUpdate();
+    this->scheduleUpdate();
 }
 
 void Aircraft::update(float delta)
@@ -79,15 +80,20 @@ bool Aircraft::isKeyPressed(EventKeyboard::KeyCode KeyCode)
     }
 }
 
+void Aircraft::initOptions()
+{
+    this->setPosition(Vec2(visibleSize.width/2, visibleSize.height/2));
+}
+
 void Aircraft::move()
 {
+    // this->setRotation(-180);
+
     Vec2 nodeLocation = this->getPosition();
     float nodeAngle = fmod(this->getRotation(), 360);
     float nodeAngleRadius = nodeAngle * (M_PI/180);
     float yOff = 1;
-    if(nodeAngle>90 && nodeAngle<180){
-        yOff = -1;
-    }else if(nodeAngle<-90 && nodeAngle>-270){
+    if((nodeAngle>90 && nodeAngle<180) || (nodeAngle<-90 && nodeAngle>-270)){
         yOff = -1;
     }
     float deltax = yOff * tan(nodeAngleRadius);
@@ -97,32 +103,37 @@ void Aircraft::move()
     if(nodeAngle>180 && nodeAngle<270){
         dx = nodeLocation.x - deltax;
         dy = nodeLocation.y - deltay;
+    }else if(nodeAngle==90){
+        dx = nodeLocation.x + 1;
+        dy = nodeLocation.y;
+    }else if(nodeAngle==-90){
+        dx = nodeLocation.x - 1;
+        dy = nodeLocation.y;
     }
     Vec2 destination = Vec2(dx, dy);
-    auto move = MoveTo::create(0.2, destination);
+    auto move = MoveTo::create(0.1, destination);
     this->runAction(move);
 }
 
 void Aircraft::shotLaser()
 {
-  Laser* laser;
+    Laser* laser;
     // this->setRotation(-90);
     laser = Laser::create();
-    float laserHeigth = laser->getBoundingBox().size.height;
     Vec2 nodeLocation = this->getPosition();
     float angle = fmod(this->getRotation(), 360);
     float angleRadius = angle * (M_PI/180);
     float yOff = visibleSize.height - nodeLocation.y;
     float deltax = yOff * tan(angleRadius);
     float dx = nodeLocation.x + deltax;
-    float dy = visibleSize.height + laserHeigth;
+    float dy = visibleSize.height + laser->getHeigth();
     if((angle > 90 && angle < 270) || (angle < -90 && angle > -270)){
         yOff = nodeLocation.y;
         deltax = yOff * tan((2*M_PI)-(angleRadius));
         dx = nodeLocation.x + deltax;
-        dy = -1*(laserHeigth);
+        dy = -1*( laser->getHeigth());
     }else if(angle == 90){
-        dx = visibleSize.width + laserHeigth;
+        dx = visibleSize.width + laser->getHeigth();
         dy = nodeLocation.y;
     }else if(angle == -90){
         dx = -visibleSize.width;
@@ -130,22 +141,20 @@ void Aircraft::shotLaser()
     }
     Vec2 destination = Vec2(dx, dy);
     auto actionLaser = MoveTo::create(0.5f, destination);
-    auto delay = DelayTime::create(5.0f);
+    // auto delay = DelayTime::create(1.0f);
     laser->setPosition(nodeLocation);
     laser->setRotation(angle);
-    auto sequence = Sequence::create(actionLaser, delay->clone(), nullptr);
-    laser->runAction(sequence);
+    laser->runAction(actionLaser);
     this->getParent()->addChild(laser, -1);
 }
 
 // Implementation of the accelerometer callback function prototype
 void Aircraft::onAcceleration(Acceleration *acc, cocos2d::Event *event)
 {
-    log("X: %f", acc->x);
-    log("Y: %f", acc->y);
-    log("Z: %f", acc->z);
+    // log("X: %f", acc->x);
+    // log("Y: %f", acc->y);
+    // log("Z: %f", acc->z);
     float angle = fmod(this->getRotation(), 360);
-
     if(acc->y <-0.8f){
         if(acc->z <-0.2f){
             this->move();
@@ -153,7 +162,6 @@ void Aircraft::onAcceleration(Acceleration *acc, cocos2d::Event *event)
         if(acc->z > 0.08f){
             this->shotLaser();
         }
-
         if(acc->x <-0.08f){
             this->setRotation(angle-2.5f);
         }else if(acc->x > 0.08f){

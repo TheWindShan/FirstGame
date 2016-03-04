@@ -3,6 +3,7 @@
 
 #include "cocos2d.h"
 #include "Aircraft.h"
+#include "Meteor.h"
 
 class MainScene : public cocos2d::Layer
 {
@@ -14,6 +15,7 @@ public:
 
 private:
     Aircraft *sprite;
+    Meteor *meteor;
     cocos2d::Size visibleSize;
     void onKeyPressed(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::Event* event);
     void onKeyReleased(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::Event* event);

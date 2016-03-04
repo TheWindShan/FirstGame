@@ -17,21 +17,20 @@ bool MainScene::init()
     {
         return false;
     }
-
-    // visibleSize = Director::getInstance()->getVisibleSize();
     visibleSize = Director::getInstance()->getWinSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
     Device::setKeepScreenOn(true);
     sprite = Aircraft::create();
-    sprite->setPosition(Vec2(visibleSize.width/2, visibleSize.height/2));
     this->addChild(sprite, 0);
-
+    this->scheduleUpdate();
     return true;
 }
 
 void MainScene::update(float delta)
 {
-
+    // meteor = Meteor::create();
+    // this->addChild(meteor, -1);
+    // meteor->moveDown();
 }
 
 void MainScene::onKeyPressed(EventKeyboard::KeyCode keyCode, Event* event)

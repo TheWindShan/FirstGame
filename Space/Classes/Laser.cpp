@@ -17,8 +17,17 @@ Laser* Laser::create()
     CC_SAFE_DELETE(pSprite);
     return NULL;
 }
+void Laser::addEvents()
+{
+
+}
 
 void Laser::update(float delta)
 {
 
+}
+
+float Laser::getHeigth()
+{
+    return this->getBoundingBox().size.height;
 }

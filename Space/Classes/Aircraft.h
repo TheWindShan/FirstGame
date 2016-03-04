@@ -18,8 +18,10 @@ public:
     void move();
     void shotLaser();
     void onAcceleration(cocos2d::Acceleration *acc, cocos2d::Event *event);
+    void initOptions();
     Laser* laser;
     std::vector<cocos2d::EventKeyboard::KeyCode> keys;
+private:
     cocos2d::Size visibleSize;
 
 };
