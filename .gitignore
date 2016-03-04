@@ -38,6 +38,6 @@ Space/proj.android/assets/
 Space/bin/
 Space/cocos2d/build/
 Space/cocos2d/cocos/
-
+# Space/linux-build/
 Space/proj.ios_mac/build/
 *.DS_Store
