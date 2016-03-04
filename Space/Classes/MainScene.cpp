@@ -28,7 +28,9 @@ bool MainScene::init()
 
 void MainScene::update(float delta)
 {
+    auto delay = DelayTime::create (2.0f);
     meteor = Meteor::create();
+    this->runAction(delay->clone());
     this->addChild(meteor, -1);
     meteor->moveDown();
 }

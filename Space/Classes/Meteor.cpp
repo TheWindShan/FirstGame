@@ -16,6 +16,7 @@ Meteor* Meteor::create()
     {
         pSprite->initOptions();
         pSprite->addEvents();
+        // meteors.push_back(pSprite);
         return pSprite;
     }
     CC_SAFE_DELETE(pSprite);

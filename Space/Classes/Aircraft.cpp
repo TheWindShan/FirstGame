@@ -89,7 +89,6 @@ void Aircraft::move()
 {
     Vec2 nodeLocation = this->getPosition();
     float nodeAngle = fmod(this->getRotation(), 360);
-    log("%f", nodeAngle);
     float nodeAngleRadius = nodeAngle * (M_PI/180);
     float yOff = 1;
     if((nodeAngle>90 && nodeAngle<180) || (nodeAngle<-90 && nodeAngle>-270)){

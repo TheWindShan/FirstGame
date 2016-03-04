@@ -4,6 +4,8 @@
 #include "cocos2d.h"
 #include "Aircraft.h"
 #include "Meteor.h"
+#include <vector>
+
 
 class MainScene : public cocos2d::Layer
 {

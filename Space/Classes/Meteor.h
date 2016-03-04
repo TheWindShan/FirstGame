@@ -2,6 +2,7 @@
 #define __METEOR_H__
 
 #include "cocos2d.h"
+#include <vector>
 
 class Meteor : public cocos2d::Sprite
 {
@@ -16,6 +17,7 @@ private:
     void addEvents();
     void initOptions();
     cocos2d::Size visibleSize;
+    static std::vector<Meteor> *meteors;
 };
 
 #endif // __METEOR_H__
