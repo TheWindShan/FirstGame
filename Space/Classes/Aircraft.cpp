@@ -87,10 +87,9 @@ void Aircraft::initOptions()
 
 void Aircraft::move()
 {
-    // this->setRotation(-180);
-
     Vec2 nodeLocation = this->getPosition();
     float nodeAngle = fmod(this->getRotation(), 360);
+    log("%f", nodeAngle);
     float nodeAngleRadius = nodeAngle * (M_PI/180);
     float yOff = 1;
     if((nodeAngle>90 && nodeAngle<180) || (nodeAngle<-90 && nodeAngle>-270)){
@@ -103,10 +102,10 @@ void Aircraft::move()
     if(nodeAngle>180 && nodeAngle<270){
         dx = nodeLocation.x - deltax;
         dy = nodeLocation.y - deltay;
-    }else if(nodeAngle==90){
+    }else if(nodeAngle==90 || nodeAngle==-270){
         dx = nodeLocation.x + 1;
         dy = nodeLocation.y;
-    }else if(nodeAngle==-90){
+    }else if(nodeAngle==-90 || nodeAngle==270){
         dx = nodeLocation.x - 1;
         dy = nodeLocation.y;
     }
@@ -118,37 +117,36 @@ void Aircraft::move()
 void Aircraft::shotLaser()
 {
     Laser* laser;
-    // this->setRotation(-90);
+    this->setRotation(-270);
     laser = Laser::create();
-    Vec2 nodeLocation = this->getPosition();
+    Vec2 location = this->getPosition();
     float angle = fmod(this->getRotation(), 360);
     float angleRadius = angle * (M_PI/180);
-    float yOff = visibleSize.height - nodeLocation.y;
+    float yOff = visibleSize.height - location.y;
     float deltax = yOff * tan(angleRadius);
-    float dx = nodeLocation.x + deltax;
+    float dx = location.x + deltax;
     float dy = visibleSize.height + laser->getHeigth();
     if((angle > 90 && angle < 270) || (angle < -90 && angle > -270)){
-        yOff = nodeLocation.y;
+        yOff = location.y;
         deltax = yOff * tan((2*M_PI)-(angleRadius));
-        dx = nodeLocation.x + deltax;
+        dx = location.x + deltax;
         dy = -1*( laser->getHeigth());
-    }else if(angle == 90){
+    }else if(angle == 90 || angle == -270  ){
         dx = visibleSize.width + laser->getHeigth();
-        dy = nodeLocation.y;
-    }else if(angle == -90){
+        dy = location.y;
+    }else if(angle == -90 || angle == +270){
         dx = -visibleSize.width;
-        dy = nodeLocation.y;
+        dy = location.y;
     }
     Vec2 destination = Vec2(dx, dy);
     auto actionLaser = MoveTo::create(0.5f, destination);
     // auto delay = DelayTime::create(1.0f);
-    laser->setPosition(nodeLocation);
+    laser->setPosition(location);
     laser->setRotation(angle);
     laser->runAction(actionLaser);
     this->getParent()->addChild(laser, -1);
 }
 
-// Implementation of the accelerometer callback function prototype
 void Aircraft::onAcceleration(Acceleration *acc, cocos2d::Event *event)
 {
     // log("X: %f", acc->x);

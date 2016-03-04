@@ -28,9 +28,9 @@ bool MainScene::init()
 
 void MainScene::update(float delta)
 {
-    // meteor = Meteor::create();
-    // this->addChild(meteor, -1);
-    // meteor->moveDown();
+    meteor = Meteor::create();
+    this->addChild(meteor, -1);
+    meteor->moveDown();
 }
 
 void MainScene::onKeyPressed(EventKeyboard::KeyCode keyCode, Event* event)
