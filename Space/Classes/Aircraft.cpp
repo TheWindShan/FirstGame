@@ -58,7 +58,10 @@ void Aircraft::onKeyPressed(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::Ev
         this->shotLaser();
     }
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_ESCAPE)){
-        this->shotLaser();
+        Director::getInstance()->end();
+        #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+            exit(0);
+        #endif
     }
 }
 
@@ -96,7 +99,7 @@ void Aircraft::move()
         dy = nodeLocation.y - deltay;
     }
     Vec2 destination = Vec2(dx, dy);
-    auto move = MoveTo::create(0.5, destination);
+    auto move = MoveTo::create(0.2, destination);
     this->runAction(move);
 }
 
@@ -127,11 +130,11 @@ void Aircraft::shotLaser()
     }
     Vec2 destination = Vec2(dx, dy);
     auto actionLaser = MoveTo::create(0.5f, destination);
-    auto delay = DelayTime::create(1.0f);
+    auto delay = DelayTime::create(5.0f);
     laser->setPosition(nodeLocation);
     laser->setRotation(angle);
-    laser->runAction(actionLaser);
-    laser->runAction(delay);
+    auto sequence = Sequence::create(actionLaser, delay->clone(), nullptr);
+    laser->runAction(sequence);
     this->getParent()->addChild(laser, -1);
 }
 

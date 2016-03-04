@@ -21,7 +21,7 @@ bool MainScene::init()
     // visibleSize = Director::getInstance()->getVisibleSize();
     visibleSize = Director::getInstance()->getWinSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
-
+    Device::setKeepScreenOn(true);
     sprite = Aircraft::create();
     sprite->setPosition(Vec2(visibleSize.width/2, visibleSize.height/2));
     this->addChild(sprite, 0);
