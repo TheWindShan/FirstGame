@@ -1,6 +1,6 @@
 #include "MainScene.h"
 #include <algorithm>
-
+#include <vector>
 USING_NS_CC;
 
 Scene* MainScene::createScene()
@@ -20,6 +20,7 @@ bool MainScene::init()
     visibleSize = Director::getInstance()->getWinSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
     Device::setKeepScreenOn(true);
+    box = this->getBoundingBox();
     sprite = Aircraft::create();
     this->addChild(sprite, 0);
     this->scheduleUpdate();
@@ -28,11 +29,19 @@ bool MainScene::init()
 
 void MainScene::update(float delta)
 {
-    auto delay = DelayTime::create (2.0f);
-    meteor = Meteor::create();
-    this->runAction(delay->clone());
-    this->addChild(meteor, -1);
-    meteor->moveDown();
+    if(meteors.size()<4){
+        meteor = Meteor::create();
+        meteors.push_back(meteor);
+        meteor->moveDown();
+        this->addChild(meteor, -1);
+    }
+    for(int i=0;i<meteors.size();i++){
+        Vec2 location = meteors[i]->getPosition();
+        if(!box.containsPoint(location))
+        {
+            meteors.erase(meteors.begin() + i);
+        }
+    }
 }
 
 void MainScene::onKeyPressed(EventKeyboard::KeyCode keyCode, Event* event)

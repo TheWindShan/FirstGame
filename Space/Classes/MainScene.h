@@ -13,7 +13,10 @@ public:
     static cocos2d::Scene* createScene();
     virtual bool init();
     virtual void update(float delta) override;
+    std::vector<Meteor*> meteors;
+    cocos2d::Rect box;
     CREATE_FUNC(MainScene);
+
 
 private:
     Aircraft *sprite;

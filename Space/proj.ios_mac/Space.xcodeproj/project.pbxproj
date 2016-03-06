@@ -62,6 +62,8 @@
 		929DA6141C8907420066357B /* Laser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9248C38B1C8904FE00AFDEF6 /* Laser.cpp */; };
 		929DA6151C89074C0066357B /* KeyBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9248C3891C8904FE00AFDEF6 /* KeyBoard.cpp */; };
 		929DA6161C89075F0066357B /* Meteor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9248C38D1C8904FE00AFDEF6 /* Meteor.cpp */; };
+		92CC71CC1C8B55B800E53E61 /* Meteors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CC71CA1C8B55B800E53E61 /* Meteors.cpp */; };
+		92CC71CD1C8B55D300E53E61 /* Meteors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CC71CA1C8B55B800E53E61 /* Meteors.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -161,6 +163,8 @@
 		926F14231C81CA2600B53F62 /* Aircraft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aircraft.h; sourceTree = "<group>"; };
 		926F14241C81CA2600B53F62 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
 		926F14251C81CA2600B53F62 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		92CC71CA1C8B55B800E53E61 /* Meteors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Meteors.cpp; sourceTree = "<group>"; };
+		92CC71CB1C8B55B800E53E61 /* Meteors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meteors.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -301,6 +305,8 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				92CC71CA1C8B55B800E53E61 /* Meteors.cpp */,
+				92CC71CB1C8B55B800E53E61 /* Meteors.h */,
 				9248C3891C8904FE00AFDEF6 /* KeyBoard.cpp */,
 				9248C38A1C8904FE00AFDEF6 /* KeyBoard.h */,
 				9248C38B1C8904FE00AFDEF6 /* Laser.cpp */,
@@ -505,6 +511,7 @@
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				9248C3911C8904FE00AFDEF6 /* Meteor.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				92CC71CC1C8B55B800E53E61 /* Meteors.cpp in Sources */,
 				926F14261C81CA2600B53F62 /* Aircraft.cpp in Sources */,
 				9248C38F1C8904FE00AFDEF6 /* KeyBoard.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
@@ -519,6 +526,7 @@
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				926F14291C81CA4000B53F62 /* MainScene.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				92CC71CD1C8B55D300E53E61 /* Meteors.cpp in Sources */,
 				929DA6161C89075F0066357B /* Meteor.cpp in Sources */,
 				926F14281C81CA3B00B53F62 /* Aircraft.cpp in Sources */,
 				929DA6151C89074C0066357B /* KeyBoard.cpp in Sources */,

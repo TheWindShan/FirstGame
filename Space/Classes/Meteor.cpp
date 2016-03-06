@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include "Meteor.h"
+// #include "Meteors.h"
 
 USING_NS_CC;
 
 Meteor::Meteor()
 {
     visibleSize = Director::getInstance()->getWinSize();
+
 }
 
 Meteor* Meteor::create()
@@ -13,10 +15,9 @@ Meteor* Meteor::create()
     Meteor* pSprite = new Meteor();
     auto pinfo = AutoPolygon::generatePolygon("res/meteorSmall.png");
     if (pSprite->initWithPolygon(pinfo))
-    {
+    { 
         pSprite->initOptions();
         pSprite->addEvents();
-        // meteors.push_back(pSprite);
         return pSprite;
     }
     CC_SAFE_DELETE(pSprite);

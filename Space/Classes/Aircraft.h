@@ -14,6 +14,7 @@ public:
     void move();
     void shotLaser();
     Laser* laser;
+    
 private:
     cocos2d::Size visibleSize;
     std::vector<cocos2d::EventKeyboard::KeyCode> keys;
