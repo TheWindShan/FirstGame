@@ -29,7 +29,7 @@ bool MainScene::init()
 
 void MainScene::update(float delta)
 {
-    if(meteors.size()<4){
+    if(meteors.size()<10){
         meteor = Meteor::create();
         meteors.push_back(meteor);
         meteor->moveDown();
