@@ -43,8 +43,11 @@ void Meteor::moveDown()
     float heigth = getHeigth();
     heigth = -heigth;
     Vec2 dest = Vec2((float) xDown, heigth);
+    int t = rand() % 4;
+    auto delay = DelayTime::create(0.25f + (float) t);
     auto toDown = MoveTo::create(5.0f, dest);
-    this->runAction(toDown);
+    auto seq = Sequence::create(delay, toDown, nullptr);
+    this->runAction(seq);
 }
 
 void Meteor::update(float delta)
