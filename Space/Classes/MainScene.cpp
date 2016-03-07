@@ -1,6 +1,6 @@
 #include "MainScene.h"
 #include <algorithm>
-#include <vector>
+
 USING_NS_CC;
 
 Scene* MainScene::createScene()
