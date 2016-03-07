@@ -31,7 +31,7 @@ void Meteor::addEvents()
 
 void Meteor::initOptions()
 {
-    int xUp = rand() % (int) visibleSize.width + getHeigth();
+    int xUp = rand() % (int) visibleSize.width;
     Vec2 loc = Vec2((float) xUp, visibleSize.height);
     this->setPosition(loc);
 }

@@ -31,8 +31,8 @@ void MainScene::update(float delta)
 {
     if(meteors.size()<10){
         meteor = Meteor::create();
-        meteors.push_back(meteor);
         meteor->moveDown();
+        meteors.push_back(meteor);
         this->addChild(meteor, -1);
     }
     for(int i=0;i<meteors.size();i++){
