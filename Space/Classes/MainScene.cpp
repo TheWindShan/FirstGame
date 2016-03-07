@@ -29,17 +29,20 @@ bool MainScene::init()
 
 void MainScene::update(float delta)
 {
-    if(meteors.size()<10){
+    if(meteors.size()<6){
         meteor = Meteor::create();
-        meteor->moveDown();
         meteors.push_back(meteor);
         this->addChild(meteor, -1);
+        meteor->toMove();
     }
-    for(int i=0;i<meteors.size();i++){
+    for(unsigned int i=0;i<meteors.size();i++){
         Vec2 location = meteors[i]->getPosition();
         if(!box.containsPoint(location))
         {
-            meteors.erase(meteors.begin() + i);
+            if(meteors[i]->getAnimed()){            
+                meteors[i]->release();
+                meteors.erase(meteors.begin() + i);
+            }
         }
     }
 }

@@ -11,13 +11,17 @@ public:
     Meteor();
     static Meteor* create();
     virtual void update(float delta) override;
-    void moveDown();
+    void toMove();
     float getHeigth();
     void makeRotation();
+    void setAnimed(bool value);
+    bool getAnimed();
 private:
     void addEvents();
     void initOptions();
+    bool animed = false;
     cocos2d::Size visibleSize;
+    std::vector<std::string> resources;
 };
 
 #endif // __METEOR_H__
