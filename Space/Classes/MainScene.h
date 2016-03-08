@@ -13,13 +13,13 @@ public:
     static cocos2d::Scene* createScene();
     virtual bool init();
     virtual void update(float delta) override;
-    std::vector<Meteor*> meteors;
     cocos2d::Rect box;
     CREATE_FUNC(MainScene);
 
 
 private:
     Aircraft *sprite;
+    std::vector<Meteor*> meteors;
     Meteor *meteor;
     cocos2d::Size visibleSize;
     void onKeyPressed(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::Event* event);
