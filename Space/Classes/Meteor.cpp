@@ -13,12 +13,7 @@ Meteor* Meteor::create()
 {   
     Meteor* pSprite = new Meteor();
     std::vector<std::string> resources = {
-        "res/Meteors/meteorBrown_med1.png", 
-        "res/Meteors/meteorBrown_med3.png",
-        "res/Meteors/meteorBrown_tiny1.png",
-        "res/Meteors/meteorGrey_med1.png", 
-        "res/Meteors/meteorGrey_med2.png", 
-        "res/Meteors/meteorGrey_tiny1.png"
+        "res/meteorSmall.png", "res/meteorBig.png",
     };
     int raffle = rand() % resources.size();
     auto pinfo = AutoPolygon::generatePolygon(resources[raffle]);
@@ -60,14 +55,14 @@ void Meteor::makeDirection()
 
 void Meteor::initOptions()
 {
-    auto fromUp = [=] ()
+    auto fromUp = [this] ()
     {         
         int xRand = rand() % (int) visibleSize.width;
         Vec2 loc = Vec2((float) xRand, visibleSize.height + getHeigth());
         return loc;
     };
 
-    auto fromDown = [=] ()
+    auto fromDown = [this] ()
     {         
         int xRand = rand() % (int) visibleSize.width;
         int minHeigth = getHeigth();
@@ -119,4 +114,66 @@ void Meteor::setAnimed(bool value)
 bool Meteor::getAnimed()
 {
     return animed;
+}
+
+Direction::Direction(Meteor* meteor)
+{
+    this->meteor = meteor;
+}
+
+void Direction::make()
+{
+    auto fromRight = [this] ()
+    {         
+        int xRand = rand() % (int) xMax();
+        return Vec2((float) xRand, yMax());
+    };
+
+    auto toUp = [this] ()
+    {         
+        int xRand = rand() % (int) xMax();
+        return Vec2((float) xRand, yMax());
+    };
+
+    auto fromLeft = [this] ()
+    {         
+        int xRand = rand() % (int) xMax();
+        return Vec2((float) xRand, yMax());
+    };
+    
+    auto fromUp = [this] ()
+    {         
+        int xRand = rand() % (int) xMax();
+        return Vec2((float) xRand, yMax());
+    };
+
+    auto fromDown = [this] ()
+    {         
+        int xRand = rand() % (int) xMax();
+        return Vec2((float) xRand, yMax());
+    };
+}
+
+float Direction::xMax()
+{
+    float width = Director::getInstance()->getWinSize().width;
+    return width + meteor->getHeigth();
+}
+
+float Direction::xMin()
+{
+    float min =- meteor->getHeigth();
+    return min;
+}
+
+float Direction::yMax()
+{
+    float heigth = Director::getInstance()->getWinSize().height;
+    return heigth + meteor->getHeigth();
+}
+
+float Direction::yMin()
+{
+    float min =- meteor->getHeigth();
+    return min;
 }

@@ -4,10 +4,6 @@
 #include "cocos2d.h"
 #include <vector>
 
-struct product {
-  int weight;
-  double price;
-};
 
 class Meteor : public cocos2d::Sprite
 {
@@ -21,13 +17,31 @@ public:
     void setAnimed(bool value);
     bool getAnimed();
     void makeDirection();
+
 private:
     void addEvents();
     void initOptions();
     bool animed = false;
     cocos2d::Size visibleSize;
-    std::vector<cocos2d::Vec2> origin;
-    std::vector<cocos2d::Vec2> last;
+};
+
+
+class Direction
+{
+public:
+    Direction(Meteor* meteor);
+    void make();
+    float xMax();
+    float yMin();    
+    float xMin();
+    float yMax();
+
+private:
+    cocos2d::Vec2 origin;
+    cocos2d::Vec2 last;
+    std::vector<cocos2d::Vec2> origins;
+    std::vector<cocos2d::Vec2> lasts;
+    Meteor *meteor;
 };
 
 #endif // __METEOR_H__
