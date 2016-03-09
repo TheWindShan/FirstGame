@@ -125,32 +125,42 @@ void Direction::make()
 {
     auto fromRight = [this] ()
     {         
-        int xRand = rand() % (int) xMax();
-        return Vec2((float) xRand, yMax());
+        return Vec2(xMax(), yRand());
     };
 
-    auto toUp = [this] ()
+    auto toRight = [this] ()
     {         
-        int xRand = rand() % (int) xMax();
-        return Vec2((float) xRand, yMax());
+        return Vec2(xMax(), yRand());
     };
 
     auto fromLeft = [this] ()
     {         
-        int xRand = rand() % (int) xMax();
-        return Vec2((float) xRand, yMax());
+        return Vec2(xMin(), yRand());
+    };
+    
+    auto toLeft = [this] ()
+    {         
+        return Vec2(xMin(), yRand());
     };
     
     auto fromUp = [this] ()
     {         
-        int xRand = rand() % (int) xMax();
-        return Vec2((float) xRand, yMax());
+        return Vec2(xRand(), yMax());
+    };
+
+    auto toUp = [this] ()
+    {         
+        return Vec2(xRand(), yMax());
     };
 
     auto fromDown = [this] ()
     {         
-        int xRand = rand() % (int) xMax();
-        return Vec2((float) xRand, yMax());
+        return Vec2(xRand(), yMin());
+    };    
+
+    auto toDown = [this] ()
+    {         
+        return Vec2(xRand(), yMin());
     };
 }
 
@@ -176,4 +186,14 @@ float Direction::yMin()
 {
     float min =- meteor->getHeigth();
     return min;
+}
+
+float Direction::xRand()
+{
+    return (float) rand() % (int) xMax();
+}
+
+float Direction::yRand()
+{
+    return (float) rand() % (int) yMax();
 }

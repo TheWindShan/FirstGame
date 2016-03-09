@@ -3,6 +3,7 @@
 
 #include "cocos2d.h"
 #include <vector>
+#include <tuple>
 
 
 class Meteor : public cocos2d::Sprite
@@ -35,12 +36,14 @@ public:
     float yMin();    
     float xMin();
     float yMax();
+    float xRand();
+    float yRand();
+
 
 private:
     cocos2d::Vec2 origin;
     cocos2d::Vec2 last;
-    std::vector<cocos2d::Vec2> origins;
-    std::vector<cocos2d::Vec2> lasts;
+    std::tuple<cocos2d::Vec2, cocos2d::Vec2> locations;
     Meteor *meteor;
 };
 
