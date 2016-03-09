@@ -14,12 +14,13 @@ public:
     virtual void update(float delta) override;
     void toMove();
     float getHeigth();
-    void makeRotation();
     void setAnimed(bool value);
     bool getAnimed();
-    void makePositions();
 
 private:
+    void makeRotation();
+    void makePositions();
+    void makeResMeteors();
     void addEvents();
     void initOptions();
     bool animed = false;
@@ -29,7 +30,7 @@ private:
     float yMax();
     float xRand();
     float yRand();
-    std::string selectResource(void);
+    std::string selectResMeteors(void);
     cocos2d::Vec2 selectPosition(void);
     cocos2d::Vec2 right();
     cocos2d::Vec2 left();
@@ -37,6 +38,7 @@ private:
     cocos2d::Vec2 down();
     cocos2d::Size visibleSize;
     std::vector<cocos2d::Vec2> positions;
+    std::vector<std::string> resMeteors;
 };
 
 #endif // __METEOR_H__

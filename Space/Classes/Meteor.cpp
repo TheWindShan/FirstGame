@@ -12,7 +12,8 @@ Meteor::Meteor()
 Meteor* Meteor::create()
 {   
     Meteor* pSprite = new Meteor();
-    auto pinfo = AutoPolygon::generatePolygon(pSprite->selectResource());
+    pSprite->makeResMeteors();
+    auto pinfo = AutoPolygon::generatePolygon(pSprite->selectResMeteors());
     if (pSprite->initWithPolygon(pinfo))
     { 
         pSprite->makePositions();
@@ -80,6 +81,12 @@ void Meteor::makePositions()
     positions.push_back(left());
 }
 
+void Meteor::makeResMeteors()
+{
+    resMeteors.push_back("res/meteorSmall.png");
+    resMeteors.push_back("res/meteorBig.png");
+}
+
 float Meteor::xMax()
 {
     float width = Director::getInstance()->getWinSize().width;
@@ -134,13 +141,10 @@ Vec2 Meteor::down()
     return Vec2(xRand(), yMin());
 }
 
-std::string Meteor::selectResource(void)
+std::string Meteor::selectResMeteors(void)
 {  
-    std::vector<std::string> resources = {
-        "res/meteorSmall.png", "res/meteorBig.png",
-    };
-    int raffle = rand() % resources.size();
-    return resources[raffle];
+    int raffle = rand() % resMeteors.size();
+    return resMeteors[raffle];
 }
 
 Vec2 Meteor::selectPosition(void)
