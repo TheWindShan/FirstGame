@@ -12,13 +12,10 @@ Meteor::Meteor()
 Meteor* Meteor::create()
 {   
     Meteor* pSprite = new Meteor();
-    std::vector<std::string> resources = {
-        "res/meteorSmall.png", "res/meteorBig.png",
-    };
-    int raffle = rand() % resources.size();
-    auto pinfo = AutoPolygon::generatePolygon(resources[raffle]);
+    auto pinfo = AutoPolygon::generatePolygon(pSprite->selectResource());
     if (pSprite->initWithPolygon(pinfo))
     { 
+        pSprite->makePositions();
         pSprite->initOptions();
         pSprite->addEvents();
         return pSprite;
@@ -32,59 +29,18 @@ void Meteor::addEvents()
     scheduleUpdate();
 }
 
-void Meteor::makeDirection()
-{
-    // Vec2 fromUp = [=] ()
-    // {         
-    //     int xRand = rand() % (int) visibleSize.width;
-    //     Vec2 loc = Vec2((float) xRand, visibleSize.height + getHeigth());
-    //     return loc;
-    // };
-
-    // Vec2 fromDown = [=] ()
-    // {         
-    //     int xRand = rand() % (int) visibleSize.width;
-    //     int minHeigth = getHeigth();
-    //     minHeigth=-minHeigth;
-    //     Vec2 loc = Vec2((float) xRand, minHeigth);
-    //     return loc;
-    // };
-    // origin.push_back(fromUp());
-    // origin.push_back(fromDown());
-}
-
 void Meteor::initOptions()
 {
-    auto fromUp = [this] ()
-    {         
-        int xRand = rand() % (int) visibleSize.width;
-        Vec2 loc = Vec2((float) xRand, visibleSize.height + getHeigth());
-        return loc;
-    };
-
-    auto fromDown = [this] ()
-    {         
-        int xRand = rand() % (int) visibleSize.width;
-        int minHeigth = getHeigth();
-        minHeigth=-minHeigth;
-        Vec2 loc = Vec2((float) xRand, minHeigth);
-        return loc;
-    };
-    this->setPosition(fromUp());
+    setPosition(selectPosition());
 }
 
 void Meteor::toMove()
 {
-
-    int xDown = rand() % (int) visibleSize.width;
-    float heigth = getHeigth();
-    heigth = -heigth;
-    Vec2 dest = Vec2((float) xDown, heigth);
-    int t = rand() % 4;
-    auto delay = DelayTime::create(0.25f + (float) t);
-    auto toMove = MoveTo::create(5.0f, dest);
-    auto changeTag = CallFunc::create([=](){
-        this->setAnimed(true);
+    int timeDelay = rand() % 4;
+    auto delay = DelayTime::create(0.25f + (float) timeDelay);
+    auto toMove = MoveTo::create(5.0f, selectPosition());
+    auto changeTag = CallFunc::create([this](){
+        setAnimed(true);
     });
     auto seq = Sequence::create(delay, toMove, changeTag, nullptr);
     this->runAction(seq);
@@ -116,84 +72,82 @@ bool Meteor::getAnimed()
     return animed;
 }
 
-Direction::Direction(Meteor* meteor)
+void Meteor::makePositions()
 {
-    this->meteor = meteor;
+    positions.push_back(up());
+    positions.push_back(down());
+    positions.push_back(right());
+    positions.push_back(left());
 }
 
-void Direction::make()
-{
-    auto fromRight = [this] ()
-    {         
-        return Vec2(xMax(), yRand());
-    };
-
-    auto toRight = [this] ()
-    {         
-        return Vec2(xMax(), yRand());
-    };
-
-    auto fromLeft = [this] ()
-    {         
-        return Vec2(xMin(), yRand());
-    };
-    
-    auto toLeft = [this] ()
-    {         
-        return Vec2(xMin(), yRand());
-    };
-    
-    auto fromUp = [this] ()
-    {         
-        return Vec2(xRand(), yMax());
-    };
-
-    auto toUp = [this] ()
-    {         
-        return Vec2(xRand(), yMax());
-    };
-
-    auto fromDown = [this] ()
-    {         
-        return Vec2(xRand(), yMin());
-    };    
-
-    auto toDown = [this] ()
-    {         
-        return Vec2(xRand(), yMin());
-    };
-}
-
-float Direction::xMax()
+float Meteor::xMax()
 {
     float width = Director::getInstance()->getWinSize().width;
-    return width + meteor->getHeigth();
+    return width + getHeigth();
 }
 
-float Direction::xMin()
+float Meteor::xMin()
 {
-    float min =- meteor->getHeigth();
+    float min =- getHeigth();
     return min;
 }
 
-float Direction::yMax()
+float Meteor::yMax()
 {
     float heigth = Director::getInstance()->getWinSize().height;
-    return heigth + meteor->getHeigth();
+    return heigth + getHeigth();
 }
 
-float Direction::yMin()
+float Meteor::yMin()
 {
-    float min =- meteor->getHeigth();
+    float min =- getHeigth();
     return min;
 }
 
-float Direction::xRand()
+float Meteor::xRand()
 {
-    return (float) rand() % (int) xMax();
+    return (float) (rand() % (int) xMax());
 }
 
-float Direction::yRand()
+float Meteor::yRand()
 {
-    return (float) rand() % (int) yMax();
+    return (float) (rand() % (int) yMax());
 }
+
+Vec2 Meteor::right()
+{         
+    return Vec2(xMax(), yRand());
+}
+
+Vec2 Meteor::left()
+{         
+    return Vec2(xMin(), yRand());
+}
+
+Vec2 Meteor::up()
+{         
+    return Vec2(xRand(), yMax());
+}
+
+Vec2 Meteor::down()
+{         
+    return Vec2(xRand(), yMin());
+}
+
+std::string Meteor::selectResource(void)
+{  
+    std::vector<std::string> resources = {
+        "res/meteorSmall.png", "res/meteorBig.png",
+    };
+    int raffle = rand() % resources.size();
+    return resources[raffle];
+}
+
+Vec2 Meteor::selectPosition(void)
+{
+    int raffle = rand() % positions.size();
+    Vec2 selected = positions[raffle];
+    positions.erase(positions.begin() + raffle);
+    return positions[raffle];
+}
+

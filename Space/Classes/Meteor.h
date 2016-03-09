@@ -1,9 +1,9 @@
 #ifndef __METEOR_H__
 #define __METEOR_H__
 
-#include "cocos2d.h"
 #include <vector>
 #include <tuple>
+#include "cocos2d.h"
 
 
 class Meteor : public cocos2d::Sprite
@@ -17,34 +17,26 @@ public:
     void makeRotation();
     void setAnimed(bool value);
     bool getAnimed();
-    void makeDirection();
+    void makePositions();
 
 private:
     void addEvents();
     void initOptions();
     bool animed = false;
-    cocos2d::Size visibleSize;
-};
-
-
-class Direction
-{
-public:
-    Direction(Meteor* meteor);
-    void make();
     float xMax();
-    float yMin();    
+    float yMin();
     float xMin();
     float yMax();
     float xRand();
     float yRand();
-
-
-private:
-    cocos2d::Vec2 origin;
-    cocos2d::Vec2 last;
-    std::tuple<cocos2d::Vec2, cocos2d::Vec2> locations;
-    Meteor *meteor;
+    std::string selectResource(void);
+    cocos2d::Vec2 selectPosition(void);
+    cocos2d::Vec2 right();
+    cocos2d::Vec2 left();
+    cocos2d::Vec2 up();
+    cocos2d::Vec2 down();
+    cocos2d::Size visibleSize;
+    std::vector<cocos2d::Vec2> positions;
 };
 
 #endif // __METEOR_H__
