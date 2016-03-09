@@ -17,7 +17,7 @@ Meteor* Meteor::create()
     if (pSprite->initWithPolygon(pinfo))
     { 
         pSprite->makePositions();
-        pSprite->initOptions();ff
+        pSprite->initOptions();
         pSprite->addEvents();
         return pSprite;
     }
