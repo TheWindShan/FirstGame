@@ -29,7 +29,12 @@ bool MainScene::init()
 
 void MainScene::update(float delta)
 {
-    if(meteors.size()<6){
+    launchMeteors(7);
+}
+
+void MainScene::launchMeteors(int num)
+{
+    if(meteors.size()<num){
         meteor = Meteor::create();
         meteors.push_back(meteor);
         this->addChild(meteor, -1);
@@ -47,12 +52,3 @@ void MainScene::update(float delta)
     }
 }
 
-void MainScene::onKeyPressed(EventKeyboard::KeyCode keyCode, Event* event)
-{
-
-}
-
-void MainScene::onKeyReleased(EventKeyboard::KeyCode keyCode, Event* event)
-{
-
-}
