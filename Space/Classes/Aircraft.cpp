@@ -58,7 +58,7 @@ void Aircraft::update(float delta)
     {
         Vec2 location = i->getPosition();
         if(!getBox().containsPoint(location))
-        {
+        {      
             removeLaser(i);
         }
     }
@@ -140,6 +140,7 @@ void Aircraft::addLaser(Arm* item)
 void Aircraft::removeLaser(Arm* item)
 {
     lasers.erase(std::remove(lasers.begin(), lasers.end(), item), lasers.end());
+    item->release();
 }
 
 Rect Aircraft::getBox()
@@ -171,8 +172,13 @@ void Aircraft::onAcceleration(Acceleration *acc, Event *event)
 void Aircraft::shotCollision(std::vector<Meteor*> meteors)
 {
     for(auto laser: lasers){
+        auto location = laser->getPosition();
         for(auto meteor: meteors){
-            
+            auto box = meteor->getBoundingBox();
+            if(box.containsPoint(location)){
+                meteor->removeFromParent();
+                this->removeLaser(laser);
+            }
         }
     }
 }
