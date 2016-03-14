@@ -139,7 +139,7 @@ void Aircraft::addLaser(Arm* item)
 void Aircraft::removeLaser(Arm* item)
 {
     lasers.erase(std::remove(lasers.begin(), lasers.end(), item), lasers.end());
-    // item->release();
+    item->release();
 }
 
 Rect Aircraft::getBox()
