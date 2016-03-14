@@ -17,11 +17,11 @@ public:
     void shotLaser();
     void addLaser(Arm* item);
     void removeLaser(Arm* item);
+    bool findLaser(Arm* item);
     void shotCollision(std::vector<Meteor*> meteors);
     cocos2d::Rect getBox();
     Aircraft* pSprite;
     cocos2d::Size visibleSize;
-    
 private:
     std::vector<cocos2d::EventKeyboard::KeyCode> keys;
     std::vector<Arm*> lasers;

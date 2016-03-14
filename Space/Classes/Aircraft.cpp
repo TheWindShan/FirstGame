@@ -54,11 +54,11 @@ void Aircraft::update(float delta)
         }
     }
 
-    for(auto i: lasers)
+    for(auto laser: lasers)
     {
-        if(!getBox().containsPoint(i->getPosition()))
+        if(!getBox().containsPoint(laser->getPosition()))
         {
-            removeLaser(i);
+            removeLaser(laser);
         }
     }
 }
@@ -137,11 +137,22 @@ void Aircraft::addLaser(Arm* item)
 }
 
 void Aircraft::removeLaser(Arm* item)
-{
-    // item->release();
-    lasers.erase(std::remove(lasers.begin(), lasers.end(), item), lasers.end());
+{   
+   if(findLaser(item)){    
+        lasers.erase(std::remove(lasers.begin(), lasers.end(), item), lasers.end());
+        item->release();
+   }
 }
 
+bool Aircraft::findLaser(Arm* item)
+{
+    if ( std::find(lasers.begin(), lasers.end(), item) != lasers.end() ){
+        return true;
+    }else{
+       return false;
+    }
+}
+ 
 Rect Aircraft::getBox()
 {
     return Director::getInstance()->getRunningScene()->getBoundingBox();
@@ -170,13 +181,13 @@ void Aircraft::onAcceleration(Acceleration *acc, Event *event)
 
 void Aircraft::shotCollision(std::vector<Meteor*> meteors)
 {
-    for(auto l: lasers){
-        auto location = l->getPosition();
-        for(auto m: meteors){
-            auto box = m->getBoundingBox();
+    for(auto laser: lasers){
+        auto location = laser->getPosition();
+        for(auto meteor: meteors){
+            auto box = meteor->getBoundingBox();
             if(box.containsPoint(location)){
                 // meteor->removeFromParent();
-                this->removeLaser(l);
+                // this->removeLaser(laser);    
             }
         }
     }

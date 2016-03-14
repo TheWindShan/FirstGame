@@ -16,11 +16,13 @@ public:
     CREATE_FUNC(MainScene);
 private:
     cocos2d::Rect box;
-    Aircraft * sprite;
-    Meteor * meteor;
+    Aircraft* sprite;
+    Meteor* meteor;
     std::vector<Meteor*> meteors;
     cocos2d::Size visibleSize;
-    void launchMeteors(int num);
+    void launchMeteors(unsigned int num);
+    void removeMeteor(Meteor* meteor);
+    bool findMeteor(Meteor* meteor);
+    void addMeteor(Meteor* meteor);
 };
-
 #endif // __MAIN_SCENE_H__

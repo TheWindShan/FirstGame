@@ -16,7 +16,6 @@ public:
     float getHeigth();
     void setAnimed(bool value);
     bool getAnimed();
-
 private:
     void makeRotation();
     void makePositions();

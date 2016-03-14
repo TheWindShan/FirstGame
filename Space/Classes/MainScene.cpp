@@ -29,29 +29,47 @@ bool MainScene::init()
 
 void MainScene::update(float delta)
 {
-    launchMeteors(7);
+    launchMeteors(70);
     sprite->shotCollision(meteors);
 }
 
-void MainScene::launchMeteors(int num)
+void MainScene::launchMeteors(unsigned int num)
 {
     if(meteors.size()<num){
         meteor = Meteor::create();
-        meteors.push_back(meteor);
-        this->addChild(meteor, -1);
+        addMeteor(meteor);
         meteor->toMove();
     }
     for(auto meteor: meteors){
-        Vec2 location = meteor->getPosition();
-        if(!box.containsPoint(location))
+        if(!box.containsPoint(meteor->getPosition()))
         {
             if(meteor->getAnimed()){            
-                meteor->release();
-                meteors.erase(
-                    std::remove(meteors.begin(), meteors.end(), meteor), meteors.end()
-                );
+                removeMeteor(meteor);
             }
         }
     }
 }
 
+void MainScene::addMeteor(Meteor* meteor)
+{
+    meteors.push_back(meteor);
+    this->addChild(meteor, -1);
+}
+
+
+void MainScene::removeMeteor(Meteor* meteor)
+{
+    if(findMeteor(meteor)){    
+        meteors.erase(std::remove(meteors.begin(), meteors.end(), meteor), meteors.end());
+        meteor->release();
+   }
+}
+
+bool MainScene::findMeteor(Meteor* meteor)
+{
+    if ( std::find(meteors.begin(), meteors.end(), meteor) != meteors.end() ){
+        return true;
+    }else{
+       return false;
+    }
+}

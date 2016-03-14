@@ -126,7 +126,7 @@ set(GAME_SRC
   Classes/AppDelegate.cpp
   Classes/MainScene.cpp
   Classes/Aircraft.cpp
-  Classes/Laser.cpp
+  Classes/Arm.cpp
   Classes/Meteor.cpp
   ${PLATFORM_SPECIFIC_SRC}
 )
@@ -135,7 +135,7 @@ set(GAME_HEADERS
   Classes/AppDelegate.h
   Classes/MainScene.h
   Classes/Aircraft.h
-  Classes/Laser.h
+  Classes/Arm.h
   Classes/Meteor.h
   ${PLATFORM_SPECIFIC_HEADERS}
 )
