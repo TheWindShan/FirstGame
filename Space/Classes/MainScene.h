@@ -17,7 +17,6 @@ public:
 private:
     cocos2d::Rect box;
     Aircraft* sprite;
-    Meteor* meteor;
     std::vector<Meteor*> meteors;
     cocos2d::Size visibleSize;
     void launchMeteors(unsigned int num);

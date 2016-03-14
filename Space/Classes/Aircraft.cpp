@@ -9,7 +9,6 @@ USING_NS_CC;
 Aircraft::Aircraft()
 {
     visibleSize = Director::getInstance()->getWinSize();
-    Device::setAccelerometerEnabled(true);
 }
 
 Aircraft* Aircraft::create()
@@ -131,22 +130,23 @@ void Aircraft::shotLaser()
     laser->shotLaser();
 }
 
-void Aircraft::addLaser(Arm* item)
+void Aircraft::addLaser(Arm* laser)
 {
-    lasers.push_back(item);
+    lasers.push_back(laser);
 }
 
-void Aircraft::removeLaser(Arm* item)
+void Aircraft::removeLaser(Arm* laser)
 {   
-   if(findLaser(item)){    
-        lasers.erase(std::remove(lasers.begin(), lasers.end(), item), lasers.end());
-        item->release();
+   if(findLaser(laser)){    
+        lasers.erase(std::remove(lasers.begin(), lasers.end(), laser), lasers.end());
+        laser->removeFromParent();
+        laser->release();
    }
 }
 
-bool Aircraft::findLaser(Arm* item)
+bool Aircraft::findLaser(Arm* laser)
 {
-    if ( std::find(lasers.begin(), lasers.end(), item) != lasers.end() ){
+    if ( std::find(lasers.begin(), lasers.end(), laser) != lasers.end() ){
         return true;
     }else{
        return false;
@@ -179,17 +179,16 @@ void Aircraft::onAcceleration(Acceleration *acc, Event *event)
     }
 }
 
-void Aircraft::shotCollision(std::vector<Meteor*> meteors)
+Meteor* Aircraft::shotCollision(std::vector<Meteor*> meteors)
 {
-    for(auto laser: lasers){
-        auto location = laser->getPosition();
-        for(auto meteor: meteors){
-            auto box = meteor->getBoundingBox();
-            if(box.containsPoint(location)){
-                // meteor->removeFromParent();
-                // this->removeLaser(laser);    
+    for(Arm* laser: lasers){
+        for(Meteor* meteor: meteors){
+            Rect box = meteor->getBoundingBox();
+            if(box.containsPoint(laser->getPosition())){
+                return meteor;
             }
         }
     }
+    return nullptr;
 }
 

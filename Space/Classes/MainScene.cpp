@@ -20,6 +20,7 @@ bool MainScene::init()
     visibleSize = Director::getInstance()->getWinSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
     Device::setKeepScreenOn(true);
+    Device::setAccelerometerEnabled(true);
     box = this->getBoundingBox();
     sprite = Aircraft::create();
     this->addChild(sprite, 0);
@@ -29,18 +30,21 @@ bool MainScene::init()
 
 void MainScene::update(float delta)
 {
-    launchMeteors(70);
-    sprite->shotCollision(meteors);
+    launchMeteors(7);
+    Meteor* meteor = sprite->shotCollision(meteors);
+    if(meteor){
+        removeMeteor(meteor);
+    }
 }
 
 void MainScene::launchMeteors(unsigned int num)
 {
     if(meteors.size()<num){
-        meteor = Meteor::create();
+        Meteor* meteor = Meteor::create();
         addMeteor(meteor);
         meteor->toMove();
     }
-    for(auto meteor: meteors){
+    for(Meteor* meteor: meteors){
         if(!box.containsPoint(meteor->getPosition()))
         {
             if(meteor->getAnimed()){            
@@ -61,6 +65,7 @@ void MainScene::removeMeteor(Meteor* meteor)
 {
     if(findMeteor(meteor)){    
         meteors.erase(std::remove(meteors.begin(), meteors.end(), meteor), meteors.end());
+        meteor->removeFromParent();
         meteor->release();
    }
 }

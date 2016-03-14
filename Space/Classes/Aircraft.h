@@ -15,10 +15,10 @@ public:
     virtual void update(float delta) override;
     void move();
     void shotLaser();
-    void addLaser(Arm* item);
-    void removeLaser(Arm* item);
-    bool findLaser(Arm* item);
-    void shotCollision(std::vector<Meteor*> meteors);
+    void addLaser(Arm* laser);
+    void removeLaser(Arm* laser);
+    bool findLaser(Arm* laser);
+    Meteor* shotCollision(std::vector<Meteor*> meteors);
     cocos2d::Rect getBox();
     Aircraft* pSprite;
     cocos2d::Size visibleSize;

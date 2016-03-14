@@ -2,7 +2,6 @@
 #define __METEOR_H__
 
 #include <vector>
-#include <tuple>
 #include "cocos2d.h"
 
 

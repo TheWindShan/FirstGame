@@ -154,4 +154,3 @@ Vec2 Meteor::selectPosition(void)
     positions.erase(positions.begin() + raffle);
     return positions[raffle];
 }
-
