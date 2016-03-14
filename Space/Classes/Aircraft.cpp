@@ -100,9 +100,9 @@ void Aircraft::move()
     Vec2 nodeLocation = this->getPosition();
     float nodeAngle = fmod(this->getRotation(), 360);
     float nodeAngleRadius = nodeAngle * (M_PI/180);
-    float yOff = 2;
+    float yOff = 1;
     if((nodeAngle>90 && nodeAngle<180) || (nodeAngle<-90 && nodeAngle>-270)){
-        yOff = -2;
+        yOff = -1;
     }
     float deltax = yOff * tan(nodeAngleRadius);
     float deltay = yOff;
@@ -112,10 +112,10 @@ void Aircraft::move()
         dx = nodeLocation.x - deltax;
         dy = nodeLocation.y - deltay;
     }else if(nodeAngle==90 || nodeAngle==-270){
-        dx = nodeLocation.x + 2;
+        dx = nodeLocation.x + 1;
         dy = nodeLocation.y;
     }else if(nodeAngle==-90 || nodeAngle==270){
-        dx = nodeLocation.x - 2;
+        dx = nodeLocation.x - 1;
         dy = nodeLocation.y;
     }
     Vec2 destination = Vec2(dx, dy);
@@ -168,13 +168,13 @@ void Aircraft::onAcceleration(Acceleration *acc, Event *event)
         if(acc->z <-0.2f){
             this->move();
         }
-        if(acc->z > 0.08f){
+        else if(acc->z > 0.08f){
             this->shotLaser();
         }
         if(acc->x <-0.08f){
-            this->setRotation(angle-2.5f);
+            this->setRotation(angle-3.5f);
         }else if(acc->x > 0.08f){
-            this->setRotation(angle+2.5f);
+            this->setRotation(angle+3.5f);
         }
     }
 }
@@ -185,6 +185,7 @@ Meteor* Aircraft::shotCollision(std::vector<Meteor*> meteors)
         for(Meteor* meteor: meteors){
             Rect box = meteor->getBoundingBox();
             if(box.containsPoint(laser->getPosition())){
+                removeLaser(laser);
                 return meteor;
             }
         }

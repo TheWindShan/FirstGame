@@ -21,6 +21,7 @@ bool MainScene::init()
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
     Device::setKeepScreenOn(true);
     Device::setAccelerometerEnabled(true);
+    Device::setAccelerometerInterval(1.0 / 60);
     box = this->getBoundingBox();
     sprite = Aircraft::create();
     this->addChild(sprite, 0);
