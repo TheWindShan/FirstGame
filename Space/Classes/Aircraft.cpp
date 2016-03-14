@@ -125,7 +125,7 @@ void Aircraft::move()
 
 void Aircraft::shotLaser()
 {   
-    laser = Arm::create();
+    Arm* laser = Arm::create();
     laser->addToAircraft(this);
     laser->shotLaser();
 }
