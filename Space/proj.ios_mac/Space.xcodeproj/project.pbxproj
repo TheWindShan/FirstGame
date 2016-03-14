@@ -52,14 +52,14 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		9224B92D1C94F19500752A3E /* Arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9224B92B1C94F19500752A3E /* Arm.cpp */; };
+		9224B92E1C94F19B00752A3E /* Arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9224B92B1C94F19500752A3E /* Arm.cpp */; };
 		9248C38F1C8904FE00AFDEF6 /* KeyBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9248C3891C8904FE00AFDEF6 /* KeyBoard.cpp */; };
-		9248C3901C8904FE00AFDEF6 /* Laser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9248C38B1C8904FE00AFDEF6 /* Laser.cpp */; };
 		9248C3911C8904FE00AFDEF6 /* Meteor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9248C38D1C8904FE00AFDEF6 /* Meteor.cpp */; };
 		926F14261C81CA2600B53F62 /* Aircraft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926F14221C81CA2600B53F62 /* Aircraft.cpp */; };
 		926F14271C81CA2600B53F62 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926F14241C81CA2600B53F62 /* MainScene.cpp */; };
 		926F14281C81CA3B00B53F62 /* Aircraft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926F14221C81CA2600B53F62 /* Aircraft.cpp */; };
 		926F14291C81CA4000B53F62 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926F14241C81CA2600B53F62 /* MainScene.cpp */; };
-		929DA6141C8907420066357B /* Laser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9248C38B1C8904FE00AFDEF6 /* Laser.cpp */; };
 		929DA6151C89074C0066357B /* KeyBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9248C3891C8904FE00AFDEF6 /* KeyBoard.cpp */; };
 		929DA6161C89075F0066357B /* Meteor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9248C38D1C8904FE00AFDEF6 /* Meteor.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
@@ -151,10 +151,10 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9224B92B1C94F19500752A3E /* Arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arm.cpp; sourceTree = "<group>"; };
+		9224B92C1C94F19500752A3E /* Arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arm.h; sourceTree = "<group>"; };
 		9248C3891C8904FE00AFDEF6 /* KeyBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeyBoard.cpp; sourceTree = "<group>"; };
 		9248C38A1C8904FE00AFDEF6 /* KeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoard.h; sourceTree = "<group>"; };
-		9248C38B1C8904FE00AFDEF6 /* Laser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Laser.cpp; sourceTree = "<group>"; };
-		9248C38C1C8904FE00AFDEF6 /* Laser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Laser.h; sourceTree = "<group>"; };
 		9248C38D1C8904FE00AFDEF6 /* Meteor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Meteor.cpp; sourceTree = "<group>"; };
 		9248C38E1C8904FE00AFDEF6 /* Meteor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meteor.h; sourceTree = "<group>"; };
 		926F14221C81CA2600B53F62 /* Aircraft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Aircraft.cpp; sourceTree = "<group>"; };
@@ -301,10 +301,10 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9224B92B1C94F19500752A3E /* Arm.cpp */,
+				9224B92C1C94F19500752A3E /* Arm.h */,
 				9248C3891C8904FE00AFDEF6 /* KeyBoard.cpp */,
 				9248C38A1C8904FE00AFDEF6 /* KeyBoard.h */,
-				9248C38B1C8904FE00AFDEF6 /* Laser.cpp */,
-				9248C38C1C8904FE00AFDEF6 /* Laser.h */,
 				9248C38D1C8904FE00AFDEF6 /* Meteor.cpp */,
 				9248C38E1C8904FE00AFDEF6 /* Meteor.h */,
 				926F14221C81CA2600B53F62 /* Aircraft.cpp */,
@@ -501,13 +501,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
-				9248C3901C8904FE00AFDEF6 /* Laser.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				9248C3911C8904FE00AFDEF6 /* Meteor.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				926F14261C81CA2600B53F62 /* Aircraft.cpp in Sources */,
 				9248C38F1C8904FE00AFDEF6 /* KeyBoard.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				9224B92D1C94F19500752A3E /* Arm.cpp in Sources */,
 				926F14271C81CA2600B53F62 /* MainScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,13 +516,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9224B92E1C94F19B00752A3E /* Arm.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				926F14291C81CA4000B53F62 /* MainScene.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				929DA6161C89075F0066357B /* Meteor.cpp in Sources */,
 				926F14281C81CA3B00B53F62 /* Aircraft.cpp in Sources */,
 				929DA6151C89074C0066357B /* KeyBoard.cpp in Sources */,
-				929DA6141C8907420066357B /* Laser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

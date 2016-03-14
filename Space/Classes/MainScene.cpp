@@ -30,6 +30,7 @@ bool MainScene::init()
 void MainScene::update(float delta)
 {
     launchMeteors(7);
+    sprite->shotCollision(meteors);
 }
 
 void MainScene::launchMeteors(int num)
@@ -40,13 +41,15 @@ void MainScene::launchMeteors(int num)
         this->addChild(meteor, -1);
         meteor->toMove();
     }
-    for(unsigned int i=0;i<meteors.size();i++){
-        Vec2 location = meteors[i]->getPosition();
+    for(auto meteor: meteors){
+        Vec2 location = meteor->getPosition();
         if(!box.containsPoint(location))
         {
-            if(meteors[i]->getAnimed()){            
-                meteors[i]->release();
-                meteors.erase(meteors.begin() + i);
+            if(meteor->getAnimed()){            
+                meteor->release();
+                meteors.erase(
+                    std::remove(meteors.begin(), meteors.end(), meteor), meteors.end()
+                );
             }
         }
     }

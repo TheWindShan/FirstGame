@@ -14,8 +14,6 @@ public:
     virtual bool init();
     virtual void update(float delta) override;
     CREATE_FUNC(MainScene);
-
-
 private:
     cocos2d::Rect box;
     Aircraft * sprite;

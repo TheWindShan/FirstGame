@@ -54,7 +54,7 @@ void Meteor::update(float delta)
 
 float Meteor::getHeigth()
 {
-    return this->getBoundingBox().size.height;
+    return this->getTextureRect().size.height;
 }
 
 void Meteor::makeRotation()

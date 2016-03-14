@@ -1,5 +1,8 @@
 #include "Aircraft.h"
+#include "Arm.h"
+#include "Meteor.h"
 #include <algorithm>
+#include <vector>
 
 USING_NS_CC;
 
@@ -43,11 +46,20 @@ void Aircraft::update(float delta)
 
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_DOWN_ARROW)){
         if(isKeyPressed(EventKeyboard::KeyCode::KEY_LEFT_ARROW)){
-            this->setRotation(angle-2.5f);
+            this->setRotation(angle-3.5f);
 
         }
         if(isKeyPressed(EventKeyboard::KeyCode::KEY_RIGHT_ARROW)){
-            this->setRotation(angle+2.5f);
+            this->setRotation(angle+3.5f);
+        }
+    }
+
+    for(auto i : lasers)
+    {
+        Vec2 location = i->getPosition();
+        if(!getBox().containsPoint(location))
+        {
+            removeLaser(i);
         }
     }
 }
@@ -90,9 +102,9 @@ void Aircraft::move()
     Vec2 nodeLocation = this->getPosition();
     float nodeAngle = fmod(this->getRotation(), 360);
     float nodeAngleRadius = nodeAngle * (M_PI/180);
-    float yOff = 1;
+    float yOff = 2;
     if((nodeAngle>90 && nodeAngle<180) || (nodeAngle<-90 && nodeAngle>-270)){
-        yOff = -1;
+        yOff = -2;
     }
     float deltax = yOff * tan(nodeAngleRadius);
     float deltay = yOff;
@@ -102,10 +114,10 @@ void Aircraft::move()
         dx = nodeLocation.x - deltax;
         dy = nodeLocation.y - deltay;
     }else if(nodeAngle==90 || nodeAngle==-270){
-        dx = nodeLocation.x + 1;
+        dx = nodeLocation.x + 2;
         dy = nodeLocation.y;
     }else if(nodeAngle==-90 || nodeAngle==270){
-        dx = nodeLocation.x - 1;
+        dx = nodeLocation.x - 2;
         dy = nodeLocation.y;
     }
     Vec2 destination = Vec2(dx, dy);
@@ -114,39 +126,28 @@ void Aircraft::move()
 }
 
 void Aircraft::shotLaser()
-{
-    Laser* laser;
-    // this->setRotation(-270);
-    laser = Laser::create();
-    Vec2 location = this->getPosition();
-    float angle = fmod(this->getRotation(), 360);
-    float angleRadius = angle * (M_PI/180);
-    float yOff = visibleSize.height - location.y;
-    float deltax = yOff * tan(angleRadius);
-    float dx = location.x + deltax;
-    float dy = visibleSize.height + laser->getHeigth();
-    if((angle > 90 && angle < 270) || (angle < -90 && angle > -270)){
-        yOff = location.y;
-        deltax = yOff * tan((2*M_PI)-(angleRadius));
-        dx = location.x + deltax;
-        dy = -1*( laser->getHeigth());
-    }else if(angle == 90 || angle == -270  ){
-        dx = visibleSize.width + laser->getHeigth();
-        dy = location.y;
-    }else if(angle == -90 || angle == +270){
-        dx = -visibleSize.width;
-        dy = location.y;
-    }
-    Vec2 destination = Vec2(dx, dy);
-    auto actionLaser = MoveTo::create(0.5f, destination);
-    // auto delay = DelayTime::create(1.0f);
-    laser->setPosition(location);
-    laser->setRotation(angle);
-    laser->runAction(actionLaser);
-    this->getParent()->addChild(laser, -1);
+{   
+    laser = Arm::create();
+    laser->addToAircraft(this);
+    laser->shotLaser();
 }
 
-void Aircraft::onAcceleration(Acceleration *acc, cocos2d::Event *event)
+void Aircraft::addLaser(Arm* item)
+{
+    lasers.push_back(item);
+}
+
+void Aircraft::removeLaser(Arm* item)
+{
+    lasers.erase(std::remove(lasers.begin(), lasers.end(), item), lasers.end());
+}
+
+Rect Aircraft::getBox()
+{
+    return Director::getInstance()->getRunningScene()->getBoundingBox();
+}
+
+void Aircraft::onAcceleration(Acceleration *acc, Event *event)
 {
     // log("X: %f", acc->x);
     // log("Y: %f", acc->y);
@@ -166,3 +167,13 @@ void Aircraft::onAcceleration(Acceleration *acc, cocos2d::Event *event)
         }
     }
 }
+
+void Aircraft::shotCollision(std::vector<Meteor*> meteors)
+{
+    for(auto laser: lasers){
+        for(auto meteor: meteors){
+            
+        }
+    }
+}
+
