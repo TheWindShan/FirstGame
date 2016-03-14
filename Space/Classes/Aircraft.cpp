@@ -43,14 +43,15 @@ void Aircraft::update(float delta)
         this->move();
     }
 
-    if(isKeyPressed(EventKeyboard::KeyCode::KEY_DOWN_ARROW)){
-        if(isKeyPressed(EventKeyboard::KeyCode::KEY_LEFT_ARROW)){
-            this->setRotation(angle-3.5f);
+    if(isKeyPressed(EventKeyboard::KeyCode::KEY_LEFT_ARROW)){
+        this->setRotation(angle-3.5f);
 
-        }
-        if(isKeyPressed(EventKeyboard::KeyCode::KEY_RIGHT_ARROW)){
-            this->setRotation(angle+3.5f);
-        }
+    }
+    if(isKeyPressed(EventKeyboard::KeyCode::KEY_RIGHT_ARROW)){
+        this->setRotation(angle+3.5f);
+    }
+    
+    if(isKeyPressed(EventKeyboard::KeyCode::KEY_DOWN_ARROW)){
     }
 
     for(auto laser: lasers)
