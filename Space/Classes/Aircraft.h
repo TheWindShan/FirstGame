@@ -25,7 +25,6 @@ public:
 private:
     std::vector<cocos2d::EventKeyboard::KeyCode> keys;
     std::vector<Arm*> lasers;
-    Arm *laser;
     void initOptions();
     void addEvents();
     void onKeyPressed(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::Event* event);
