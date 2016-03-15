@@ -39,7 +39,7 @@ void Meteor::toMove()
 {
     int timeDelay = rand() % 4;
     auto delay = DelayTime::create(0.25f + (float) timeDelay);
-    auto toMove = MoveTo::create(6.0f + (float) timeDelay, selectPosition());
+    auto toMove = MoveTo::create(5.0f + (float) timeDelay, selectPosition());
     auto changeTag = CallFunc::create([this](){
         setAnimed(true);
     });

@@ -14,6 +14,7 @@ public:
     float getHeigth();
     void addToAircraft(Aircraft *aircraft);
     void shotLaser();
+    void burstLaser();
 private:
     void addEvents();
     Aircraft *aircraft;

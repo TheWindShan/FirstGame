@@ -11,7 +11,7 @@ Arm::Arm()
 Arm* Arm::create()
 {
     Arm* pSprite = new Arm();
-    if (pSprite->initWithFile("res/laserGreen.png"))
+    if (pSprite->initWithFile("res/Lasers/laserGreen11.png"))
     {
         return pSprite;
     }
@@ -66,4 +66,9 @@ void Arm::shotLaser()
 void Arm::addToAircraft(Aircraft *aircraft)
 {
     this->aircraft = aircraft;
+}
+
+void Arm::burstLaser()
+{
+    this->setTexture("res/Lasers/laserGreen14.png");
 }

@@ -50,7 +50,7 @@ void Aircraft::update(float delta)
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_RIGHT_ARROW)){
         this->setRotation(angle+3.5f);
     }
-    
+
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_DOWN_ARROW)){
     }
 
@@ -126,9 +126,11 @@ void Aircraft::move()
 
 void Aircraft::shotLaser()
 {   
-    Arm* laser = Arm::create();
-    laser->addToAircraft(this);
-    laser->shotLaser();
+    if(lasers.size()<=2){    
+        Arm* laser = Arm::create();
+        laser->addToAircraft(this);
+        laser->shotLaser();
+    }
 }
 
 void Aircraft::addLaser(Arm* laser)
@@ -186,7 +188,14 @@ Meteor* Aircraft::shotCollision(std::vector<Meteor*> meteors)
         for(Meteor* meteor: meteors){
             Rect box = meteor->getBoundingBox();
             if(box.containsPoint(laser->getPosition())){
-                removeLaser(laser);
+                laser->burstLaser();
+                // laser->stopAllActions();
+                auto delay = DelayTime::create(0.01f);
+                auto remove = CallFunc::create([=](){
+                    removeLaser(laser);
+                });
+                auto seq = Sequence::create(delay, remove, nullptr);
+                this->runAction(seq);
                 return meteor;
             }
         }
