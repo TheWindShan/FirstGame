@@ -30,6 +30,7 @@ void Aircraft::addEvents()
     auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
         PhysicsMaterial(0.5f, 0.2f, 0.0f)
     );
+    physicsBody->setContactTestBitmask(true);
     physicsBody->setDynamic(true);
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();

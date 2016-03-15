@@ -30,6 +30,7 @@ void Meteor::addEvents()
     auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
         PhysicsMaterial(1.0f, 0.1f, 0)
     );
+    physicsBody->setContactTestBitmask(true);
     physicsBody->setDynamic(true);
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();
@@ -99,6 +100,7 @@ void Meteor::makeResMeteors()
     resMeteors.push_back("res/Meteors/meteorGrey_med2.png");
     resMeteors.push_back("res/Meteors/meteorGrey_small2.png");
     resMeteors.push_back("res/Meteors/meteorBrown_big1.png");
+    resMeteors.push_back("res/Meteors/meteorGrey_big3.png");
 }
 
 float Meteor::xMax()
@@ -171,6 +173,5 @@ Vec2 Meteor::selectPosition(void)
 
 bool Meteor::onContactBegin(PhysicsContact& contact)
 {
-    log("COLID");
     return true;
 }
