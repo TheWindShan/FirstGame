@@ -5,8 +5,9 @@ USING_NS_CC;
 
 Scene* MainScene::createScene()
 {
-    auto scene = Scene::create();
+    auto scene = Scene::createWithPhysics();
     auto layer = MainScene::create();
+    layer->setPhysicsWorld(scene->getPhysicsWorld());
     scene->addChild(layer);
     return scene;
 }
@@ -22,9 +23,9 @@ bool MainScene::init()
     Device::setKeepScreenOn(true);
     Device::setAccelerometerEnabled(true);
     Device::setAccelerometerInterval(1.0 / 60);
-    box = this->getBoundingBox();
     sprite = Aircraft::create();
-    this->addChild(sprite, 0);
+    addChild(sprite, 0);
+    box = this->getBoundingBox();
     this->scheduleUpdate();
     return true;
 }
@@ -60,7 +61,6 @@ void MainScene::addMeteor(Meteor* meteor)
     meteors.push_back(meteor);
     this->addChild(meteor, -1);
 }
-
 
 void MainScene::removeMeteor(Meteor* meteor)
 {

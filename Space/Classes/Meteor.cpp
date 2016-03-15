@@ -26,7 +26,15 @@ Meteor* Meteor::create()
 }
 
 void Meteor::addEvents()
-{
+{   
+    auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
+        PhysicsMaterial(1.0f, 0.1f, 0)
+    );
+    physicsBody->setDynamic(true);
+    this->addComponent(physicsBody);
+    auto contactListener = EventListenerPhysicsContact::create();
+    contactListener->onContactBegin = CC_CALLBACK_1(Meteor::onContactBegin, this);
+    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(contactListener, this);
     scheduleUpdate();
 }
 
@@ -83,8 +91,14 @@ void Meteor::makePositions()
 
 void Meteor::makeResMeteors()
 {
-    resMeteors.push_back("res/meteorSmall.png");
-    resMeteors.push_back("res/meteorBig.png");
+    resMeteors.push_back("res/Meteors/meteorBrown_med1.png");
+    resMeteors.push_back("res/Meteors/meteorBrown_med3.png");
+    resMeteors.push_back("res/Meteors/meteorBrown_small1.png");
+    resMeteors.push_back("res/Meteors/meteorBrown_small2.png");
+    resMeteors.push_back("res/Meteors/meteorBrown_big4.png");
+    resMeteors.push_back("res/Meteors/meteorGrey_med2.png");
+    resMeteors.push_back("res/Meteors/meteorGrey_small2.png");
+    resMeteors.push_back("res/Meteors/meteorBrown_big1.png");
 }
 
 float Meteor::xMax()
@@ -153,4 +167,10 @@ Vec2 Meteor::selectPosition(void)
     Vec2 selected = positions[raffle];
     positions.erase(positions.begin() + raffle);
     return positions[raffle];
+}
+
+bool Meteor::onContactBegin(PhysicsContact& contact)
+{
+    log("COLID");
+    return true;
 }

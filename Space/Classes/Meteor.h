@@ -15,6 +15,7 @@ public:
     float getHeigth();
     void setAnimed(bool value);
     bool getAnimed();
+    bool onContactBegin(cocos2d::PhysicsContact& contact);
 private:
     void makeRotation();
     void makePositions();
@@ -38,5 +39,4 @@ private:
     std::vector<cocos2d::Vec2> positions;
     std::vector<std::string> resMeteors;
 };
-
 #endif // __METEOR_H__

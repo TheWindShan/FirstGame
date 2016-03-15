@@ -18,6 +18,7 @@ public:
     void addLaser(Arm* laser);
     void removeLaser(Arm* laser);
     bool findLaser(Arm* laser);
+    bool onContactBegin(cocos2d::PhysicsContact& contact);
     Meteor* shotCollision(std::vector<Meteor*> meteors);
     cocos2d::Rect getBox();
     Aircraft* pSprite;
@@ -32,5 +33,4 @@ private:
     bool isKeyPressed(cocos2d::EventKeyboard::KeyCode KeyCode);
     void onAcceleration(cocos2d::Acceleration *acc, cocos2d::Event *event);
 };
-
 #endif // __AIRCRAFT_H__

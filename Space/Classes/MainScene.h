@@ -11,8 +11,13 @@ class MainScene : public cocos2d::Layer
 {
 public:
     static cocos2d::Scene* createScene();
+    void setPhysicsWorld(cocos2d::PhysicsWorld* world) {
+        World = world;
+        World->setGravity(cocos2d::Vect(0, 0));
+    }
     virtual bool init();
     virtual void update(float delta) override;
+    cocos2d::PhysicsWorld* World;
     CREATE_FUNC(MainScene);
 private:
     cocos2d::Rect box;
@@ -23,5 +28,6 @@ private:
     void removeMeteor(Meteor* meteor);
     bool findMeteor(Meteor* meteor);
     void addMeteor(Meteor* meteor);
+
 };
 #endif // __MAIN_SCENE_H__

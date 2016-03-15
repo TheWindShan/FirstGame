@@ -1,8 +1,8 @@
+#include <algorithm>
+#include <vector>
 #include "Aircraft.h"
 #include "Arm.h"
 #include "Meteor.h"
-#include <algorithm>
-#include <vector>
 
 USING_NS_CC;
 
@@ -27,12 +27,21 @@ Aircraft* Aircraft::create()
 
 void Aircraft::addEvents()
 {
+    auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
+        PhysicsMaterial(0.5f, 0.2f, 0.0f)
+    );
+    physicsBody->setDynamic(true);
+    this->addComponent(physicsBody);
+    auto contactListener = EventListenerPhysicsContact::create();
+    contactListener->onContactBegin = CC_CALLBACK_1(Aircraft::onContactBegin, this);
+
     auto keylistener = EventListenerKeyboard::create();
     keylistener->onKeyPressed = CC_CALLBACK_2(Aircraft::onKeyPressed, this);
     keylistener->onKeyReleased = CC_CALLBACK_2(Aircraft::onKeyReleased, this);
     auto aclistener = EventListenerAcceleration::create(CC_CALLBACK_2(Aircraft::onAcceleration, this));
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(keylistener, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(aclistener, this);
+    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(keylistener, this);
+    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(contactListener, this);
+    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(aclistener, this);
     this->scheduleUpdate();
 }
 
@@ -189,12 +198,11 @@ Meteor* Aircraft::shotCollision(std::vector<Meteor*> meteors)
             Rect box = meteor->getBoundingBox();
             if(box.containsPoint(laser->getPosition())){
                 laser->burstLaser();
-                // laser->stopAllActions();
                 auto delay = DelayTime::create(0.01f);
-                auto remove = CallFunc::create([=](){
+                auto autoRemove = CallFunc::create([=](){
                     removeLaser(laser);
                 });
-                auto seq = Sequence::create(delay, remove, nullptr);
+                auto seq = Sequence::create(delay, autoRemove, nullptr);
                 this->runAction(seq);
                 return meteor;
             }
@@ -203,3 +211,8 @@ Meteor* Aircraft::shotCollision(std::vector<Meteor*> meteors)
     return nullptr;
 }
 
+bool Aircraft::onContactBegin(PhysicsContact& contact)
+{
+    log("COLID");
+    return true;
+}
