@@ -27,7 +27,7 @@ Aircraft* Aircraft::create()
 
 void Aircraft::addEvents()
 {
-    auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
+    auto physicsBody = PhysicsBody::createCircle(this->getContentSize()/2,
         PhysicsMaterial(0.5f, 0.2f, 0.0f)
     );
     physicsBody->setContactTestBitmask(true);
