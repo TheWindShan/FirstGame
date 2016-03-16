@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <algorithm>
 #include "Meteor.h"
 
@@ -46,9 +45,9 @@ void Meteor::initOptions()
 
 void Meteor::toMove()
 {
-    int timeDelay = rand() % 4;
-    auto delay = DelayTime::create(0.25f + (float) timeDelay);
-    auto toMove = MoveTo::create(5.0f + (float) timeDelay, selectPosition());
+    int timeDelay = random(1.0f, 4.0f);
+    auto delay = DelayTime::create(timeDelay);
+    auto toMove = MoveTo::create(5.0f + timeDelay, selectPosition());
     auto changeTag = CallFunc::create([this](){
         setAnimed(true);
     });
@@ -63,15 +62,12 @@ float Meteor::getHeigth()
 
 void Meteor::makeRotation()
 {
-    float time = (float) (rand() % 4 + 2);
-    float angle = (float) (rand() % 360 + 360);
+    float time = random(2.0f, 4.0f);
+    float angle = random(-360.f, 360.f);
     auto rotateBy = RotateBy::create(time, angle);
-    // auto rotateByRev= RotateBy::create(0.5, -360);
     this->runAction(
         RepeatForever::create(rotateBy)
     );
-    // float angle = fmod(this->getRotation(), 360);
-    // this->setRotation(++angle);
 }
 
 void Meteor::setAnimed(bool value)
@@ -131,12 +127,12 @@ float Meteor::yMin()
 
 float Meteor::xRand()
 {
-    return (float) (rand() % (int) xMax());
+    return random(0.f, xMax());
 }
 
 float Meteor::yRand()
 {
-    return (float) (rand() % (int) yMax());
+    return random(0.f, yMax());
 }
 
 Vec2 Meteor::right()
