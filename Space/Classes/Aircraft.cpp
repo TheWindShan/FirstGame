@@ -27,8 +27,8 @@ Aircraft* Aircraft::create()
 
 void Aircraft::addEvents()
 {
-    auto physicsBody = PhysicsBody::createCircle(this->getContentSize()/2,
-        PhysicsMaterial(0.5f, 0.2f, 0.0f)
+    auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
+        PhysicsMaterial(0.1f, 0.1f, 0)
     );
     physicsBody->setContactTestBitmask(true);
     physicsBody->setDynamic(true);
@@ -54,11 +54,11 @@ void Aircraft::update(float delta)
     }
 
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_LEFT_ARROW)){
-        this->setRotation(angle-3.5f);
+        this->setRotation(--angle);
 
     }
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_RIGHT_ARROW)){
-        this->setRotation(angle+3.5f);
+        this->setRotation(++angle);
     }
 
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_DOWN_ARROW)){
@@ -214,6 +214,5 @@ Meteor* Aircraft::shotCollision(std::vector<Meteor*> meteors)
 
 bool Aircraft::onContactBegin(PhysicsContact& contact)
 {
-    log("COLID");
     return true;
 }

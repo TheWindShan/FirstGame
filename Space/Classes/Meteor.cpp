@@ -28,7 +28,7 @@ Meteor* Meteor::create()
 void Meteor::addEvents()
 {   
     auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
-        PhysicsMaterial(1.0f, 0.1f, 0)
+        PhysicsMaterial(0.3f, 0, 0)
     );
     physicsBody->setContactTestBitmask(true);
     physicsBody->setDynamic(true);
@@ -36,12 +36,12 @@ void Meteor::addEvents()
     auto contactListener = EventListenerPhysicsContact::create();
     contactListener->onContactBegin = CC_CALLBACK_1(Meteor::onContactBegin, this);
     this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(contactListener, this);
-    scheduleUpdate();
 }
 
 void Meteor::initOptions()
 {
     setPosition(selectPosition());
+    makeRotation();
 }
 
 void Meteor::toMove()
@@ -56,11 +56,6 @@ void Meteor::toMove()
     this->runAction(seq);
 }
 
-void Meteor::update(float delta)
-{
-    makeRotation();
-}
-
 float Meteor::getHeigth()
 {
     return this->getTextureRect().size.height;
@@ -68,8 +63,15 @@ float Meteor::getHeigth()
 
 void Meteor::makeRotation()
 {
-    float angle = fmod(this->getRotation(), 360);
-    this->setRotation(++angle);
+    float time = (float) (rand() % 4 + 2);
+    float angle = (float) (rand() % 360 + 360);
+    auto rotateBy = RotateBy::create(time, angle);
+    // auto rotateByRev= RotateBy::create(0.5, -360);
+    this->runAction(
+        RepeatForever::create(rotateBy)
+    );
+    // float angle = fmod(this->getRotation(), 360);
+    // this->setRotation(++angle);
 }
 
 void Meteor::setAnimed(bool value)

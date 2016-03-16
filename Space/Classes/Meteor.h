@@ -10,7 +10,7 @@ class Meteor : public cocos2d::Sprite
 public:
     Meteor();
     static Meteor* create();
-    virtual void update(float delta) override;
+    // virtual void update(float delta) override;
     void toMove();
     float getHeigth();
     void setAnimed(bool value);
