@@ -36,7 +36,7 @@ float Arm::getHeigth()
 void Arm::shotLaser()
 {
     Vec2 location = aircraft->getPosition();
-    float angle = fmod(aircraft->getRotation(), 360);
+    float angle = aircraft->getAngle();
     float angleRadius = angle * (M_PI/180);
     float yOff = aircraft->visibleSize.height - location.y;
     float deltax = yOff * tan(angleRadius);

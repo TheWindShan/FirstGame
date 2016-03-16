@@ -28,10 +28,10 @@ Aircraft* Aircraft::create()
 void Aircraft::addEvents()
 {
     auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
-        PhysicsMaterial(0.1f, 0.1f, 0)
+        PhysicsMaterial(0.1f, 0.1f, 0.0f)
     );
-    physicsBody->setContactTestBitmask(true);
-    physicsBody->setDynamic(true);
+    // physicsBody->setContactTestBitmask(true);
+    physicsBody->setDynamic(false); 
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();
     contactListener->onContactBegin = CC_CALLBACK_1(Aircraft::onContactBegin, this);
@@ -48,17 +48,16 @@ void Aircraft::addEvents()
 
 void Aircraft::update(float delta)
 {
-    float angle = fmod(this->getRotation(), 360);
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_UP_ARROW)){
-        this->move();
+        move();
     }
 
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_LEFT_ARROW)){
-        this->setRotation(--angle);
+        makeRotation('-');
 
     }
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_RIGHT_ARROW)){
-        this->setRotation(++angle);
+        makeRotation('+');
     }
 
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_DOWN_ARROW)){
@@ -104,33 +103,35 @@ bool Aircraft::isKeyPressed(EventKeyboard::KeyCode KeyCode)
 void Aircraft::initOptions()
 {
     this->setPosition(Vec2(visibleSize.width/2, visibleSize.height/2));
+    this->getPhysicsBody()->setCategoryBitmask(0x03);
+    this->getPhysicsBody()->setCollisionBitmask(0x01);
 }
 
 void Aircraft::move()
 {
     Vec2 nodeLocation = this->getPosition();
-    float nodeAngle = fmod(this->getRotation(), 360);
-    float nodeAngleRadius = nodeAngle * (M_PI/180);
+    float angle = getAngle();
+    float angleRadius = angle * (M_PI/180);
     float yOff = 1;
-    if((nodeAngle>90 && nodeAngle<180) || (nodeAngle<-90 && nodeAngle>-270)){
+    if((angle>90 && angle<180) || (angle<-90 && angle>-270)){
         yOff = -1;
     }
-    float deltax = yOff * tan(nodeAngleRadius);
+    float deltax = yOff * tan(angleRadius);
     float deltay = yOff;
     float dx = nodeLocation.x + deltax;
     float dy = nodeLocation.y + deltay;
-    if(nodeAngle>180 && nodeAngle<270){
+    if(angle>180 && angle<270){
         dx = nodeLocation.x - deltax;
         dy = nodeLocation.y - deltay;
-    }else if(nodeAngle==90 || nodeAngle==-270){
+    }else if(angle==90 || angle==-270){
         dx = nodeLocation.x + 1;
         dy = nodeLocation.y;
-    }else if(nodeAngle==-90 || nodeAngle==270){
+    }else if(angle==-90 || angle==270){
         dx = nodeLocation.x - 1;
         dy = nodeLocation.y;
     }
     Vec2 destination = Vec2(dx, dy);
-    auto move = MoveTo::create(0.1, destination);
+    auto move = MoveTo::create(0.001, destination);
     this->runAction(move);
 }
 
@@ -173,10 +174,7 @@ Rect Aircraft::getBox()
 
 void Aircraft::onAcceleration(Acceleration *acc, Event *event)
 {
-    // log("X: %f", acc->x);
-    // log("Y: %f", acc->y);
-    // log("Z: %f", acc->z);
-    float angle = fmod(this->getRotation(), 360);
+    float angle = getAngle();
     if(acc->y <-0.8f){
         if(acc->z <-0.2f){
             this->move();
@@ -214,5 +212,24 @@ Meteor* Aircraft::shotCollision(std::vector<Meteor*> meteors)
 
 bool Aircraft::onContactBegin(PhysicsContact& contact)
 {
+    // auto bodyA = contact.getShapeA()->getBody();
+    // auto bodyB = contact.getShapeB()->getBody();
     return true;
+}
+
+void Aircraft::makeRotation(char side)
+{   
+    float angle = getAngle();
+    float speed = 3.555f;
+    if(side=='+'){
+        this->setRotation(angle+speed);
+    }
+    else if(side=='-'){
+        this->setRotation(angle-speed);
+    }
+}
+
+float Aircraft::getAngle()
+{
+    return fmod(this->getRotation(), 360);
 }

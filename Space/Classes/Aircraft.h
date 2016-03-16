@@ -19,6 +19,8 @@ public:
     void removeLaser(Arm* laser);
     bool findLaser(Arm* laser);
     bool onContactBegin(cocos2d::PhysicsContact& contact);
+    void makeRotation(char side);
+    float getAngle();
     Meteor* shotCollision(std::vector<Meteor*> meteors);
     cocos2d::Rect getBox();
     Aircraft* pSprite;

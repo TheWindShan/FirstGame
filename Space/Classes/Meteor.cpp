@@ -27,9 +27,8 @@ Meteor* Meteor::create()
 void Meteor::addEvents()
 {   
     auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
-        PhysicsMaterial(0.3f, 0, 0)
+        PhysicsMaterial(0.1f, 0.1f, 0.0f)
     );
-    physicsBody->setContactTestBitmask(true);
     physicsBody->setDynamic(true);
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();
