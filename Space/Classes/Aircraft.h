@@ -13,7 +13,7 @@ public:
     Aircraft();
     static Aircraft* create();
     virtual void update(float delta) override;
-    void move();
+    void makeMove();
     void shotLaser();
     void addLaser(Arm* laser);
     void removeLaser(Arm* laser);

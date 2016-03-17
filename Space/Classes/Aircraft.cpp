@@ -31,7 +31,7 @@ void Aircraft::addEvents()
         PhysicsMaterial(0.1f, 0.1f, 0.0f)
     );
     // physicsBody->setContactTestBitmask(true);
-    physicsBody->setDynamic(false); 
+    physicsBody->setDynamic(true); 
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();
     contactListener->onContactBegin = CC_CALLBACK_1(Aircraft::onContactBegin, this);
@@ -49,7 +49,7 @@ void Aircraft::addEvents()
 void Aircraft::update(float delta)
 {
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_UP_ARROW)){
-        move();
+        makeMove();
     }
 
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_LEFT_ARROW)){
@@ -107,7 +107,7 @@ void Aircraft::initOptions()
     this->getPhysicsBody()->setCollisionBitmask(0x01);
 }
 
-void Aircraft::move()
+void Aircraft::makeMove()
 {
     Vec2 nodeLocation = this->getPosition();
     float angle = getAngle();
@@ -131,7 +131,8 @@ void Aircraft::move()
         dy = nodeLocation.y;
     }
     Vec2 destination = Vec2(dx, dy);
-    auto move = MoveTo::create(0.001, destination);
+    // this->getPhysicsBody()->setVelocity(destination);
+    auto move = MoveTo::create(0.2, destination);
     this->runAction(move);
 }
 
@@ -177,7 +178,7 @@ void Aircraft::onAcceleration(Acceleration *acc, Event *event)
     float angle = getAngle();
     if(acc->y <-0.8f){
         if(acc->z <-0.2f){
-            this->move();
+            this->makeMove();
         }
         else if(acc->z > 0.08f){
             this->shotLaser();
