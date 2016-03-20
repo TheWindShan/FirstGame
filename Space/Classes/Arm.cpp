@@ -11,8 +11,9 @@ Arm::Arm()
 Arm* Arm::create()
 {
     Arm* pSprite = new Arm();
-    if (pSprite->initWithFile("res/Lasers/laserGreen11.png"))
+    if (pSprite->initWithFile("res/Lasers/laserRed01.png"))
     {
+        pSprite->physics();
         return pSprite;
     }
     CC_SAFE_DELETE(pSprite);
@@ -26,6 +27,18 @@ void Arm::addEvents()
 void Arm::update(float delta)
 {
 
+}
+
+void Arm::physics()
+{
+    auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
+    PhysicsMaterial(0.0f, 0.0f, 0.0f)
+    );
+    physicsBody->setDynamic(true);
+    this->addComponent(physicsBody);
+    auto contactListener = EventListenerPhysicsContact::create();
+    contactListener->onContactBegin = CC_CALLBACK_1(Arm::onContactBegin, this);
+    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(contactListener, this);
 }
 
 float Arm::getHeigth()
@@ -61,6 +74,7 @@ void Arm::shotLaser()
     this->setRotation(angle);
     aircraft->getParent()->addChild(this, -1);
     this->runAction(actionLaser);
+    // this->getPhysicsBody()->setVelocity(destination);
 }
 
 void Arm::addToAircraft(Aircraft *aircraft)
@@ -70,5 +84,10 @@ void Arm::addToAircraft(Aircraft *aircraft)
 
 void Arm::burstLaser()
 {
-    this->setTexture("res/Lasers/laserGreen14.png");
+    this->setTexture("res/Lasers/laserRed09.png");
+}
+
+bool Arm::onContactBegin(PhysicsContact& contact)
+{
+    return true;
 }

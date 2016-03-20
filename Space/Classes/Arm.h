@@ -17,6 +17,8 @@ public:
     void burstLaser();
 private:
     void addEvents();
+    void physics();
+    bool onContactBegin(cocos2d::PhysicsContact& contact);
     Aircraft *aircraft;
 };
 
