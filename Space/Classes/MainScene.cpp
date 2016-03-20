@@ -18,7 +18,8 @@ bool MainScene::init()
     {
         return false;
     }
-    visibleSize = Director::getInstance()->getWinSize();
+    // visibleSize = Director::getInstance()->getWinSize();
+    visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
     Device::setKeepScreenOn(true);
     Device::setAccelerometerEnabled(true);

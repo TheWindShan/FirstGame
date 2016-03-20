@@ -33,7 +33,7 @@ float Arm::getHeigth()
     return this->getBoundingBox().size.height;
 }
 
-/*void Arm::shotLaser()
+void Arm::shotLaser()
 {
     Vec2 location = aircraft->getPosition();
     float angle = aircraft->getAngle();
@@ -54,39 +54,6 @@ float Arm::getHeigth()
         dx = -aircraft->visibleSize.width;
         dy = location.y;
     }
-    Vec2 destination = Vec2(dx, dy);
-    auto actionLaser = MoveTo::create(0.5f, destination);
-    aircraft->addLaser(this);
-    this->setPosition(location);
-    this->setRotation(angle);
-    aircraft->getParent()->addChild(this, -1);
-    this->runAction(actionLaser);
-}*/
-
-void Arm::shotLaser()
-{
-    Vec2 location = aircraft->getPosition();
-    float angle = aircraft->getAngle();
-    float radius = angle * (M_PI/180);
-    float yoff = aircraft->visibleSize.height - location.y;
-    float x = (tan(radius) * y) + location.x;
-    float r = sqrt( x*x + y*y );
-    float deltax = r * cos(radius);
-    float deltay = r * sin(radius);
-    float dx = deltax;
-    float dy = deltay;
-    /*if((angle > 90 && angle < 270) || (angle < -90 && angle > -270)){
-        yOff = location.y;
-        deltax = yOff * tan((2*M_PI)-(angleRadius));
-        dx = location.x + deltax;
-        dy = -1*( this->getHeigth());
-    }else if(angle == 90 || angle == -270  ){
-        dx = aircraft->visibleSize.width + this->getHeigth();
-        dy = location.y;
-    }else if(angle == -90 || angle == +270){
-        dx = -aircraft->visibleSize.width;
-        dy = location.y;
-    }*/
     Vec2 destination = Vec2(dx, dy);
     auto actionLaser = MoveTo::create(0.5f, destination);
     aircraft->addLaser(this);
