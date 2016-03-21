@@ -28,7 +28,7 @@ Aircraft* Aircraft::create()
 void Aircraft::addEvents()
 {
     auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
-        PhysicsMaterial(0.1f, 0.1f, 0.0f)
+        PhysicsMaterial(0.8f, 0.0f, 0.0f)
     );
     // physicsBody->setContactTestBitmask(true);
     physicsBody->setDynamic(true); 

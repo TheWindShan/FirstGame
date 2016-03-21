@@ -32,7 +32,7 @@ void Arm::update(float delta)
 void Arm::physics()
 {
     auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
-    PhysicsMaterial(0.0f, 0.0f, 0.0f)
+    PhysicsMaterial(0.2f, 0.0f, 0.0f)
     );
     physicsBody->setDynamic(true);
     this->addComponent(physicsBody);
@@ -69,9 +69,9 @@ void Arm::shotLaser()
     }
     Vec2 destination = Vec2(dx, dy);
     auto actionLaser = MoveTo::create(0.5f, destination);
-    aircraft->addLaser(this);
     this->setPosition(location);
     this->setRotation(angle);
+    aircraft->addLaser(this);
     aircraft->getParent()->addChild(this, -1);
     this->runAction(actionLaser);
     // this->getPhysicsBody()->setVelocity(destination);
