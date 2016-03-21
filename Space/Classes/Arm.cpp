@@ -73,8 +73,8 @@ void Arm::shotLaser()
     this->setRotation(angle);
     aircraft->addLaser(this);
     aircraft->getParent()->addChild(this, -1);
-    this->runAction(actionLaser);
-    // this->getPhysicsBody()->setVelocity(destination);
+    // this->runAction(actionLaser);
+    this->getPhysicsBody()->setVelocity(destination);
 }
 
 void Arm::addToAircraft(Aircraft *aircraft)
