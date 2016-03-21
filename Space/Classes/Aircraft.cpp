@@ -8,7 +8,7 @@ USING_NS_CC;
 
 Aircraft::Aircraft()
 {
-    visibleSize = Director::getInstance()->getWinSize();
+    visibleSize = Director::getInstance()->getVisibleSize();
 }
 
 Aircraft* Aircraft::create()
@@ -28,10 +28,10 @@ Aircraft* Aircraft::create()
 void Aircraft::addEvents()
 {
     auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
-        PhysicsMaterial(0.8f, 0.0f, 0.0f)
+        PhysicsMaterial(0.1f, 0.1f, 0.0f)
     );
     // physicsBody->setContactTestBitmask(true);
-    physicsBody->setDynamic(true); 
+    physicsBody->setDynamic(false);
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();
     contactListener->onContactBegin = CC_CALLBACK_1(Aircraft::onContactBegin, this);
@@ -109,30 +109,31 @@ void Aircraft::initOptions()
 
 void Aircraft::makeMove()
 {
-    Vec2 nodeLocation = this->getPosition();
+    Vec2 location = this->getPosition();
     float angle = getAngle();
-    float angleRadius = angle * (M_PI/180);
-    float yOff = 1;
+    float angleRadius = CC_DEGREES_TO_RADIANS(angle);
+    float yOff = 3;
     if((angle>90 && angle<180) || (angle<-90 && angle>-270)){
-        yOff = -1;
+        yOff =-1*(yOff);
     }
     float deltax = yOff * tan(angleRadius);
     float deltay = yOff;
-    float dx = nodeLocation.x + deltax;
-    float dy = nodeLocation.y + deltay;
+    float dx = location.x + deltax;
+    float dy = location.y + deltay;
     if(angle>180 && angle<270){
-        dx = nodeLocation.x - deltax;
-        dy = nodeLocation.y - deltay;
+        dx = location.x - deltax;
+        dy = location.y - deltay;
     }else if(angle==90 || angle==-270){
-        dx = nodeLocation.x + 1;
-        dy = nodeLocation.y;
+        dx = location.x + yOff;
+        dy = location.y;
     }else if(angle==-90 || angle==270){
-        dx = nodeLocation.x - 1;
-        dy = nodeLocation.y;
+        dx = location.x - yOff;
+        dy = location.y;
     }
     Vec2 destination = Vec2(dx, dy);
-    // this->getPhysicsBody()->setVelocity(destination);
-    auto move = MoveTo::create(0.2, destination);
+    float distance = location.distance(destination);
+    float time = distance/2000.0f;
+    auto move = MoveTo::create(time, destination);
     this->runAction(move);
 }
 
@@ -175,18 +176,17 @@ Rect Aircraft::getBox()
 
 void Aircraft::onAcceleration(Acceleration *acc, Event *event)
 {
-    float angle = getAngle();
-    if(acc->y <-0.8f){
+    if(acc->y <-0.5f){
         if(acc->z <-0.2f){
             this->makeMove();
         }
-        else if(acc->z > 0.08f){
+        else if(acc->z > 0.05f){
             this->shotLaser();
         }
-        if(acc->x <-0.08f){
-            this->setRotation(angle-3.5f);
-        }else if(acc->x > 0.08f){
-            this->setRotation(angle+3.5f);
+        if(acc->x <-0.05f){
+            this->setRotation(getAngle()-3.5f);
+        }else if(acc->x > 0.05f){
+            this->setRotation(getAngle()+3.5f);
         }
     }
 }

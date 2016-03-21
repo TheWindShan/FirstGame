@@ -32,7 +32,7 @@ void Arm::update(float delta)
 void Arm::physics()
 {
     auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
-    PhysicsMaterial(0.2f, 0.0f, 0.0f)
+    PhysicsMaterial(1.0f, 0.0f, 0.0f)
     );
     physicsBody->setDynamic(true);
     this->addComponent(physicsBody);
@@ -50,7 +50,7 @@ void Arm::shotLaser()
 {
     Vec2 location = aircraft->getPosition();
     float angle = aircraft->getAngle();
-    float angleRadius = angle * (M_PI/180);
+    float angleRadius = CC_DEGREES_TO_RADIANS(angle);
     float yOff = aircraft->visibleSize.height - location.y;
     float deltax = yOff * tan(angleRadius);
     float dx = location.x + deltax;
@@ -68,13 +68,16 @@ void Arm::shotLaser()
         dy = location.y;
     }
     Vec2 destination = Vec2(dx, dy);
-    auto actionLaser = MoveTo::create(0.5f, destination);
-    this->setPosition(location);
+    // location.y += this->getContentSize().height;
     this->setRotation(angle);
+    location = aircraft->getPosition();
+    this->setPosition(location);
     aircraft->addLaser(this);
     aircraft->getParent()->addChild(this, -1);
-    // this->runAction(actionLaser);
-    this->getPhysicsBody()->setVelocity(destination);
+    float distance = location.distance(destination);
+    float time = distance/2000.0f;
+    auto actionLaser = MoveTo::create(time, destination);
+    this->runAction(actionLaser);
 }
 
 void Arm::addToAircraft(Aircraft *aircraft)
