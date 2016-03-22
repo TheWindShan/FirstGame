@@ -1,4 +1,35 @@
 dependencies: /Users/nego/Documents/FirstGame/Space/Classes/MainScene.cpp \
   /Users/nego/Documents/FirstGame/Space/Classes/MainScene.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/CocosGUI.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIWidget.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UILayoutParameter.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/GUIExport.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/GUIDefine.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/base/ObjectFactory.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UILayout.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIButton.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UICheckBox.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIAbstractCheckButton.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIRadioButton.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIImageView.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIText.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UITextAtlas.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UILoadingBar.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIScrollView.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIListView.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UISlider.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UITextField.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UITextBMFont.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIPageView.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIHelper.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIRichText.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIHBox.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIVBox.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIRelativeBox.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIDeprecated.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIScale9Sprite.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UIEditBox/UIEditBox.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UILayoutComponent.h \
+  /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/editor-support/cocostudio/CocosStudioExtension.h \
   /Users/nego/Documents/FirstGame/Space/Classes/Aircraft.h \
   /Users/nego/Documents/FirstGame/Space/Classes/Meteor.h

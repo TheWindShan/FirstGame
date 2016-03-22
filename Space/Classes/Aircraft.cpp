@@ -51,18 +51,14 @@ void Aircraft::update(float delta)
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_UP_ARROW)){
         makeMove();
     }
-
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_LEFT_ARROW)){
         makeRotation('-');
-
     }
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_RIGHT_ARROW)){
         makeRotation('+');
     }
-
     if(isKeyPressed(EventKeyboard::KeyCode::KEY_DOWN_ARROW)){
     }
-
     for(auto laser: lasers)
     {
         if(!getBox().containsPoint(laser->getPosition()))
@@ -112,7 +108,6 @@ void Aircraft::makeMove()
     Vec2 location = this->getPosition();
     float angle = getAngle();
     float radius = CC_DEGREES_TO_RADIANS(angle);
-    float yOff = 3;
     float r = 3;
     float dx = r * sin(radius);
     float dy = r * cos(radius);
@@ -170,9 +165,9 @@ void Aircraft::onAcceleration(Acceleration *acc, Event *event)
             this->shotLaser();
         }
         if(acc->x <-0.05f){
-            this->setRotation(getAngle()-3.5f);
+            this->setRotation(makeRotation('-'));
         }else if(acc->x > 0.05f){
-            this->setRotation(getAngle()+3.5f);
+            this->setRotation(makeRotation('+'));
         }
     }
 }

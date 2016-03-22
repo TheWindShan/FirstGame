@@ -2,9 +2,11 @@
 #define __MAIN_SCENE_H__
 
 #include "cocos2d.h"
+#include "ui/CocosGUI.h"
 #include "Aircraft.h"
 #include "Meteor.h"
 #include <vector>
+#include <algorithm>
 
 
 class MainScene : public cocos2d::Layer
