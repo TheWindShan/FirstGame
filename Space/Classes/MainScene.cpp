@@ -32,62 +32,7 @@ bool MainScene::init()
     sprite = Aircraft::create();
     addChild(sprite, 0);
     box = this->getBoundingBox();
-
-    ui::Button* left = ui::Button::create("res/Controls/shadedLight05.png");
-    left->setTouchEnabled(true);
-    left->setPosition(Point(visibleSize.width / 7.9f, visibleSize.height / 6.5f));   
-    left->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){
-        switch (type)
-        {
-                case ui::Widget::TouchEventType::BEGAN:
-                    sprite->makeRotation('-');
-                    break;
-                case ui::Widget::TouchEventType::ENDED:
-                    sprite->makeRotation('-');
-                    break;
-                default:
-                    break;
-        }
-    });   
-    this->addChild(left, 10);
-
-    ui::Button* right = ui::Button::create("res/Controls/shadedLight06.png");
-    right->setTouchEnabled(true);
-    right->setPosition(Point(visibleSize.width / 5.0f, visibleSize.height / 6.5f));
-    right->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){
-        switch (type)
-        {
-                case ui::Widget::TouchEventType::BEGAN:
-                    sprite->makeRotation('+');
-                    break;
-                case ui::Widget::TouchEventType::ENDED:
-                    sprite->makeRotation('+');
-                    break;
-                default:
-                    break;
-        }
-    });     
-    this->addChild(right, 10);
-
-
-    ui::Button* up = ui::Button::create("res/Controls/shadedLight03.png");
-    up->setTouchEnabled(true);
-    up->setPosition(Point(visibleSize.width /6.1f, visibleSize.height / 4.8f));
-    up->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){
-        switch (type)
-        {
-                case ui::Widget::TouchEventType::BEGAN:
-                    sprite->makeMove();
-                    break;
-                case ui::Widget::TouchEventType::ENDED:
-                    sprite->makeMove();
-                    break;
-                default:
-                    break;
-        }
-    });        
-    this->addChild(up, 10);
-
+    controls = new Controls(sprite);
     this->scheduleUpdate();
     return true;
 }

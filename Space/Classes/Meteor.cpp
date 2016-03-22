@@ -5,7 +5,7 @@ USING_NS_CC;
 
 Meteor::Meteor()
 {
-    visibleSize = Director::getInstance()->getVisibleSize();   
+    visibleSize = Director::getInstance()->getVisibleSize();
 }
 
 Meteor* Meteor::create()

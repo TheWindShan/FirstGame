@@ -128,6 +128,7 @@ set(GAME_SRC
   Classes/Aircraft.cpp
   Classes/Arm.cpp
   Classes/Meteor.cpp
+  Classes/Controls.cpp
   ${PLATFORM_SPECIFIC_SRC}
 )
 
@@ -137,6 +138,7 @@ set(GAME_HEADERS
   Classes/Aircraft.h
   Classes/Arm.h
   Classes/Meteor.h
+  Classes/Controls.h
   ${PLATFORM_SPECIFIC_HEADERS}
 )
 

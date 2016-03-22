@@ -5,6 +5,7 @@
 #include "ui/CocosGUI.h"
 #include "Aircraft.h"
 #include "Meteor.h"
+#include "Controls.h"
 #include <vector>
 #include <algorithm>
 
@@ -21,11 +22,12 @@ public:
     virtual void update(float delta) override;
     cocos2d::PhysicsWorld* World;
     CREATE_FUNC(MainScene);
+    cocos2d::Size visibleSize;
 private:
     cocos2d::Rect box;
     Aircraft* sprite;
     std::vector<Meteor*> meteors;
-    cocos2d::Size visibleSize;
+    Controls* controls;
     void launchMeteors(unsigned int num);
     void removeMeteor(Meteor* meteor);
     bool findMeteor(Meteor* meteor);
