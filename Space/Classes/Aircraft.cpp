@@ -165,9 +165,9 @@ void Aircraft::onAcceleration(Acceleration *acc, Event *event)
             this->shotLaser();
         }
         if(acc->x <-0.05f){
-            this->setRotation(makeRotation('-'));
+            this->makeRotation('-');
         }else if(acc->x > 0.05f){
-            this->setRotation(makeRotation('+'));
+            this->makeRotation('+');
         }
     }
 }
