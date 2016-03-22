@@ -31,7 +31,7 @@ void Aircraft::addEvents()
         PhysicsMaterial(0.1f, 0.1f, 0.0f)
     );
     // physicsBody->setContactTestBitmask(true);
-    physicsBody->setDynamic(false);
+    physicsBody->setDynamic(true);
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();
     contactListener->onContactBegin = CC_CALLBACK_1(Aircraft::onContactBegin, this);
@@ -111,26 +111,12 @@ void Aircraft::makeMove()
 {
     Vec2 location = this->getPosition();
     float angle = getAngle();
-    float angleRadius = CC_DEGREES_TO_RADIANS(angle);
+    float radius = CC_DEGREES_TO_RADIANS(angle);
     float yOff = 3;
-    if((angle>90 && angle<180) || (angle<-90 && angle>-270)){
-        yOff =-1*(yOff);
-    }
-    float deltax = yOff * tan(angleRadius);
-    float deltay = yOff;
-    float dx = location.x + deltax;
-    float dy = location.y + deltay;
-    if(angle>180 && angle<270){
-        dx = location.x - deltax;
-        dy = location.y - deltay;
-    }else if(angle==90 || angle==-270){
-        dx = location.x + yOff;
-        dy = location.y;
-    }else if(angle==-90 || angle==270){
-        dx = location.x - yOff;
-        dy = location.y;
-    }
-    Vec2 destination = Vec2(dx, dy);
+    float r = 3;
+    float dx = r * sin(radius);
+    float dy = r * cos(radius);
+    Vec2 destination = location + Vec2(dx, dy);
     float distance = location.distance(destination);
     float time = distance/2000.0f;
     auto move = MoveTo::create(time, destination);

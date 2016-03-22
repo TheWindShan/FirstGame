@@ -5,9 +5,7 @@ USING_NS_CC;
 
 Meteor::Meteor()
 {
-    // visibleSize = Director::getInstance()->getWinSize();
-    visibleSize = Director::getInstance()->getVisibleSize();
-    
+    visibleSize = Director::getInstance()->getVisibleSize();   
 }
 
 Meteor* Meteor::create()
@@ -29,7 +27,7 @@ Meteor* Meteor::create()
 void Meteor::addEvents()
 {   
     auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
-        PhysicsMaterial(0.1f, 0.1f, 0.0f)
+        PhysicsMaterial(0.5f, 0.1f, 0.0f)
     );
     physicsBody->setDynamic(true);
     this->addComponent(physicsBody);
@@ -104,7 +102,7 @@ void Meteor::makeResMeteors()
 
 float Meteor::xMax()
 {
-    float width = Director::getInstance()->getWinSize().width;
+    float width = Director::getInstance()->getVisibleSize().width;
     return width + getHeigth();
 }
 
@@ -116,7 +114,7 @@ float Meteor::xMin()
 
 float Meteor::yMax()
 {
-    float heigth = Director::getInstance()->getWinSize().height;
+    float heigth = Director::getInstance()->getVisibleSize().height;
     return heigth + getHeigth();
 }
 

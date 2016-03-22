@@ -49,34 +49,24 @@ float Arm::getHeigth()
 void Arm::shotLaser()
 {
     Vec2 location = aircraft->getPosition();
+    Vec2 nlocation = location.getNormalized();
     float angle = aircraft->getAngle();
-    float angleRadius = CC_DEGREES_TO_RADIANS(angle);
-    float yOff = aircraft->visibleSize.height - location.y;
-    float deltax = yOff * tan(angleRadius);
-    float dx = location.x + deltax;
-    float dy = aircraft->visibleSize.height + this->getHeigth();
-    if((angle > 90 && angle < 270) || (angle < -90 && angle > -270)){
-        yOff = location.y;
-        deltax = yOff * tan((2*M_PI)-(angleRadius));
-        dx = location.x + deltax;
-        dy = -1*( this->getHeigth());
-    }else if(angle == 90 || angle == -270  ){
-        dx = aircraft->visibleSize.width + this->getHeigth();
-        dy = location.y;
-    }else if(angle == -90 || angle == +270){
-        dx = -aircraft->visibleSize.width;
-        dy = location.y;
-    }
-    Vec2 destination = Vec2(dx, dy);
-    // location.y += this->getContentSize().height;
+    float radius = CC_DEGREES_TO_RADIANS(angle);
+    float r = aircraft->visibleSize.height * 1000;
+    float dx = r * sin(radius);
+    float dy = r * cos(radius);
+    Vec2 destination = location + Vec2(dx, dy);
+    float x = this->getContentSize().height * sin(radius);
+    float y = this->getContentSize().height * cos(radius);
     this->setRotation(angle);
-    location = aircraft->getPosition();
+    location = location + Vec2(x,y);
     this->setPosition(location);
     aircraft->addLaser(this);
     aircraft->getParent()->addChild(this, -1);
     float distance = location.distance(destination);
     float time = distance/2000.0f;
     auto actionLaser = MoveTo::create(time, destination);
+    // this->getPhysicsBody()->applyForce(destination);
     this->runAction(actionLaser);
 }
 

@@ -24,11 +24,11 @@ bool MainScene::init()
     Device::setAccelerometerEnabled(true);
     Device::setAccelerometerInterval(1.0 / 60);
     
-    auto body = PhysicsBody::createEdgeBox(visibleSize, PHYSICSBODY_MATERIAL_DEFAULT, 3);
-    auto edgeNode = Node::create();
-    edgeNode->setPosition(Vec2(visibleSize.width/2,visibleSize.height/2));
-    edgeNode->setPhysicsBody(body);
-    this->addChild(edgeNode);
+    // auto body = PhysicsBody::createEdgeBox(visibleSize, PHYSICSBODY_MATERIAL_DEFAULT, 3);
+    // auto edgeNode = Node::create();
+    // edgeNode->setPosition(Vec2(visibleSize.width/2,visibleSize.height/2));
+    // edgeNode->setPhysicsBody(body);
+    // this->addChild(edgeNode);
 
     sprite = Aircraft::create();
     addChild(sprite, 0);
