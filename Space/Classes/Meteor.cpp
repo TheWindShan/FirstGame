@@ -103,7 +103,7 @@ void Meteor::makeResMeteors()
 float Meteor::xMax()
 {
     float width = Director::getInstance()->getVisibleSize().width;
-    return width + getHeigth();
+    return width * 1.1;
 }
 
 float Meteor::xMin()
@@ -115,7 +115,7 @@ float Meteor::xMin()
 float Meteor::yMax()
 {
     float heigth = Director::getInstance()->getVisibleSize().height;
-    return heigth + getHeigth();
+    return heigth * 1.1;
 }
 
 float Meteor::yMin()
