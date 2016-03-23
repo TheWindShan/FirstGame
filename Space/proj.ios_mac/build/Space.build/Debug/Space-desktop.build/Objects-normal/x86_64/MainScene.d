@@ -32,4 +32,5 @@ dependencies: /Users/nego/Documents/FirstGame/Space/Classes/MainScene.cpp \
   /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/ui/UILayoutComponent.h \
   /Users/nego/Documents/FirstGame/Space/proj.ios_mac/../cocos2d/cocos/editor-support/cocostudio/CocosStudioExtension.h \
   /Users/nego/Documents/FirstGame/Space/Classes/Aircraft.h \
-  /Users/nego/Documents/FirstGame/Space/Classes/Meteor.h
+  /Users/nego/Documents/FirstGame/Space/Classes/Meteor.h \
+  /Users/nego/Documents/FirstGame/Space/Classes/Controls.h

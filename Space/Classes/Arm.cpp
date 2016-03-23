@@ -68,6 +68,8 @@ void Arm::shotLaser()
     auto actionLaser = MoveTo::create(time, destination);
     // this->getPhysicsBody()->applyForce(destination);
     this->runAction(actionLaser);
+    auto audio = CocosDenshion::SimpleAudioEngine::getInstance();
+    audio->playEffect("res/sfx_laser1.ogg", true);
 }
 
 void Arm::addToAircraft(Aircraft *aircraft)
