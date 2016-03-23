@@ -66,9 +66,8 @@ void Arm::shotLaser()
     float distance = location.distance(destination);
     float time = distance/2000.0f;
     auto actionLaser = MoveTo::create(time, destination);
-    // this->getPhysicsBody()->applyForce(destination);
     this->runAction(actionLaser);
-    this->aircraft->audio->playBackgroundMusic("res/sfx_laser1.mp3", false);
+    this->aircraft->audio->playEffect("res/sfx_laser1.mp3");
 }
 
 void Arm::addToAircraft(Aircraft *aircraft)

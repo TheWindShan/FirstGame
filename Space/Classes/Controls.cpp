@@ -8,18 +8,27 @@ Controls::Controls(Aircraft *aircraft)
     this->aircraft = aircraft;
     visibleSize = Director::getInstance()->getVisibleSize();
     addControls();
-    Vec2 btnVec2 = Vec2(visibleSize.width - 100, visibleSize.height / 6.5f);
-    addArm("res/Controls/shadedLight49.png", btnVec2);
     log("INITED...");
 }
 
-void Controls::addArm(std::string resource, Vec2 position)
+ui::Button* Controls::make(std::string resource, std::string name)
 {
     ui::Button* btn = ui::Button::create(resource);
     btn->setTouchEnabled(true);
+    btn->setName(name);
     btn->setOpacity(150);
-    btn->setPosition(position);   
-    btn->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){
+    aircraft->getParent()->addChild(btn, 10);
+    controls.push_back(&name);
+    return btn;
+}
+
+void Controls::addControls()
+{
+    laser = make("res/Controls/shadedLight49.png", "laser");
+    laser->setPosition(
+        Point(visibleSize.width - laser->getContentSize().width, visibleSize.height / 6.5f)
+    );
+    laser->addTouchEventListener([=](Ref* sender, ui::Widget::TouchEventType type){
         switch (type)
         {
             case ui::Widget::TouchEventType::BEGAN:
@@ -30,17 +39,14 @@ void Controls::addArm(std::string resource, Vec2 position)
             default:
                 break;
         }
-    });   
-    aircraft->getParent()->addChild(btn, 10);
-}
+    });
+    
 
-void Controls::addControls()
-{
-    ui::Button* left = ui::Button::create("res/Controls/shadedLight05.png");
-    left->setTouchEnabled(true);
-    left->setOpacity(150);
-    left->setPosition(Point(visibleSize.width / 7.9f, visibleSize.height / 6.5f));   
-    left->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){
+    left = make("res/Controls/shadedLight05.png", "left");
+    left->setPosition(
+        Point(visibleSize.width / 7.9f, visibleSize.height / 6.5f)
+    );   
+    left->addTouchEventListener([=](Ref* sender, ui::Widget::TouchEventType type){
         switch (type)
         {
             case ui::Widget::TouchEventType::BEGAN:
@@ -53,13 +59,12 @@ void Controls::addControls()
                 break;
         }
     });   
-    aircraft->getParent()->addChild(left, 10);
 
-    ui::Button* right = ui::Button::create("res/Controls/shadedLight06.png");
-    right->setTouchEnabled(true);
-    right->setOpacity(150);
-    right->setPosition(Point(visibleSize.width / 5.0f, visibleSize.height / 6.5f));
-    right->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){
+    right = make("res/Controls/shadedLight06.png", "right");
+    right->setPosition(
+        Point(visibleSize.width / 5.0f, visibleSize.height / 6.5f)
+    );
+    right->addTouchEventListener([=](Ref* sender, ui::Widget::TouchEventType type){
         switch (type)
         {
             case ui::Widget::TouchEventType::BEGAN:
@@ -72,13 +77,12 @@ void Controls::addControls()
                 break;
         }
     });     
-    aircraft->getParent()->addChild(right, 10);
 
-    ui::Button* up = ui::Button::create("res/Controls/shadedLight03.png");
-    up->setTouchEnabled(true);
-    up->setOpacity(150);
-    up->setPosition(Point(visibleSize.width /6.1f, visibleSize.height / 4.8f));
-    up->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){
+    up = make("res/Controls/shadedLight03.png", "up");
+    up->setPosition(
+        Point(visibleSize.width /6.1f, visibleSize.height / 4.8f)
+    );
+    up->addTouchEventListener([=](Ref* sender, ui::Widget::TouchEventType type){
         switch (type)
         {
             case ui::Widget::TouchEventType::BEGAN:
@@ -91,13 +95,12 @@ void Controls::addControls()
                 break;
         }
     });        
-    aircraft->getParent()->addChild(up, 10);   
 
-    ui::Button* down = ui::Button::create("res/Controls/shadedLight10.png");
-    down->setTouchEnabled(true);
-    down->setOpacity(150);
-    down->setPosition(Point(visibleSize.width /6.1f, visibleSize.height / 9.8f));
-    down->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){
+    down = make("res/Controls/shadedLight10.png", "down");
+    down->setPosition(
+        Point(visibleSize.width /6.1f, visibleSize.height / 9.8f)
+    );
+    down->addTouchEventListener([=](Ref* sender, ui::Widget::TouchEventType type){
         switch (type)
         {
             case ui::Widget::TouchEventType::BEGAN:
@@ -108,5 +111,4 @@ void Controls::addControls()
                 break;
         }
     });        
-    aircraft->getParent()->addChild(down, 10);
 }

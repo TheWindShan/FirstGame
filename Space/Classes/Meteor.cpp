@@ -47,6 +47,7 @@ void Meteor::toMove()
     int timeDelay = random(1.0f, 4.0f);
     auto delay = DelayTime::create(timeDelay);
     auto toMove = MoveTo::create(5.0f + timeDelay, selectPosition());
+    // this->getPhysicsBody()->applyForce(selectPosition(), 100);
     auto changeTag = CallFunc::create([this](){
         setAnimed(true);
     });
