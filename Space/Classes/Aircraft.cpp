@@ -9,6 +9,8 @@ USING_NS_CC;
 Aircraft::Aircraft()
 {
     visibleSize = Director::getInstance()->getVisibleSize();
+    audio = CocosDenshion::SimpleAudioEngine::getInstance();
+    audio->preloadBackgroundMusic("res/sfx_laser1.mp3");
 }
 
 Aircraft* Aircraft::create()

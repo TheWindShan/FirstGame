@@ -3,6 +3,7 @@
 
 #include "cocos2d.h"
 #include "Aircraft.h"
+#include "SimpleAudioEngine.h"
 #include <vector>
 
 class Arm;
@@ -21,6 +22,7 @@ public:
     bool onContactBegin(cocos2d::PhysicsContact& contact);
     void makeRotation(char side);
     float getAngle();
+    CocosDenshion::SimpleAudioEngine* audio;
     Meteor* shotCollision(std::vector<Meteor*> meteors);
     cocos2d::Rect getBox();
     Aircraft* pSprite;

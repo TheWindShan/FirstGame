@@ -1,8 +1,6 @@
 #ifndef __ARM_H__
 #define __ARM_H__
 
-
-#include "SimpleAudioEngine.h"
 #include "cocos2d.h"
 
 class Aircraft;
