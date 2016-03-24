@@ -39,6 +39,9 @@ bool MainScene::init()
 
 void MainScene::update(float delta)
 {
+    // if(controls->isPressed("up")){
+    //     log("UP DOW");
+    // }
     launchMeteors(7);
     Meteor* meteor = sprite->shotCollision(meteors);
     if(meteor){

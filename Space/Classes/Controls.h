@@ -4,15 +4,19 @@
 #include "cocos2d.h"
 #include "ui/CocosGUI.h"
 #include <vector>
+#include <string>
+#include <algorithm>
 
 class Aircraft;
+
 class Controls
 {
 public:
     Controls(Aircraft *aircraft);
-    void addControls();
-    cocos2d::ui::Button* make(std::string resource, std::string name);
+    bool isPressed(const std::string& item);
 private:
+    void addControls();
+    cocos2d::ui::Button* make(const std::string& resource, const std::string& name);
     cocos2d::Size visibleSize;
     cocos2d::ui::Button* left;
     cocos2d::ui::Button* up;
@@ -20,7 +24,7 @@ private:
     cocos2d::ui::Button* down;
     cocos2d::ui::Button* laser;
     cocos2d::Scene* scene;
-    std::vector<std::string*> controls;
+    std::vector<std::string> controls;
     Aircraft *aircraft;
 };
 #endif // __CONTROLS_H__
