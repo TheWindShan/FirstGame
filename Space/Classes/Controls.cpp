@@ -14,10 +14,9 @@ ui::Button* Controls::make(const std::string& resource, const std::string& name)
 {
     ui::Button* btn = ui::Button::create(resource);
     btn->setTouchEnabled(true);
-    // log("%s", name.c_str());
     btn->setName(name);
     btn->setOpacity(150);
-    btn->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){
+    btn->addTouchEventListener([=](Ref* sender, ui::Widget::TouchEventType type){
         switch (type)
         {
             case ui::Widget::TouchEventType::BEGAN:
@@ -36,14 +35,9 @@ ui::Button* Controls::make(const std::string& resource, const std::string& name)
     return btn;
 }
 
-bool Controls::isPressed(const std::string& item)
+bool Controls::isPressed(std::string item)
 {
-    /*for(auto* i: controls)
-    {
-        log("%i", i);
-    }*/
     if ( std::find(controls.begin(), controls.end(), item) != controls.end() ){
-        log("Achei");
         return true;
     }else{
        return false;

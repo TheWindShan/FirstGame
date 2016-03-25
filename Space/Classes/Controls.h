@@ -13,7 +13,7 @@ class Controls
 {
 public:
     Controls(Aircraft *aircraft);
-    bool isPressed(const std::string& item);
+    bool isPressed(std::string item);
 private:
     void addControls();
     cocos2d::ui::Button* make(const std::string& resource, const std::string& name);
