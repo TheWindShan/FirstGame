@@ -30,7 +30,8 @@ Aircraft* Aircraft::create()
 void Aircraft::addEvents()
 {
     auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
-        PhysicsMaterial(0.1f, 0.1f, 0.0f)
+        // PhysicsMaterial(0.1f, 0.1f, 0.0f)
+        PHYSICSBODY_MATERIAL_DEFAULT
     );
     // physicsBody->setContactTestBitmask(true);
     physicsBody->setDynamic(true);
@@ -121,8 +122,8 @@ void Aircraft::makeMove()
 }
 
 void Aircraft::shotLaser()
-{   
-    if(lasers.size()<=2){    
+{
+    if(lasers.size()<=2){
         Arm* laser = Arm::create();
         laser->addToAircraft(this);
         laser->shotLaser();
@@ -135,8 +136,8 @@ void Aircraft::addLaser(Arm* laser)
 }
 
 void Aircraft::removeLaser(Arm* laser)
-{   
-   if(findLaser(laser)){    
+{
+   if(findLaser(laser)){
         lasers.erase(std::remove(lasers.begin(), lasers.end(), laser), lasers.end());
         laser->removeFromParent();
         laser->release();
@@ -151,7 +152,7 @@ bool Aircraft::findLaser(Arm* laser)
        return false;
     }
 }
- 
+
 Rect Aircraft::getBox()
 {
     return Director::getInstance()->getRunningScene()->getBoundingBox();
@@ -159,19 +160,19 @@ Rect Aircraft::getBox()
 
 void Aircraft::onAcceleration(Acceleration *acc, Event *event)
 {
-    if(acc->y <-0.5f){
-        if(acc->z <-0.2f){
-            this->makeMove();
-        }
-        else if(acc->z > 0.05f){
-            this->shotLaser();
-        }
-        if(acc->x <-0.05f){
-            this->makeRotation('-');
-        }else if(acc->x > 0.05f){
-            this->makeRotation('+');
-        }
-    }
+    // if(acc->y <-0.5f){
+    //     if(acc->z <-0.2f){
+    //         this->makeMove();
+    //     }
+    //     else if(acc->z > 0.05f){
+    //         this->shotLaser();
+    //     }
+    //     if(acc->x <-0.05f){
+    //         this->makeRotation('-');
+    //     }else if(acc->x > 0.05f){
+    //         this->makeRotation('+');
+    //     }
+    // }
 }
 
 Meteor* Aircraft::shotCollision(std::vector<Meteor*> meteors)
@@ -202,7 +203,7 @@ bool Aircraft::onContactBegin(PhysicsContact& contact)
 }
 
 void Aircraft::makeRotation(char side)
-{   
+{
     float angle = getAngle();
     float speed = 3.555f;
     if(side=='+'){

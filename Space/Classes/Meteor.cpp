@@ -9,12 +9,12 @@ Meteor::Meteor()
 }
 
 Meteor* Meteor::create()
-{   
+{
     Meteor* pSprite = new Meteor();
     pSprite->makeResMeteors();
     auto pinfo = AutoPolygon::generatePolygon(pSprite->selectResMeteors());
     if (pSprite->initWithPolygon(pinfo))
-    { 
+    {
         pSprite->makePositions();
         pSprite->initOptions();
         pSprite->addEvents();
@@ -25,9 +25,10 @@ Meteor* Meteor::create()
 }
 
 void Meteor::addEvents()
-{   
+{
     auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
-        PhysicsMaterial(0.5f, 0.1f, 0.0f)
+        // PhysicsMaterial(0.5f, 0.0f, 1)
+        PHYSICSBODY_MATERIAL_DEFAULT
     );
     physicsBody->setDynamic(true);
     this->addComponent(physicsBody);
@@ -136,27 +137,27 @@ float Meteor::yRand()
 }
 
 Vec2 Meteor::right()
-{         
+{
     return Vec2(xMax(), yRand());
 }
 
 Vec2 Meteor::left()
-{         
+{
     return Vec2(xMin(), yRand());
 }
 
 Vec2 Meteor::up()
-{         
+{
     return Vec2(xRand(), yMax());
 }
 
 Vec2 Meteor::down()
-{         
+{
     return Vec2(xRand(), yMin());
 }
 
 std::string Meteor::selectResMeteors(void)
-{  
+{
     int raffle = rand() % resMeteors.size();
     return resMeteors[raffle];
 }

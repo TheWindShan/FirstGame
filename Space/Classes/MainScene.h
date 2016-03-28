@@ -6,6 +6,7 @@
 #include "Aircraft.h"
 #include "Meteor.h"
 #include "Controls.h"
+#include "PadControl.h"
 #include <vector>
 #include <algorithm>
 
@@ -26,6 +27,7 @@ public:
 private:
     cocos2d::Rect box;
     Aircraft* sprite;
+    PadControl* pad;
     std::vector<Meteor*> meteors;
     Controls* controls;
     void launchMeteors(unsigned int num);

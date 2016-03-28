@@ -16,6 +16,8 @@ public:
     bool isPressed(std::string item);
 private:
     void addControls();
+    bool remove(std::string item);
+
     cocos2d::ui::Button* make(const std::string& resource, const std::string& name);
     cocos2d::Size visibleSize;
     cocos2d::ui::Button* left;

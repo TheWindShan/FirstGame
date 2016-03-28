@@ -20,9 +20,9 @@ bool MainScene::init()
     visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
     Device::setKeepScreenOn(true);
-    Device::setAccelerometerEnabled(true);
+    // Device::setAccelerometerEnabled(false);
     Device::setAccelerometerInterval(1.0 / 60);
-    
+
     // auto body = PhysicsBody::createEdgeBox(visibleSize, PHYSICSBODY_MATERIAL_DEFAULT, 3);
     // auto edgeNode = Node::create();
     // edgeNode->setPosition(Vec2(visibleSize.width/2,visibleSize.height/2));
@@ -30,7 +30,9 @@ bool MainScene::init()
     // this->addChild(edgeNode);
 
     sprite = Aircraft::create();
-    addChild(sprite, 0);
+    addChild(sprite);
+    pad = PadControl::create(sprite);
+    addChild(pad, 10);
     box = this->getBoundingBox();
     controls = new Controls(sprite);
     this->scheduleUpdate();
@@ -39,19 +41,19 @@ bool MainScene::init()
 
 void MainScene::update(float delta)
 {
-    if(controls->isPressed("up")){
-        sprite->makeMove();
-    }
-    
-    if(controls->isPressed("laser")){
-        sprite->shotLaser();
-    }
-
-    if(controls->isPressed("left")){
-        sprite->makeRotation('-');
-    }else if(controls->isPressed("right")){
-        sprite->makeRotation('+');
-    }
+    // if(controls->isPressed("up")){
+    //     sprite->makeMove();
+    // }
+    //
+    // if(controls->isPressed("laser")){
+    //     sprite->shotLaser();
+    // }
+    //
+    // if(controls->isPressed("left")){
+    //     sprite->makeRotation('-');
+    // }else if(controls->isPressed("right")){
+    //     sprite->makeRotation('+');
+    // }
     launchMeteors(7);
     Meteor* meteor = sprite->shotCollision(meteors);
     if(meteor){
@@ -69,7 +71,7 @@ void MainScene::launchMeteors(unsigned int num)
     for(Meteor* meteor: meteors){
         if(!box.containsPoint(meteor->getPosition()))
         {
-            if(meteor->getAnimed()){            
+            if(meteor->getAnimed()){
                 removeMeteor(meteor);
             }
         }
@@ -84,7 +86,7 @@ void MainScene::addMeteor(Meteor* meteor)
 
 void MainScene::removeMeteor(Meteor* meteor)
 {
-    if(findMeteor(meteor)){    
+    if(findMeteor(meteor)){
         meteors.erase(std::remove(meteors.begin(), meteors.end(), meteor), meteors.end());
         meteor->removeFromParent();
         meteor->release();

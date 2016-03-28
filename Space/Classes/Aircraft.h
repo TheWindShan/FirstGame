@@ -13,7 +13,6 @@ class Aircraft : public cocos2d::Sprite
 public:
     Aircraft();
     static Aircraft* create();
-    virtual void update(float delta) override;
     void makeMove();
     void shotLaser();
     void addLaser(Arm* laser);
@@ -25,11 +24,12 @@ public:
     CocosDenshion::SimpleAudioEngine* audio;
     Meteor* shotCollision(std::vector<Meteor*> meteors);
     cocos2d::Rect getBox();
-    Aircraft* pSprite;
     cocos2d::Size visibleSize;
 private:
     std::vector<cocos2d::EventKeyboard::KeyCode> keys;
     std::vector<Arm*> lasers;
+    Aircraft* pSprite;
+    virtual void update(float delta) override;
     void initOptions();
     void addEvents();
     void onKeyPressed(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::Event* event);

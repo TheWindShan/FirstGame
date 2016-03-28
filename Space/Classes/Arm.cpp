@@ -13,7 +13,7 @@ Arm* Arm::create()
     Arm* pSprite = new Arm();
     if (pSprite->initWithFile("res/Lasers/laserRed01.png"))
     {
-        pSprite->physics();
+        // pSprite->physics();
         return pSprite;
     }
     CC_SAFE_DELETE(pSprite);

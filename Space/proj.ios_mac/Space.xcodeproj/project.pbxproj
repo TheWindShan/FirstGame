@@ -54,6 +54,8 @@
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		9224B92D1C94F19500752A3E /* Arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9224B92B1C94F19500752A3E /* Arm.cpp */; };
 		9224B92E1C94F19B00752A3E /* Arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9224B92B1C94F19500752A3E /* Arm.cpp */; };
+		9245E5411CA5F1970053A906 /* Control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9245E53F1CA5F1970053A906 /* Control.cpp */; };
+		9245E5421CA5F1A60053A906 /* Control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9245E53F1CA5F1970053A906 /* Control.cpp */; };
 		9248C38F1C8904FE00AFDEF6 /* KeyBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9248C3891C8904FE00AFDEF6 /* KeyBoard.cpp */; };
 		9248C3911C8904FE00AFDEF6 /* Meteor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9248C38D1C8904FE00AFDEF6 /* Meteor.cpp */; };
 		926310181CA22622005C403E /* Controls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926310161CA22622005C403E /* Controls.cpp */; };
@@ -64,6 +66,8 @@
 		926F14291C81CA4000B53F62 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926F14241C81CA2600B53F62 /* MainScene.cpp */; };
 		929DA6151C89074C0066357B /* KeyBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9248C3891C8904FE00AFDEF6 /* KeyBoard.cpp */; };
 		929DA6161C89075F0066357B /* Meteor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9248C38D1C8904FE00AFDEF6 /* Meteor.cpp */; };
+		92D9804B1CA5B2D600C0E5F6 /* PadControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92D980491CA5B2D600C0E5F6 /* PadControl.cpp */; };
+		92D9804C1CA5B2DF00C0E5F6 /* PadControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92D980491CA5B2D600C0E5F6 /* PadControl.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -155,6 +159,8 @@
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		9224B92B1C94F19500752A3E /* Arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arm.cpp; sourceTree = "<group>"; };
 		9224B92C1C94F19500752A3E /* Arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arm.h; sourceTree = "<group>"; };
+		9245E53F1CA5F1970053A906 /* Control.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Control.cpp; sourceTree = "<group>"; };
+		9245E5401CA5F1970053A906 /* Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Control.h; sourceTree = "<group>"; };
 		9248C3891C8904FE00AFDEF6 /* KeyBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeyBoard.cpp; sourceTree = "<group>"; };
 		9248C38A1C8904FE00AFDEF6 /* KeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoard.h; sourceTree = "<group>"; };
 		9248C38D1C8904FE00AFDEF6 /* Meteor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Meteor.cpp; sourceTree = "<group>"; };
@@ -165,6 +171,8 @@
 		926F14231C81CA2600B53F62 /* Aircraft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aircraft.h; sourceTree = "<group>"; };
 		926F14241C81CA2600B53F62 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
 		926F14251C81CA2600B53F62 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		92D980491CA5B2D600C0E5F6 /* PadControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PadControl.cpp; sourceTree = "<group>"; };
+		92D9804A1CA5B2D600C0E5F6 /* PadControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PadControl.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -305,6 +313,10 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9245E53F1CA5F1970053A906 /* Control.cpp */,
+				9245E5401CA5F1970053A906 /* Control.h */,
+				92D980491CA5B2D600C0E5F6 /* PadControl.cpp */,
+				92D9804A1CA5B2D600C0E5F6 /* PadControl.h */,
 				926310161CA22622005C403E /* Controls.cpp */,
 				926310171CA22622005C403E /* Controls.h */,
 				9224B92B1C94F19500752A3E /* Arm.cpp */,
@@ -511,7 +523,9 @@
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				9248C3911C8904FE00AFDEF6 /* Meteor.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				9245E5411CA5F1970053A906 /* Control.cpp in Sources */,
 				926F14261C81CA2600B53F62 /* Aircraft.cpp in Sources */,
+				92D9804B1CA5B2D600C0E5F6 /* PadControl.cpp in Sources */,
 				9248C38F1C8904FE00AFDEF6 /* KeyBoard.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				9224B92D1C94F19500752A3E /* Arm.cpp in Sources */,
@@ -524,6 +538,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9224B92E1C94F19B00752A3E /* Arm.cpp in Sources */,
+				9245E5421CA5F1A60053A906 /* Control.cpp in Sources */,
+				92D9804C1CA5B2DF00C0E5F6 /* PadControl.cpp in Sources */,
 				926310191CA226FC005C403E /* Controls.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				926F14291C81CA4000B53F62 /* MainScene.cpp in Sources */,
