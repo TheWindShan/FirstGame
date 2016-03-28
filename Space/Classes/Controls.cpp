@@ -78,17 +78,17 @@ void Controls::addControls()
     // left->setPosition(
     //     Point(visibleSize.width / 7.9f, visibleSize.height / 6.5f)
     // );
-    //
+    
     // right = make("res/Controls/shadedLight06.png", "right");
     // right->setPosition(
     //     Point(visibleSize.width / 5.0f, visibleSize.height / 6.5f)
     // );
-    //
+    
     // up = make("res/Controls/shadedLight03.png", "up");
     // up->setPosition(
     //     Point(visibleSize.width /6.1f, visibleSize.height / 4.8f)
     // );
-    //
+    
     // down = make("res/Controls/shadedLight10.png", "down");
     // down->setPosition(
     //     Point(visibleSize.width /6.1f, visibleSize.height / 9.8f)

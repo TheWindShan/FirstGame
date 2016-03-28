@@ -27,10 +27,13 @@ void Control::addEvents()
     auto listener1 = EventListenerTouchOneByOne::create();
     listener1->setSwallowTouches(true);
     listener1->onTouchBegan = [&](Touch* touch, Event* event){
-        Vec2 p = touch->getLocation();
-        Rect rect = this->getParent()->getBoundingBox();
+        auto target = static_cast<Sprite*>(event->getCurrentTarget());
+        Vec2 p = target->convertToNodeSpace(touch->getLocation());
+        Rect rect = this->getTextureRect();
+
         if(rect.containsPoint(p))
         {
+            // target->setOpacity(255);
             return true;
         }
         return false;
@@ -38,12 +41,12 @@ void Control::addEvents()
 
     listener1->onTouchMoved = [&](Touch* touch, Event* event){
         auto target = static_cast<Sprite*>(event->getCurrentTarget());
-        Vec2 dest = target->getPosition() + touch->getDelta();
+        float r = this->getParent()->getBoundingBox().getMaxX();
         Rect rect = this->getParent()->getBoundingBox();
         Vec2 p = touch->getLocation();
         if(rect.containsPoint(p))
         {
-            target->setPosition(dest);
+            target->setPosition(target->getPosition() + touch->getDelta());
         }
     };
 

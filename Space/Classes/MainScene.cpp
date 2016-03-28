@@ -21,7 +21,7 @@ bool MainScene::init()
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
     Device::setKeepScreenOn(true);
     // Device::setAccelerometerEnabled(false);
-    Device::setAccelerometerInterval(1.0 / 60);
+    // Device::setAccelerometerInterval(1.0 / 60);
 
     // auto body = PhysicsBody::createEdgeBox(visibleSize, PHYSICSBODY_MATERIAL_DEFAULT, 3);
     // auto edgeNode = Node::create();
@@ -29,11 +29,11 @@ bool MainScene::init()
     // edgeNode->setPhysicsBody(body);
     // this->addChild(edgeNode);
 
+    box = this->getBoundingBox();
     sprite = Aircraft::create();
     addChild(sprite);
     pad = PadControl::create(sprite);
     addChild(pad, 10);
-    box = this->getBoundingBox();
     controls = new Controls(sprite);
     this->scheduleUpdate();
     return true;
