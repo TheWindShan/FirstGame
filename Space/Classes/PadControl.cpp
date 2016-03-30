@@ -15,11 +15,12 @@ PadControl* PadControl::create(Aircraft* aircraft)
 {
     PadControl* pSprite = new PadControl();
     auto pinfo = AutoPolygon::generatePolygon("res/Controls/flatLight05.png");
-    if (pSprite->initWithPolygon(pinfo))
+    if (pSprite->initWithFile("res/Controls/flatLight05.png"))
     {
-        pSprite->addEvents();
         pSprite->initOptions();
         pSprite->initControl();
+        pSprite->addEvents();
+
         return pSprite;
     }
     CC_SAFE_DELETE(pSprite);

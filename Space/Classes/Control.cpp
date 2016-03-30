@@ -11,7 +11,7 @@ Control* Control::create()
 {
     Control* pSprite = new Control();
     auto pinfo = AutoPolygon::generatePolygon("res/Controls/flatLight49.png");
-    if (pSprite->initWithPolygon(pinfo))
+    if (pSprite->initWithFile("res/Controls/flatLight49.png"))
     {
         pSprite->addEvents();
         // pSprite->addPhysics();
@@ -28,12 +28,9 @@ void Control::addEvents()
     listener1->setSwallowTouches(true);
     listener1->onTouchBegan = [&](Touch* touch, Event* event){
         auto target = static_cast<Sprite*>(event->getCurrentTarget());
-        Vec2 p = target->convertToNodeSpace(touch->getLocation());
-        Rect rect = this->getTextureRect();
-
-        if(rect.containsPoint(p))
+        auto bounds = target->getParent()->getBoundingBox();
+        if (bounds.containsPoint(touch->getLocation()))
         {
-            // target->setOpacity(255);
             return true;
         }
         return false;
@@ -41,20 +38,13 @@ void Control::addEvents()
 
     listener1->onTouchMoved = [&](Touch* touch, Event* event){
         auto target = static_cast<Sprite*>(event->getCurrentTarget());
-        float r = this->getParent()->getBoundingBox().getMaxX();
-        Rect rect = this->getParent()->getBoundingBox();
-        Vec2 p = touch->getLocation();
-        if(rect.containsPoint(p))
-        {
-            target->setPosition(target->getPosition() + touch->getDelta());
-        }
+        target->setPosition(target->getPosition() + touch->getDelta());
     };
 
-    listener1->onTouchEnded = [&](Touch* touch, Event* event){
+    listener1->onTouchEnded = [this](Touch* touch, Event* event){
 
     };
-
-    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener1, this);
+    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener1,this);
     this->scheduleUpdate();
 }
 
