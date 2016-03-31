@@ -16,8 +16,8 @@ Meteor* Meteor::create()
     if (pSprite->initWithPolygon(pinfo))
     {
         pSprite->makePositions();
-        pSprite->initOptions();
         pSprite->addEvents();
+        pSprite->initOptions();
         return pSprite;
     }
     CC_SAFE_DELETE(pSprite);
@@ -26,7 +26,7 @@ Meteor* Meteor::create()
 
 void Meteor::addEvents()
 {
-    auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
+    auto physicsBody = PhysicsBody::createCircle(this->getContentSize().width/2,
         // PhysicsMaterial(0.5f, 0.0f, 1)
         PHYSICSBODY_MATERIAL_DEFAULT
     );
@@ -39,6 +39,8 @@ void Meteor::addEvents()
 
 void Meteor::initOptions()
 {
+    this->getPhysicsBody()->setCategoryBitmask(0x03);    // 0010
+    this->getPhysicsBody()->setCollisionBitmask(0x02); 
     setPosition(selectPosition());
     makeRotation();
 }

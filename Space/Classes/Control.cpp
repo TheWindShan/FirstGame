@@ -13,8 +13,8 @@ Control* Control::create()
     auto pinfo = AutoPolygon::generatePolygon("res/Controls/flatLight49.png");
     if (pSprite->initWithFile("res/Controls/flatLight49.png"))
     {
+        pSprite->addPhysics();
         pSprite->addEvents();
-        // pSprite->addPhysics();
         pSprite->initOptions();
         return pSprite;
     }
@@ -24,41 +24,21 @@ Control* Control::create()
 
 void Control::addEvents()
 {
-    auto listener1 = EventListenerTouchOneByOne::create();
-    listener1->setSwallowTouches(true);
-    listener1->onTouchBegan = [&](Touch* touch, Event* event){
-        auto target = static_cast<Sprite*>(event->getCurrentTarget());
-        auto bounds = target->getParent()->getBoundingBox();
-        if (bounds.containsPoint(touch->getLocation()))
-        {
-            return true;
-        }
-        return false;
-    };
 
-    listener1->onTouchMoved = [&](Touch* touch, Event* event){
-        auto target = static_cast<Sprite*>(event->getCurrentTarget());
-        target->setPosition(target->getPosition() + touch->getDelta());
-    };
-
-    listener1->onTouchEnded = [this](Touch* touch, Event* event){
-
-    };
-    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener1,this);
     this->scheduleUpdate();
 }
 
 void Control::initOptions()
 {
+    this->getPhysicsBody()->setCategoryBitmask(0x02);    // 0010
+    this->getPhysicsBody()->setCollisionBitmask(0x01); 
     this->setOpacity(150);
 }
 
 void Control::addPhysics()
 {
-    auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
-        PHYSICSBODY_MATERIAL_DEFAULT
-    );
-    physicsBody->setDynamic(false);
+    auto physicsBody = PhysicsBody::createCircle(this->getContentSize().width/2);
+    physicsBody->setDynamic(true);
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();
     contactListener->onContactBegin = CC_CALLBACK_1(Control::onContactBegin, this);
@@ -72,7 +52,7 @@ Rect Control::getBox()
 
 bool Control::onContactBegin(PhysicsContact& contact)
 {
-    return true;
+    return false;
 }
 
 float Control::getAngle()

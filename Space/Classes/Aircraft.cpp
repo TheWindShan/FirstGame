@@ -102,8 +102,8 @@ bool Aircraft::isKeyPressed(EventKeyboard::KeyCode KeyCode)
 void Aircraft::initOptions()
 {
     this->setPosition(Vec2(visibleSize.width/2, visibleSize.height/2));
-    this->getPhysicsBody()->setCategoryBitmask(0x03);
-    this->getPhysicsBody()->setCollisionBitmask(0x01);
+    // this->getPhysicsBody()->setCategoryBitmask(0x03);
+    // this->getPhysicsBody()->setCollisionBitmask(0x01);
 }
 
 void Aircraft::makeMove()

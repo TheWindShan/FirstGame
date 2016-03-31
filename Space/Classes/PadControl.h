@@ -25,5 +25,7 @@ private:
     void initOptions();
     void initControl();
     void addEvents();
+    void addPhysics();
+    bool onContactBegin(cocos2d::PhysicsContact& contact);
 };
 #endif // __PADCONTROL_H__

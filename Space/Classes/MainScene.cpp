@@ -6,6 +6,7 @@ Scene* MainScene::createScene()
 {
     auto scene = Scene::createWithPhysics();
     auto layer = MainScene::create();
+    scene->getPhysicsWorld()->setDebugDrawMask(PhysicsWorld::DEBUGDRAW_ALL);
     layer->setPhysicsWorld(scene->getPhysicsWorld());
     scene->addChild(layer);
     return scene;

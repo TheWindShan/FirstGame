@@ -17,6 +17,7 @@ PadControl* PadControl::create(Aircraft* aircraft)
     auto pinfo = AutoPolygon::generatePolygon("res/Controls/flatLight05.png");
     if (pSprite->initWithFile("res/Controls/flatLight05.png"))
     {
+        pSprite->addPhysics();
         pSprite->initOptions();
         pSprite->initControl();
         pSprite->addEvents();
@@ -27,8 +28,42 @@ PadControl* PadControl::create(Aircraft* aircraft)
     return NULL;
 }
 
+void PadControl::addPhysics()
+{
+    auto physicsBody = PhysicsBody::createCircle(this->getContentSize().width/2);
+    physicsBody->setDynamic(true);
+    this->addComponent(physicsBody);
+    auto contactListener = EventListenerPhysicsContact::create();
+    contactListener->onContactBegin = CC_CALLBACK_1(PadControl::onContactBegin, this);
+    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(contactListener, this);
+}
+
+bool PadControl::onContactBegin(PhysicsContact& contact)
+{
+    return false;
+}
+
 void PadControl::addEvents()
 {
+    auto listener1 = EventListenerTouchOneByOne::create();
+    listener1->setSwallowTouches(true);
+    listener1->onTouchBegan = [&](Touch* touch, Event* event){
+        auto target = static_cast<Sprite*>(event->getCurrentTarget());
+        return true;
+    };
+
+    listener1->onTouchMoved = [&](Touch* touch, Event* event){
+        auto target = static_cast<Sprite*>(event->getCurrentTarget());
+        if (target->getBoundingBox().containsPoint(touch->getLocation()))
+        {
+        }
+        control->setPosition(control->getPosition() + touch->getDelta());
+    };
+
+    listener1->onTouchEnded = [this](Touch* touch, Event* event){
+
+    };
+    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener1,this);
     this->scheduleUpdate();
 }
 
@@ -39,6 +74,8 @@ void PadControl::update(float delta)
 
 void PadControl::initOptions()
 {
+    this->getPhysicsBody()->setCategoryBitmask(0x02);    // 0010
+    this->getPhysicsBody()->setCollisionBitmask(0x01); 
     this->setPosition(
         Point(origin.x + this->getContentSize().width, origin.y + this->getContentSize().height)
     );
