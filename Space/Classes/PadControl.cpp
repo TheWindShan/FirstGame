@@ -49,19 +49,21 @@ void PadControl::addEvents()
     listener1->setSwallowTouches(true);
     listener1->onTouchBegan = [&](Touch* touch, Event* event){
         auto target = static_cast<Sprite*>(event->getCurrentTarget());
-        return true;
+        Point p = target->convertToNodeSpace(touch->getLocation());
+        Rect rect = control->getBoundingBox();
+        if (rect.containsPoint(p))
+        {
+            return true;
+        }
+        return false;
     };
-
     listener1->onTouchMoved = [&](Touch* touch, Event* event){
         auto target = static_cast<Sprite*>(event->getCurrentTarget());
-        if (target->getBoundingBox().containsPoint(touch->getLocation()))
+        Point p = touch->getLocation();
+        if (target->getBoundingBox().containsPoint(p))
         {
             control->setPosition(control->getPosition() + touch->getDelta());
         }
-    };
-
-    listener1->onTouchEnded = [this](Touch* touch, Event* event){
-
     };
     this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener1,this);
     this->scheduleUpdate();
@@ -74,8 +76,8 @@ void PadControl::update(float delta)
 
 void PadControl::initOptions()
 {
-    this->getPhysicsBody()->setCategoryBitmask(0x02);    // 0010
-    this->getPhysicsBody()->setCollisionBitmask(0x01); 
+    this->getPhysicsBody()->setCategoryBitmask(10);
+    this->getPhysicsBody()->setCollisionBitmask(10);
     this->setPosition(
         Point(origin.x + this->getContentSize().width, origin.y + this->getContentSize().height)
     );

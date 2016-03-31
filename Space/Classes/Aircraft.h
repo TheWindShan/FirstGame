@@ -18,7 +18,6 @@ public:
     void addLaser(Arm* laser);
     void removeLaser(Arm* laser);
     bool findLaser(Arm* laser);
-    bool onContactBegin(cocos2d::PhysicsContact& contact);
     void makeRotation(char side);
     float getAngle();
     CocosDenshion::SimpleAudioEngine* audio;
@@ -30,6 +29,8 @@ private:
     std::vector<Arm*> lasers;
     Aircraft* pSprite;
     virtual void update(float delta) override;
+    void addPhysics();
+    bool onContactBegin(cocos2d::PhysicsContact& contact);
     void initOptions();
     void addEvents();
     void onKeyPressed(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::Event* event);

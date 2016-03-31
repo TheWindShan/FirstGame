@@ -17,6 +17,7 @@ Meteor* Meteor::create()
     {
         pSprite->makePositions();
         pSprite->addEvents();
+        pSprite->addPhysics();
         pSprite->initOptions();
         return pSprite;
     }
@@ -26,11 +27,16 @@ Meteor* Meteor::create()
 
 void Meteor::addEvents()
 {
+
+}
+
+void Meteor::addPhysics()
+{
     auto physicsBody = PhysicsBody::createCircle(this->getContentSize().width/2,
         // PhysicsMaterial(0.5f, 0.0f, 1)
         PHYSICSBODY_MATERIAL_DEFAULT
     );
-    physicsBody->setDynamic(true);
+    physicsBody->setDynamic(false);
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();
     contactListener->onContactBegin = CC_CALLBACK_1(Meteor::onContactBegin, this);
@@ -39,8 +45,9 @@ void Meteor::addEvents()
 
 void Meteor::initOptions()
 {
-    this->getPhysicsBody()->setCategoryBitmask(0x03);
-    this->getPhysicsBody()->setCollisionBitmask(0x02); 
+    this->getPhysicsBody()->setCategoryBitmask(2);
+    this->getPhysicsBody()->setCollisionBitmask(2);
+    this->getPhysicsBody()->setContactTestBitmask(true);
     setPosition(selectPosition());
     makeRotation();
 }
@@ -60,7 +67,7 @@ void Meteor::toMove()
 
 float Meteor::getHeigth()
 {
-    return this->getTextureRect().size.height;
+    return this->getContentSize().height;
 }
 
 void Meteor::makeRotation()
@@ -174,5 +181,8 @@ Vec2 Meteor::selectPosition(void)
 
 bool Meteor::onContactBegin(PhysicsContact& contact)
 {
+    auto bodyA = contact.getShapeA()->getBody();
+    auto bodyB = contact.getShapeB()->getBody();
+    log("FFSDFSDFS");
     return false;
 }

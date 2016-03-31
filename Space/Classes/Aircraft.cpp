@@ -19,6 +19,7 @@ Aircraft* Aircraft::create()
     auto pinfo = AutoPolygon::generatePolygon("res/player.png");
     if (pSprite->initWithPolygon(pinfo))
     {
+        pSprite->addPhysics();
         pSprite->addEvents();
         pSprite->initOptions();
         return pSprite;
@@ -29,22 +30,13 @@ Aircraft* Aircraft::create()
 
 void Aircraft::addEvents()
 {
-    auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
-        // PhysicsMaterial(0.1f, 0.1f, 0.0f)
-        PHYSICSBODY_MATERIAL_DEFAULT
-    );
-    // physicsBody->setContactTestBitmask(true);
-    physicsBody->setDynamic(true);
-    this->addComponent(physicsBody);
-    auto contactListener = EventListenerPhysicsContact::create();
-    contactListener->onContactBegin = CC_CALLBACK_1(Aircraft::onContactBegin, this);
+
 
     auto keylistener = EventListenerKeyboard::create();
     keylistener->onKeyPressed = CC_CALLBACK_2(Aircraft::onKeyPressed, this);
     keylistener->onKeyReleased = CC_CALLBACK_2(Aircraft::onKeyReleased, this);
     auto aclistener = EventListenerAcceleration::create(CC_CALLBACK_2(Aircraft::onAcceleration, this));
     this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(keylistener, this);
-    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(contactListener, this);
     this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(aclistener, this);
     this->scheduleUpdate();
 }
@@ -102,8 +94,22 @@ bool Aircraft::isKeyPressed(EventKeyboard::KeyCode KeyCode)
 void Aircraft::initOptions()
 {
     this->setPosition(Vec2(visibleSize.width/2, visibleSize.height/2));
-    // this->getPhysicsBody()->setCategoryBitmask(0x03);
-    // this->getPhysicsBody()->setCollisionBitmask(0x01);
+    this->getPhysicsBody()->setCategoryBitmask(1);
+    this->getPhysicsBody()->setCollisionBitmask(1);
+}
+
+void Aircraft::addPhysics()
+{
+    auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
+        // PhysicsMaterial(0.1f, 0.1f, 0.0f)
+        PHYSICSBODY_MATERIAL_DEFAULT
+    );
+    // physicsBody->setContactTestBitmask(true);
+    physicsBody->setDynamic(true);
+    this->addComponent(physicsBody);
+    auto contactListener = EventListenerPhysicsContact::create();
+    contactListener->onContactBegin = CC_CALLBACK_1(Aircraft::onContactBegin, this);
+    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(contactListener, this);
 }
 
 void Aircraft::makeMove()

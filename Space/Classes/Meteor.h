@@ -15,14 +15,14 @@ public:
     float getHeigth();
     void setAnimed(bool value);
     bool getAnimed();
-    bool onContactBegin(cocos2d::PhysicsContact& contact);
 private:
     void makeRotation();
     void makePositions();
     void makeResMeteors();
     void addEvents();
     void initOptions();
-    bool animed = false;
+    void addPhysics();
+    bool onContactBegin(cocos2d::PhysicsContact& contact);
     float xMax();
     float yMin();
     float xMin();
@@ -35,6 +35,7 @@ private:
     cocos2d::Vec2 left();
     cocos2d::Vec2 up();
     cocos2d::Vec2 down();
+    bool animed = false;
     cocos2d::Size visibleSize;
     std::vector<cocos2d::Vec2> positions;
     std::vector<std::string> resMeteors;
