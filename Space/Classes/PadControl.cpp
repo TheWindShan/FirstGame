@@ -15,7 +15,7 @@ PadControl* PadControl::create(Aircraft* aircraft)
 {
     PadControl* pSprite = new PadControl();
     auto pinfo = AutoPolygon::generatePolygon("res/Controls/flatLight05.png");
-    if (pSprite->initWithFile("res/Controls/flatLight05.png"))
+    if (pSprite->initWithPolygon(pinfo))
     {
         pSprite->addPhysics();
         pSprite->initOptions();
@@ -31,7 +31,7 @@ PadControl* PadControl::create(Aircraft* aircraft)
 void PadControl::addPhysics()
 {
     auto physicsBody = PhysicsBody::createCircle(this->getContentSize().width/2);
-    physicsBody->setDynamic(true);
+    physicsBody->setDynamic(false);
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();
     contactListener->onContactBegin = CC_CALLBACK_1(PadControl::onContactBegin, this);
@@ -56,8 +56,8 @@ void PadControl::addEvents()
         auto target = static_cast<Sprite*>(event->getCurrentTarget());
         if (target->getBoundingBox().containsPoint(touch->getLocation()))
         {
+            control->setPosition(control->getPosition() + touch->getDelta());
         }
-        control->setPosition(control->getPosition() + touch->getDelta());
     };
 
     listener1->onTouchEnded = [this](Touch* touch, Event* event){

@@ -39,7 +39,7 @@ void Meteor::addEvents()
 
 void Meteor::initOptions()
 {
-    this->getPhysicsBody()->setCategoryBitmask(0x03);    // 0010
+    this->getPhysicsBody()->setCategoryBitmask(0x03);
     this->getPhysicsBody()->setCollisionBitmask(0x02); 
     setPosition(selectPosition());
     makeRotation();
@@ -174,5 +174,5 @@ Vec2 Meteor::selectPosition(void)
 
 bool Meteor::onContactBegin(PhysicsContact& contact)
 {
-    return true;
+    return false;
 }

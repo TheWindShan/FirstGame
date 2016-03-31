@@ -11,7 +11,7 @@ Control* Control::create()
 {
     Control* pSprite = new Control();
     auto pinfo = AutoPolygon::generatePolygon("res/Controls/flatLight49.png");
-    if (pSprite->initWithFile("res/Controls/flatLight49.png"))
+    if (pSprite->initWithPolygon(pinfo))
     {
         pSprite->addPhysics();
         pSprite->addEvents();
@@ -30,15 +30,15 @@ void Control::addEvents()
 
 void Control::initOptions()
 {
-    this->getPhysicsBody()->setCategoryBitmask(0x02);    // 0010
-    this->getPhysicsBody()->setCollisionBitmask(0x01); 
+    this->getPhysicsBody()->setCategoryBitmask(0x04);
+    this->getPhysicsBody()->setCollisionBitmask(0x04); 
     this->setOpacity(150);
 }
 
 void Control::addPhysics()
 {
     auto physicsBody = PhysicsBody::createCircle(this->getContentSize().width/2);
-    physicsBody->setDynamic(true);
+    physicsBody->setDynamic(false);
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();
     contactListener->onContactBegin = CC_CALLBACK_1(Control::onContactBegin, this);
