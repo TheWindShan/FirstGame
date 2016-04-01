@@ -36,7 +36,7 @@ void Meteor::addPhysics()
         // PhysicsMaterial(0.5f, 0.0f, 1)
         PHYSICSBODY_MATERIAL_DEFAULT
     );
-    physicsBody->setDynamic(false);
+    physicsBody->setDynamic(true);
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();
     contactListener->onContactBegin = CC_CALLBACK_1(Meteor::onContactBegin, this);
@@ -47,7 +47,7 @@ void Meteor::initOptions()
 {
     this->getPhysicsBody()->setCategoryBitmask(2);
     this->getPhysicsBody()->setCollisionBitmask(2);
-    this->getPhysicsBody()->setContactTestBitmask(true);
+    // this->getPhysicsBody()->setContactTestBitmask(2);
     setPosition(selectPosition());
     makeRotation();
 }
@@ -183,6 +183,6 @@ bool Meteor::onContactBegin(PhysicsContact& contact)
 {
     auto bodyA = contact.getShapeA()->getBody();
     auto bodyB = contact.getShapeB()->getBody();
-    log("FFSDFSDFS");
-    return false;
+    log("TES");
+    return true;
 }

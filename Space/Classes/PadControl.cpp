@@ -77,7 +77,7 @@ void PadControl::update(float delta)
 void PadControl::initOptions()
 {
     this->getPhysicsBody()->setCategoryBitmask(10);
-    this->getPhysicsBody()->setCollisionBitmask(10);
+    this->getPhysicsBody()->setCollisionBitmask(0);
     this->setPosition(
         Point(origin.x + this->getContentSize().width, origin.y + this->getContentSize().height)
     );

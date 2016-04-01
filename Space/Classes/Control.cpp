@@ -30,8 +30,8 @@ void Control::addEvents()
 
 void Control::initOptions()
 {
-    this->getPhysicsBody()->setCategoryBitmask(0x04);
-    this->getPhysicsBody()->setCollisionBitmask(0x04); 
+    this->getPhysicsBody()->setCategoryBitmask(0);
+    this->getPhysicsBody()->setCollisionBitmask(0); 
     this->setOpacity(150);
 }
 
