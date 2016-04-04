@@ -51,12 +51,16 @@ void PadControl::addEvents()
         auto target = static_cast<Sprite*>(event->getCurrentTarget());
         Point p = target->convertToNodeSpace(touch->getLocation());
         Rect rect = control->getBoundingBox();
-        Vec2 middle = target->getPosition();
+        Vec2 middle = this->getPosition();
+        middle.normalize();
+        float r = target->getContentSize().width/2;
         Vec2 outside = Vec2(
             target->getContentSize().width/2, target->getContentSize().height/2
         );
+        outside.normalize();
         log("X: %f, Y: %f", outside.x, outside.y);
         log("X: %f, Y: %f", middle.x, middle.y);
+        log("R: %f", r);
         if (rect.containsPoint(p))
         {
             return true;
@@ -85,7 +89,7 @@ void PadControl::initOptions()
     this->getPhysicsBody()->setCategoryBitmask(10);
     this->getPhysicsBody()->setCollisionBitmask(0);
     this->setPosition(
-        Point(origin.x + this->getContentSize().width, origin.y + this->getContentSize().height)
+        Vec2(origin.x + this->getContentSize().width, origin.y + this->getContentSize().height)
     );
     this->setOpacity(150);
 }
@@ -99,7 +103,7 @@ void PadControl::initControl()
 {
     size = this->getContentSize();
     control->setPosition(
-        size.width/2, size.height/2
+        Vec2(size.width/2, size.height/2)
     );
     this->addChild(control);
 }
