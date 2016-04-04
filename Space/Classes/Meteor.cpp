@@ -1,5 +1,7 @@
 #include <algorithm>
 #include "Meteor.h"
+#include <iostream>
+#include "Enums.h"
 
 USING_NS_CC;
 
@@ -36,7 +38,7 @@ void Meteor::addPhysics()
         // PhysicsMaterial(0.5f, 0.0f, 1)
         PHYSICSBODY_MATERIAL_DEFAULT
     );
-    physicsBody->setDynamic(true);
+    physicsBody->setDynamic(false);
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();
     contactListener->onContactBegin = CC_CALLBACK_1(Meteor::onContactBegin, this);
@@ -45,9 +47,10 @@ void Meteor::addPhysics()
 
 void Meteor::initOptions()
 {
-    this->getPhysicsBody()->setCategoryBitmask(2);
-    this->getPhysicsBody()->setCollisionBitmask(2);
-    // this->getPhysicsBody()->setContactTestBitmask(2);
+    // this->getPhysicsBody()->setCategoryBitmask(2);
+    // this->getPhysicsBody()->setCollisionBitmask(2);
+    this->getPhysicsBody()->setContactTestBitmask(true);
+    this->setTag(Tags::meteor);
     setPosition(selectPosition());
     makeRotation();
 }
@@ -181,8 +184,20 @@ Vec2 Meteor::selectPosition(void)
 
 bool Meteor::onContactBegin(PhysicsContact& contact)
 {
-    auto bodyA = contact.getShapeA()->getBody();
-    auto bodyB = contact.getShapeB()->getBody();
-    log("TES");
-    return true;
+    auto nodeA = contact.getShapeA()->getBody()->getNode();
+    auto nodeB = contact.getShapeB()->getBody()->getNode();
+    if(nodeA->getTag()==Tags::aircraft){
+        if(nodeB->getTag()==Tags::meteor){
+            return true;
+        }
+    }
+    if(nodeA->getTag()==Tags::meteor){
+        if(nodeB->getTag()==Tags::aircraft){
+            return true;
+        }
+        if(nodeB->getTag()==Tags::meteor){
+            return true;
+        }
+    }
+    return false;
 }

@@ -51,6 +51,12 @@ void PadControl::addEvents()
         auto target = static_cast<Sprite*>(event->getCurrentTarget());
         Point p = target->convertToNodeSpace(touch->getLocation());
         Rect rect = control->getBoundingBox();
+        Vec2 middle = target->getPosition();
+        Vec2 outside = Vec2(
+            target->getContentSize().width/2, target->getContentSize().height/2
+        );
+        log("X: %f, Y: %f", outside.x, outside.y);
+        log("X: %f, Y: %f", middle.x, middle.y);
         if (rect.containsPoint(p))
         {
             return true;

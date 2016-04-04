@@ -4,6 +4,7 @@
 #include "cocos2d.h"
 #include "Aircraft.h"
 #include "SimpleAudioEngine.h"
+#include "Enums.h"
 #include <vector>
 
 class Arm;

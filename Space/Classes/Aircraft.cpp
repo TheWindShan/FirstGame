@@ -93,18 +93,19 @@ bool Aircraft::isKeyPressed(EventKeyboard::KeyCode KeyCode)
 
 void Aircraft::initOptions()
 {
+    this->setTag(Tags::aircraft);
     this->setPosition(Vec2(visibleSize.width/2, visibleSize.height/2));
     this->getPhysicsBody()->setCategoryBitmask(1);
     this->getPhysicsBody()->setCollisionBitmask(1);
+    this->getPhysicsBody()->setContactTestBitmask(true);
 }
 
 void Aircraft::addPhysics()
 {
-    auto physicsBody = PhysicsBody::createBox(this->getContentSize(),
+    auto physicsBody = PhysicsBody::createCircle(this->getContentSize().width/2,
         // PhysicsMaterial(0.1f, 0.1f, 0.0f)
         PHYSICSBODY_MATERIAL_DEFAULT
     );
-    // physicsBody->setContactTestBitmask(true);
     physicsBody->setDynamic(true);
     this->addComponent(physicsBody);
     auto contactListener = EventListenerPhysicsContact::create();
@@ -203,9 +204,9 @@ Meteor* Aircraft::shotCollision(std::vector<Meteor*> meteors)
 
 bool Aircraft::onContactBegin(PhysicsContact& contact)
 {
-    // auto bodyA = contact.getShapeA()->getBody();
-    // auto bodyB = contact.getShapeB()->getBody();
-    return true;
+    auto nodeA = contact.getShapeA()->getBody()->getNode();
+    auto nodeB = contact.getShapeB()->getBody()->getNode();
+    return false;
 }
 
 void Aircraft::makeRotation(char side)

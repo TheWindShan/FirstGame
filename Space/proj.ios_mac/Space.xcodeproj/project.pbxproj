@@ -165,6 +165,7 @@
 		9248C38A1C8904FE00AFDEF6 /* KeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoard.h; sourceTree = "<group>"; };
 		9248C38D1C8904FE00AFDEF6 /* Meteor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Meteor.cpp; sourceTree = "<group>"; };
 		9248C38E1C8904FE00AFDEF6 /* Meteor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meteor.h; sourceTree = "<group>"; };
+		925362921CB05CF700004900 /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
 		926310161CA22622005C403E /* Controls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controls.cpp; sourceTree = "<group>"; };
 		926310171CA22622005C403E /* Controls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controls.h; sourceTree = "<group>"; };
 		926F14221C81CA2600B53F62 /* Aircraft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Aircraft.cpp; sourceTree = "<group>"; };
@@ -313,6 +314,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				925362921CB05CF700004900 /* Enums.h */,
 				9245E53F1CA5F1970053A906 /* Control.cpp */,
 				9245E5401CA5F1970053A906 /* Control.h */,
 				92D980491CA5B2D600C0E5F6 /* PadControl.cpp */,
