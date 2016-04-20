@@ -49,30 +49,39 @@ void PadControl::addEvents()
     listener1->setSwallowTouches(true);
     listener1->onTouchBegan = [&](Touch* touch, Event* event){
         auto target = static_cast<Sprite*>(event->getCurrentTarget());
-        Point p = target->convertToNodeSpace(touch->getLocation());
-        Rect rect = control->getBoundingBox();
+        float r = this->getContentSize().height/2;
+        float r2 = control->getContentSize().height/2;
         Vec2 middle = this->getPosition();
-        middle.normalize();
-        float r = target->getContentSize().width/2;
-        Vec2 outside = Vec2(
-            target->getContentSize().width/2, target->getContentSize().height/2
-        );
-        outside.normalize();
-        log("X: %f, Y: %f", outside.x, outside.y);
-        log("X: %f, Y: %f", middle.x, middle.y);
-        log("R: %f", r);
-        if (rect.containsPoint(p))
-        {
+        Vec2 middle2 = this->convertToWorldSpace(control->getPosition());
+        float disCenter = middle.distance(middle2);
+        float diffRadius = r - r2;
+        Vec2 p2 = touch->getLocation();
+        float disDest = middle.distance(p2);
+        Vec2 p = target->convertToNodeSpace(touch->getLocation());
+        if(disDest<diffRadius){
             return true;
+        }else{
+            return false;
         }
-        return false;
     };
     listener1->onTouchMoved = [&](Touch* touch, Event* event){
         auto target = static_cast<Sprite*>(event->getCurrentTarget());
-        Point p = touch->getLocation();
-        if (target->getBoundingBox().containsPoint(p))
-        {
-            control->setPosition(control->getPosition() + touch->getDelta());
+        Vec2 p = target->convertToNodeSpace(touch->getLocation());
+        Vec2 p2 = touch->getLocation();
+        Vec2 middle = this->getPosition();
+        Vec2 middle2 = this->convertToWorldSpace(control->getPosition());
+        Vec2 dest = control->getPosition() + touch->getDelta();
+        auto diff = p2 - middle;
+        float angle = CC_RADIANS_TO_DEGREES(-diff.getAngle());
+        float radius = -diff.getAngle();
+        float r = target->getContentSize().height/2;
+        float r2 = control->getContentSize().height/2;
+        float disDest = middle.distance(p2);
+        float disCenter = middle.distance(middle2);
+        float diffRadius = r - r2;
+
+        if(disDest<diffRadius){
+            control->setPosition(dest);
         }
     };
     this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener1,this);
